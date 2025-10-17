@@ -27,3 +27,5 @@ For instance, here's how we'd represent the row vector $[1, 1]$:
 
 
 
+
+

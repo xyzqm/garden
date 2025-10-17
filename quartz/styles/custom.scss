@@ -10,8 +10,4 @@ img {
   display: block;
   margin: 1.5em 0;
   text-align: center;
-
-  & > svg {
-    transform: scale(1.5);
-  }
 }
