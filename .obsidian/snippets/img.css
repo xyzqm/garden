@@ -3,3 +3,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.theme-dark img[alt$="invert"] {
+  filter: invert(1);
+}

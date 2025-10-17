@@ -22,7 +22,7 @@
 
 :root[saved-theme="dark"] {
   color-scheme: dark;
-  img {
+  img[alt$="invert"] {
     filter: invert(1);
   }
 }
