@@ -25,6 +25,15 @@ For instance, here's how we'd represent the row vector $[1, 1]$:
 ```
 
 
+```tikz
+\begin{document}
+\begin{tikzpicture}
+  \draw (0,0) -- (4,0);
+\end{tikzpicture}
+\end{document}
+```
+
+
 
 
 
