@@ -1,8 +1,17 @@
 @use "./base.scss";
 
-// put your custom CSS here!
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.tikz {
+  display: block;
+  margin: 1.5em 0;
+  text-align: center;
+
+  & > svg {
+    transform: scale(1.5);
+  }
 }

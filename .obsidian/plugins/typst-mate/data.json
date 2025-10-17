@@ -1,0 +1,133 @@
+{
+  "enableBackgroundRendering": true,
+  "autoBaseColor": true,
+  "failOnWarning": false,
+  "baseColor": "#000000",
+  "enableMathjaxFallback": false,
+  "skipPreparationWaiting": false,
+  "enableInlinePreview": true,
+  "disablePackageCache": false,
+  "preamble": "#set page(margin: 0pt, width: auto, height: auto)\n#show raw: set text(size: 1.25em)\n#set text(size: fontsize)\n#let scr(it) = text(features: (\"ss01\",), box($cal(it)$))",
+  "processor": {
+    "inline": {
+      "processors": [
+        {
+          "id": "ce",
+          "renderingEngine": "typst-svg",
+          "format": "#import \"@preview/typsium:0.3.0\": ce\n#show math.equation: set text(font: (\"New Computer Modern Math\", \"Noto Serif CJK SC\"))\n#ce(\"{CODE}\")",
+          "styling": "inline-middle",
+          "noPreamble": false,
+          "fitToParentWidth": false
+        },
+        {
+          "id": "mid",
+          "renderingEngine": "typst-svg",
+          "format": "$\n{CODE}\n$",
+          "styling": "inline-middle",
+          "noPreamble": true,
+          "fitToParentWidth": false
+        },
+        {
+          "id": "tex",
+          "renderingEngine": "mathjax",
+          "format": "",
+          "styling": "inline",
+          "noPreamble": false,
+          "fitToParentWidth": false
+        },
+        {
+          "id": "",
+          "renderingEngine": "typst-svg",
+          "format": "${CODE}$",
+          "styling": "inline",
+          "noPreamble": false,
+          "fitToParentWidth": false
+        }
+      ]
+    },
+    "display": {
+      "processors": [
+        {
+          "id": "block",
+          "renderingEngine": "typst-svg",
+          "format": "$\n{CODE}\n$",
+          "styling": "block",
+          "noPreamble": false,
+          "fitToParentWidth": false
+        },
+        {
+          "id": "",
+          "renderingEngine": "typst-svg",
+          "format": "$\n{CODE}\n$",
+          "styling": "block-center",
+          "noPreamble": false,
+          "fitToParentWidth": false
+        }
+      ]
+    },
+    "codeblock": {
+      "processors": [
+        {
+          "id": "typst",
+          "renderingEngine": "typst-svg",
+          "format": "```typst\n{CODE}\n```",
+          "styling": "codeblock",
+          "noPreamble": true,
+          "fitToParentWidth": true
+        }
+      ]
+    },
+    "excalidraw": {
+      "processors": [
+        {
+          "id": "default",
+          "renderingEngine": "typst-svg",
+          "format": "#set page(margin: 0.25em)\n{CODE}$",
+          "styling": "default",
+          "noPreamble": false,
+          "fitToParentWidth": false
+        }
+      ]
+    }
+  },
+  "snippets": [
+    {
+      "category": "Matrix",
+      "name": "mat",
+      "description": "e.g. mat(3,3)@",
+      "kind": "display",
+      "id": "",
+      "content": "const parts = input.split(\",\").map(s => s.trim());\n\nconst [x, y] = parts.map(Number)\n\nconst rowText = `${(\"#CURSOR, \".repeat(x)).slice(0, -2)} ;\\n`;\nconst contentText = `  ${rowText}`.repeat(y);\n\nreturn `mat(\\n${contentText})`;",
+      "script": true
+    },
+    {
+      "category": "Matrix",
+      "name": "matInline",
+      "description": "e.g. mat(3,3)@",
+      "kind": "inline",
+      "id": "",
+      "content": "const parts = input.split(\",\").map(s => s.trim());\n\nconst [x, y] = parts.map(Number)\n\nconst rowText = `${(\"#CURSOR, \".repeat(x)).slice(0, -2)} ;`;\nconst contentText = `${rowText}`.repeat(y);\n\nreturn `mat(${contentText})`;",
+      "script": true
+    },
+    {
+      "category": "Cases",
+      "name": "cases",
+      "description": "",
+      "kind": "display",
+      "id": "",
+      "content": "cases(#CURSOR \"if\" #CURSOR, #CURSOR \"else\")",
+      "script": false
+    },
+    {
+      "category": "Cases",
+      "name": "casesn",
+      "description": "e.g. casesn(3)@",
+      "kind": "display",
+      "id": "",
+      "content": "const n = Number(input);\nreturn `cases(\\n${(`  #CURSOR \"if\" #CURSOR,\\n`).repeat(n-1)}  #CURSOR \"else\"\\n)`",
+      "script": true
+    }
+  ],
+  "complementSymbolWithUnicode": true,
+  "patchPDFExport": false
+}
