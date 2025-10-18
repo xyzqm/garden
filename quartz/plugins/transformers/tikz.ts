@@ -32,8 +32,10 @@ export const TikzJax: QuartzTransformerPlugin = () => {
 
           for (let i = 0; i < nodes.length; i++) {
             const { index, parent, value } = nodes[i]
-            const svg = await tex2svg(value, argv)
-
+            let svg = await tex2svg(value, argv)
+            svg = svg
+              .replaceAll(/("#000"|"black")/g, `"currentColor"`)
+              .replaceAll(/("#fff"|"white")/g, `"var(--background-primary)"`)
             parent.children.splice(index, 1, {
               type: "html",
               value: `<div class="tikz">${svg}</div>`,

@@ -26,14 +26,15 @@ For instance, here's how we'd represent the row vector $[1, 1]$:
 
 
 ```tikz
+\usepackage{pgfplots}
 \begin{document}
 \begin{tikzpicture}
-	\draw[thick,->] (-5,0) -- (5,0);
-	\draw[thick,->] (0,-5) -- (0,5);
+\begin{axis}[axis lines = left]
+	\addplot[color=red]{exp(x)};
+\end{axis}
 \end{tikzpicture}
 \end{document}
 ```
-	
 
 
 
