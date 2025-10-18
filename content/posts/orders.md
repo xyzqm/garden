@@ -25,7 +25,7 @@ Suppose we've found an optimal ordering. Then, swapping any two adjacent element
 
 Let's apply this idea to the CSES problem above. Say we've ordered the tasks in a way such that the $i$th task has duration $d_i$ and is completed at time $f_i$. Then, how does our exchange condition constrain the relationship between $d_1$ and $d_2$?
 
-Consider swapping the 1st and 2nd tasks. Then, the first observation we should make is that $f_2, f_3,..., f_n$  all remain unchanged. Therefore, we only need to consider how $f_1$ changes! This is why considering adjacent swaps in particular is so useful: in many cases, it will leave the suffix unchanged, leading to a much simpler analysis
+Consider swapping the 1st and 2nd tasks. Then, the first observation we should make is that $f_2, f_3,..., f_n$  all remain unchanged. Therefore, we only need to consider how $f_1$ changes! This is why considering adjacent swaps in particular is so useful: in many cases, it will leave the suffix unchanged, leading to a much simpler analysis.
 
 Going back to our problem, if our order is optimal, then the following must hold:
 $$
