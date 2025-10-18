@@ -3,6 +3,8 @@ title: Transposes
 tags:
   - math/linear-algebra
 ---
+[A good background video](https://youtu.be/LyGKycYT2v0?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+
 Transposes are inextricably linked to the concept of *duality*. 
 
 The transpose of a vector is its dual vector: $v^T$ essentially represents the operation "project onto $v$", and it can be applied to some vector $x$ simply by left-multiplying, i.e. $v^T x$.
