@@ -1,5 +1,7 @@
 ---
 title: Transposes
+tags:
+  - math/linear-algebra
 ---
 Transposes are inextricably linked to the concept of *duality*. 
 
