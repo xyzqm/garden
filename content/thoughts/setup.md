@@ -1,7 +1,7 @@
 ---
 title: Setting up this blog
 ---
-The main issue I ran into while setting up this blog was figuring out how to add support for TiKZ. After some digging, I found [this issue](https://github.com/jackyzha0/quartz/issues/1988) on the Quartz repository, under which a user linked to their own transformer plugin for TiKZ.
+The main issue I ran into while setting up this blog was figuring out how to add support for TikZ. After some digging, I found [this issue](https://github.com/jackyzha0/quartz/issues/1988) on the Quartz repository, under which a user linked to their own transformer plugin for TikZ.
 
 However, that transformer didn't work when I tried to use it directly, so I ended up digging up a copy of that transformer from an older version of his repo instead 😩 You can find my version [here](https://github.com/xyzqm/garden/blob/v4/quartz/plugins/transformers/tikz.ts). I also had to add this bit
 ```js
