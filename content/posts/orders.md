@@ -19,7 +19,7 @@ The first sneaky observation is that the $+d$ term doesn't actually matter, sinc
 
 As it turns out, if we want to maximize this quantity, we should always do tasks in order of high to low duration! There are several ways to do this, but one particularly nice way is the _exchange argument_.
 #### Exchange Argument
-This idea is an example of [[thoughts/local-analysis|local analysis]]. Here's the idea:
+This idea is an example of [[local-analysis|local analysis]]. Here's the idea:
 
 Suppose we've found an optimal ordering. Then, swapping any two adjacent elements in this ordering certainly _cannot_ be better, otherwise our assumption of optimality would be contradicted. This simple, local condition can often help us greatly reduce the complexity of ordering problems.
 
@@ -35,6 +35,8 @@ $$
 If we repeat this argument for other indices, we can indeed show that in an optimal order, $d_i >= d_(i + 1)$ for all $i$, as desired.
 
 Note that in this problem, this condition ends up being both necessary and _sufficient_: since there's only one way for this condition to be satisfied, there's no need to worry about finding a suboptimal local minimum.
+However, [this blog](https://codeforces.com/blog/entry/72525) has some educational examples of situations in which we need to be slightly more careful.
+
 
 ## Problems
 [[posts/flint-and-steel|D2F: Flint and Steel]]

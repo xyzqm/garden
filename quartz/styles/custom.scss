@@ -16,6 +16,18 @@ svg.tikz > g {
   fill: currentColor;
 }
 
+.callout.is-collapsed {
+  padding-bottom: 1rem;
+  .callout-content {
+    height: 0;
+    margin-top: -1rem;
+    transition:
+      height 0.1s cubic-bezier(0.02, 0.01, 0.47, 1),
+      margin 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
+    overflow-y: clip;
+  }
+}
+
 .typst-shape {
   stroke: currentColor;
 }

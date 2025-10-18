@@ -1,5 +1,7 @@
 {
   "vimMode": true,
   "attachmentFolderPath": "content/images",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content/thoughts"
 }
