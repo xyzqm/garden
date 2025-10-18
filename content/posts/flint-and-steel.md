@@ -72,3 +72,5 @@ Now, the problem reduces to finding an _unordered_ subset of minimal size that s
 + No two detonation intervals can contain each others' centers. 
 
 This is easily done with #dp + #segment-tree in $cal(O)(n log n)$.
+
+[Implementation](https://codeforces.com/contest/2133/submission/341419217)
