@@ -19,7 +19,7 @@ The first sneaky observation is that the $+d$ term doesn't actually matter, sinc
 
 As it turns out, if we want to maximize this quantity, we should always do tasks in order of high to low duration! There are several ways to do this, but one particularly nice way is the _exchange argument_.
 #### Exchange Argument
-This idea is an example of [[content/thoughts/local-analysis|local analysis]]. Here's the idea:
+This idea is an example of [[thoughts/local-analysis|local analysis]]. Here's the idea:
 
 Suppose we've found an optimal ordering. Then, swapping any two adjacent elements in this ordering certainly _cannot_ be better, otherwise our assumption of optimality would be contradicted. This simple, local condition can often help us greatly reduce the complexity of ordering problems.
 
