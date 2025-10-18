@@ -11,3 +11,9 @@ img {
   margin: 1.5em 0;
   text-align: center;
 }
+
+svg > g {
+  stroke: currentColor;
+  /* stroke: var(--darkgray); */
+  /* fill: var(--darkgray); */
+}
