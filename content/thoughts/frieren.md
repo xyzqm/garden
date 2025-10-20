@@ -1,5 +1,8 @@
 ---
 title: Frieren
+tags:
+  - anime
+  - tv
 ---
 ideas
 - humans v elves
@@ -59,7 +62,7 @@ Ideas about remembrance, praise, and religion lie at the core of Frieren. We see
 	- Eisen says "that's not how it works"
 	- paralleled by the fact that although Himmel died, he meant a lot to Frieren (she seems to realize this later,  which is why she's more willing to get to know people)
 	
-questions
+## Questions
 - will we see sein/kraft again?
 - why has fern become so calculating? didn't hesitate to say she killed ehre, nor when killing Frieren clone
 	- yet still so sensitive and easy upset?
