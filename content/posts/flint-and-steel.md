@@ -69,7 +69,7 @@ title: Flint and Steel
 > 
 > ```
 > 
-> _The bottom-most interval represents creeper $x$, and the red ones represents possibilities for creeper $y$. Both are impossible because they either contradict our assumption that $x$ has the minimum radius, or the condition for validity stipulated above._
+> _The bottom-most interval represents creeper $x$, and the red ones represents possibilities for creeper $y$. Both are impossible because they either contradict our assumption that $x$ has the minimum radius, or the condition that no two creepers contain each other's centers._
 > 
 > Now, the problem reduces to finding an _unordered_ subset of minimal size that satisfies the following requirements:
 > + Together, the chosen detonation intervals must kill all creepers.
