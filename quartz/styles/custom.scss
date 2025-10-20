@@ -31,3 +31,11 @@ img {
 .typst-shape {
   stroke: currentColor;
 }
+
+.katex-display {
+  overflow: visible;
+}
+
+.katex {
+  font-size: 1.1em !important; /* Adjust this value as needed */
+}
