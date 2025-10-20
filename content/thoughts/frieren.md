@@ -1,8 +1,7 @@
 ---
 title: Frieren
 tags:
-  - anime
-  - tv
+  - tv/anime
 ---
 ideas
 - humans v elves
