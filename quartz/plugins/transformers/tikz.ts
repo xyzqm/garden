@@ -36,18 +36,6 @@ export const TikzJax: QuartzTransformerPlugin = () => {
             svg = svg
               .replaceAll(/("#000"|"black")/g, `"currentColor"`)
               .replaceAll(/("#fff"|"white")/g, `"var(--background-primary)"`)
-            // Set fill="currentColor" for all elements with unspecified fill
-            svg = svg.replace(/<([a-zA-Z]+)([^>]*?)(\/?)>/g, (match, tagName, attrs, closing) => {
-              if (
-                !/^(rect|circle|ellipse|path|polygon|polyline|line|g|text|use|marker|symbol|svg)$/i.test(
-                  tagName,
-                )
-              )
-                return match
-              if (/\bfill\s*=/.test(attrs) || /\bstyle\s*=\s*"[^"]*\bfill\s*:/.test(attrs))
-                return match
-              return `<${tagName}${attrs} fill="currentColor"${closing}>`
-            })
             parent.children.splice(index, 1, {
               type: "html",
               value: `<div class="tikz">${svg}</div>`,

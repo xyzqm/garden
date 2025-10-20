@@ -59,6 +59,7 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
+      Plugin.Latex({ renderEngine: "typst" }),
       Plugin.TikzJax(),
       Plugin.SyntaxHighlighting({
         theme: {
@@ -72,7 +73,6 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "typst" }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

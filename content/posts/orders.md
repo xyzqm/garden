@@ -106,5 +106,6 @@ Now, how should we arrange tasks when $a_i > b_i$?
 Putting it all together, we've just discovered [Johnson's rule](https://en.wikipedia.org/wiki/Johnson%27s_rule)!
 ### Problems
 [[posts/flint-and-steel|D2F: Flint and Steel]]
+
 [[festivals|IOI 2025: Festivals]]
 
