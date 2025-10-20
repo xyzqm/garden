@@ -59,8 +59,6 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
-      Plugin.Latex({ renderEngine: "typst" }),
-      Plugin.TikzJax(),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
@@ -70,6 +68,8 @@ const config: QuartzConfig = {
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
+      Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.TikzJax(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),

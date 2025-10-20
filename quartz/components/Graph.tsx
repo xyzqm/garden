@@ -76,7 +76,7 @@ export default ((opts?: Partial<GraphOptions>) => {
               x="0px"
               y="0px"
               viewBox="0 0 55 55"
-              style="fill: currentColor !important;"
+              style="fill: currentColor"
               xmlSpace="preserve"
             >
               <path

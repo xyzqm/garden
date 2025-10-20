@@ -15,7 +15,7 @@ placed into a total order (e.g. rock > paper > scissors) due to their cyclic nat
 > [!info] Tasks and Deadlines
 > ([CSES](https://cses.fi/problemset/task/1630)) You have to process $n$ tasks. Each task has a duration and a deadline, and you will process the tasks in some order one after another. Your reward for a task is $d−f$ where $d$ is its deadline and $f$ is your finishing time. (The starting time is $0$, and you have to process all tasks even if a task would yield negative reward.)
 
-The first sneaky observation is that the $+d$ term doesn't actually matter, since we can rewrite the total reward as $sum (d - f)$ = $sum d - sum f$, and note that since we have to complete all the tasks, $sum d$ is constant over all possible orderings. Therefore, we can reduce this problem to minimizing $sum f$ instead.
+The first sneaky observation is that the $+d$ term doesn't actually matter, since we can rewrite the total reward as $sum (d - f) = sum d - sum f$, and note that since we have to complete all the tasks, $sum d$ is constant over all possible orderings. Therefore, we can reduce this problem to minimizing $sum f$ instead.
 
 As it turns out, if we want to minimizing this quantity, we should always do tasks in order of low to high duration! There are several ways to show this, but one particularly nice way is the _exchange argument_.
 ### Exchange Argument

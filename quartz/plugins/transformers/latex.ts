@@ -8,6 +8,10 @@ import { KatexOptions } from "katex"
 import { Options as MathjaxOptions } from "rehype-mathjax/svg"
 //@ts-ignore
 import { Options as TypstOptions } from "@myriaddreamin/rehype-typst"
+import { visit } from "unist-util-visit"
+import { Element } from "hast"
+import { toString } from "hast-util-to-string"
+import { typst2tex } from "tex2typst"
 
 interface Options {
   renderEngine: "katex" | "mathjax" | "typst"
@@ -30,20 +34,41 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
       return [remarkMath]
     },
     htmlPlugins() {
-      switch (engine) {
-        case "katex": {
-          return [[rehypeKatex, { output: "html", macros, ...(opts?.katexOptions ?? {}) }]]
-        }
-        case "typst": {
-          return [[rehypeTypst, opts?.typstOptions ?? {}]]
-        }
-        case "mathjax": {
-          return [[rehypeMathjax, { macros, ...(opts?.mathJaxOptions ?? {}) }]]
-        }
-        default: {
-          return [[rehypeMathjax, { macros, ...(opts?.mathJaxOptions ?? {}) }]]
-        }
-      }
+      return [
+        () => {
+          return (tree) => {
+            // using tex2typst, convert all math blocks returned by remarkMath to latex
+            visit(tree, "element", (node: Element) => {
+              // console.log(node.properties.className)
+              const classes = Array.isArray(node.properties.className)
+                ? node.properties.className
+                : []
+
+              if (classes.includes("language-math")) {
+                // console.log(toString(node))
+                // console.log(typst2tex(toString(node)))
+                // console.log(node)
+                node.children = [{ type: "text", value: typst2tex(toString(node)) }]
+              }
+            })
+          }
+        },
+        [rehypeKatex, { output: "html", macros, ...(opts?.katexOptions ?? {}) }],
+      ]
+      // switch (engine) {
+      //   case "katex": {
+      //     return [[rehypeKatex, { output: "html", macros, ...(opts?.katexOptions ?? {}) }]]
+      //   }
+      //   case "typst": {
+      //     return [[rehypeTypst, opts?.typstOptions ?? {}]]
+      //   }
+      //   case "mathjax": {
+      //     return [[rehypeMathjax, { macros, ...(opts?.mathJaxOptions ?? {}) }]]
+      //   }
+      //   default: {
+      //     return [[rehypeMathjax, { macros, ...(opts?.mathJaxOptions ?? {}) }]]
+      //   }
+      // }
     },
     externalResources() {
       switch (engine) {
