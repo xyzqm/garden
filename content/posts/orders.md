@@ -15,9 +15,9 @@ placed into a total order (e.g. rock > paper > scissors) due to their cyclic nat
 > [!info] Tasks and Deadlines
 > ([CSES](https://cses.fi/problemset/task/1630)) You have to process $n$ tasks. Each task has a duration and a deadline, and you will process the tasks in some order one after another. Your reward for a task is $d−f$ where $d$ is its deadline and $f$ is your finishing time. (The starting time is $0$, and you have to process all tasks even if a task would yield negative reward.)
 
-The first sneaky observation is that the $+d$ term doesn't actually matter, since we can rewrite the total reward as $sum (d - f)$ = $sum d - sum f$, and note that since we have to complete all the tasks, $sum d$ is constant over all possible orderings. Therefore, we can reduce this problem to maximizing $sum f$ instead.
+The first sneaky observation is that the $+d$ term doesn't actually matter, since we can rewrite the total reward as $sum (d - f)$ = $sum d - sum f$, and note that since we have to complete all the tasks, $sum d$ is constant over all possible orderings. Therefore, we can reduce this problem to minimizing $sum f$ instead.
 
-As it turns out, if we want to maximize this quantity, we should always do tasks in order of high to low duration! There are several ways to show this, but one particularly nice way is the _exchange argument_.
+As it turns out, if we want to minimizing this quantity, we should always do tasks in order of low to high duration! There are several ways to show this, but one particularly nice way is the _exchange argument_.
 ### Exchange Argument
 This idea is an example of [[local-analysis|local analysis]]. Here's the idea:
 
@@ -29,10 +29,10 @@ Consider swapping the 1st and 2nd tasks. Then, the first observation we should m
 
 Going back to our problem, if our order is optimal, then the following must hold:
 $$
-sum f >= sum f prime &=> f_1 >= f_1 prime \
-&=> d_1 >= d_2
+sum f <= sum f prime &=> f_1 <= f_1 prime \
+&=> d_1 <= d_2
 $$
-If we repeat this argument for other indices, we can indeed show that in an optimal order, $d_i >= d_(i + 1)$ for all $i$, as desired.
+If we repeat this argument for other indices, we can indeed show that in an optimal order, $d_i <= d_(i + 1)$ for all $i$, as desired.
 
 Note that in this problem, this condition ends up being both necessary and _sufficient_: since there's only one way for this condition to be satisfied, there's no need to worry about finding a suboptimal local minimum.
 However, [this blog](https://codeforces.com/blog/entry/72525) has some educational examples of situations in which we need to be slightly more careful. In particular, it considers the following problem:
