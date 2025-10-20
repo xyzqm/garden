@@ -21,7 +21,6 @@ export const Latex: QuartzTransformerPlugin = () => {
           return (tree) => {
             // using tex2typst, convert all math blocks returned by remarkMath to latex
             visit(tree, "element", (node: Element) => {
-              // console.log(node.properties.className)
               const classes = Array.isArray(node.properties.className)
                 ? node.properties.className
                 : []

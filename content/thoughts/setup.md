@@ -32,4 +32,6 @@ svg {
 Genuinely, why? I was considering switching to KaTeX but ultimately decided against it, opting for a [stupid, vibe-coded fix](https://github.com/xyzqm/garden/commit/4933c0ab9cece1458f0d5261876bb346e1e97f5d#diff-daf6fe07165fdca40b7f30f223cfc1d94d958b4b6803bbb9772fc0c667f9129e) (see `tikz.ts`) instead that basically sets `fill = currentColor` for all SVG elements that don't currently have `fill` set. Truly 🤮
 
 ### UPD: 10/19
-Replaced vibe-coded fix with [this](https://github.com/xyzqm/garden/blob/f2d3b367865f93342de45989c3cdbc6517d89705/quartz/styles/custom.scss#L15) instead, hopefully everything works now
+~~Replaced vibe-coded fix with [this](https://github.com/xyzqm/garden/blob/f2d3b367865f93342de45989c3cdbc6517d89705/quartz/styles/custom.scss#L15) instead, hopefully everything works now~~
+
+I ended up just converting all the typst blocks into latex first, then using `rehype-katex` afterwards ([code](https://github.com/xyzqm/garden/blob/244d2f8f02b584e5964a4f85669756d018a46afb/quartz/plugins/transformers/latex.ts#L22)) since using typst also created really faulty reading time estimates, and at that point it was just too much of a hassle
