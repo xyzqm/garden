@@ -37,19 +37,27 @@ ideas
 - interspersed visual metaphors
 	- carcass/snow on the fox in kraft episode
 	- Land sees cat + its mom for some reason? he's also surprised to see the mom, maybe this refers to his own backstory
-- being remembered/praised
-	- kraft's party
-	- himmel's statues
+
+## Remembrance|Praise|Religion
+Ideas about remembrance, praise, and religion lie at the core of Frieren. We see a variety of perspectives on these topics throughout the show:
+- **Himmel** epitomizes a pursuit of remembrance. Everything he does, he does so he will be remembered: helping others, building statues of himself, setting out to defeat the Demon King in the first place, etc.
 	- frieren and himmel:
 		- "why do you help other people?" 
 		- "maybe I do it for myself, so that I'll be remembered"
 		- "what do you need to do?"
 		- "change their lives, even if just a little bit"
 		- but why didn't frieren help more people earlier then? doesn't really care about being remembered?
-	- frieren clearly values himmel's praise 
-		- maybe because he praises her for more mundane things (doesn't need to be impressive for him?)
-	- humans like himmel make other humans (the collective) their gods, turn to them for praise
-	- but elves don't have that luxury because they can't live that long, hence the goddess
+- **Kraft** acts as a foil for Himmel. In the past, he likely also shared a burning desire for remembrance, but unlike Himmel, Kraft has lived long enough to also see himself forgotten. 
+  He comes to recognize the futility of placing value in human memory and decides to
+  turn to the Goddess instead.
+- **Heiter** is a mix of both of these characters. Because of his belief in the Goddess, he comes to prioritize self-improvement over external approval.
+- frieren clearly values himmel's praise 
+	- maybe because he praises her for more mundane things (doesn't need to be impressive for him?)
+- humans like himmel make other humans (the collective) their gods, turn to them for praise
+- but elves don't have that luxury because they can't live that long, hence the goddess
+- at the start, Frieren says she doesn't want to take an apprentice because they'll die
+	- Eisen says "that's not how it works"
+	- paralleled by the fact that although Himmel died, he meant a lot to Frieren (she seems to realize this later,  which is why she's more willing to get to know people)
 	
 questions
 - will we see sein/kraft again?

@@ -26,6 +26,6 @@ so, we now only need to solve the case where all $F_i > X$. We can also assume f
 
 Under these constraints, we see that the best case (that allows us to take the most coupons) is when all $F_i = X + 1$ and all $T_i = 2$. However, even in this best case, it turns out we can only take at most $log X$ coupons. To see this, we can again consider "shifting our coordinates" such that $F_i = 0$, like we did when proving that coupons with the same $F_i$ are equivalent. In these shifted coordinates, $X$ starts at $-1$ and becomes $-2^k$ after applying $k$ coupons.
 
-This allows us to run a simple knapsack DP in $cal(O) (n log n)$. 
+This allows us to run a simple knapsack #dp in $cal(O) (n log n)$. 
 
 [Implementation](https://qoj.ac/submission/1417041)
