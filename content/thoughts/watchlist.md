@@ -1,7 +1,7 @@
 ---
 title: Watchlist
 ---
-A list of everything I've watched, or plan to watch! All lists are sorted in order of enjoyment/beauty, from most to least.
+A list of everything I've watched, or plan to watch! All lists (besides "To Watch") are sorted in order of enjoyment/beauty, from most to least.
 ## To Watch
 - Moonlight
 - Your Name
@@ -11,24 +11,34 @@ A list of everything I've watched, or plan to watch! All lists are sorted in ord
 - Attack on Titan
 
 ## TV
-### Anime
 - [[frieren|Frieren]]
-- Cyberpunk: Edgerunners
-### Animated
 - Arcane
 - Scavenger's Reign
-### Live-Action
+- Cyberpunk: Edgerunners
 - The Penguin
 - Brooklyn Nine-Nine
 
 ## Movies
-### Anime
-- Akira
+- Across the Spider-Verse
+- The Dark Knight
+- Into the Spider-Verse
+- Interstellar
+- The Prestige
+- Shutter Island
+- Puss in Boots 2
+- The Wild Robot
+- Inception
+- Tenet
+- Oppenheimer
 - [[infinity-castle|Demon Slayer: Infinity Castle]]
-
-### Animated
+- The Shawshank Redemption
+- Memento
+- Batman Begins
+- The Dark Knight Rises
+- Dunkirk (maybe should rewatch)
 - Nimona
-
-### Live-Action
+- Akira
 - F1
+- The Greatest Showman
+- Superman
 - Fantastic Four: First-Steps
