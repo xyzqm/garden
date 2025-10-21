@@ -1,6 +1,7 @@
 {
   "enabledCssSnippets": [
-    "img"
+    "img",
+    "slides"
   ],
   "theme": "obsidian"
 }
