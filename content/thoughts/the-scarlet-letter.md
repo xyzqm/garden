@@ -36,3 +36,4 @@ tags:
 		  forcing her to _live_ with her mark of shame  
 	- lots of fire imagery
 - at the end, allusion to Hester making a deal with the devil (the Black Man/her husband)
+- roger seems to really pin his failure with Hester on his physical deformity, but that certainly can't be the only factor
