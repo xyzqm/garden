@@ -1,5 +1,8 @@
 ---
 title: Optimal Constructives
+tags:
+  - constructive
+  - dp
 ---
 ## Optimal Constructives
 ### 10/20

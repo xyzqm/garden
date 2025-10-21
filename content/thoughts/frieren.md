@@ -40,10 +40,10 @@ ideas
 	- carcass/snow on the fox in kraft episode
 	- Land sees cat + its mom for some reason? he's also surprised to see the mom, maybe this refers to his own backstory
 
-## Remembrance|Praise|Religion
+## Remembrance + Praise + Religion
 Ideas about remembrance, praise, and religion lie at the core of Frieren. We see a variety of perspectives on these topics throughout the show:
 - **Himmel** epitomizes a pursuit of remembrance. Everything he does, he does so he will be remembered: helping others, building statues of himself, setting out to defeat the Demon King in the first place, etc.
-	- frieren and himmel:
+	- Frieren and Himmel:
 		- "why do you help other people?" 
 		- "maybe I do it for myself, so that I'll be remembered"
 		- "what do you need to do?"
@@ -52,7 +52,7 @@ Ideas about remembrance, praise, and religion lie at the core of Frieren. We see
 - **Kraft** acts as a foil for Himmel. In the past, he likely also shared a burning desire for remembrance, but unlike Himmel, Kraft has lived long enough to also see himself forgotten. 
   He comes to recognize the futility of placing value in human memory and decides to
   turn to the Goddess instead.
-- **Heiter** is a mix of both of these characters. Because of his belief in the Goddess, he comes to prioritize self-improvement over external approval.
+- **Heiter** is a mix of both of these characters. Because of his belief in the Goddess, he comes to prioritize self-improvement over external approval. However, as a human, he still values the praise of others (elaborate more on this point later).
 - frieren clearly values himmel's praise 
 	- maybe because he praises her for more mundane things (doesn't need to be impressive for him?)
 - humans like himmel make other humans (the collective) their gods, turn to them for praise

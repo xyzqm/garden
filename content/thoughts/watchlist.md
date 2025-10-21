@@ -9,6 +9,7 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 - Jujutsu Kaisen
 - Vinland Saga
 - Attack on Titan
+- Howl's Moving Castle
 
 ## TV
 - [[frieren|Frieren]]
