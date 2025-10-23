@@ -37,3 +37,17 @@ tags:
 	- lots of fire imagery
 - at the end, allusion to Hester making a deal with the devil (the Black Man/her husband)
 - roger seems to really pin his failure with Hester on his physical deformity, but that certainly can't be the only factor
+
+## 5: Hester At Her Needle
+- good depiction of what life would be like constantly having to wear the scarlet letter
+- everyone in town still wearing her needlework---depicting how everyone has sin?
+	- hester questions this herself, begins to see the evil in all those around her
+	- the letter is slightly reminiscent of the One Ring
+- like hawthorne himself, still feels attached to this horrible place
+
+## 6: Pearl
+- at start, Pearl is paralleled to the flower, and Hester to Anne Hutchinson
+- Pearl is Hester's one remaining link to the "mortal" world
+	- should we consider Hester a (fallen) angel or a devil?
+- Pearl, too, has this angel/devil duality (moves toward devilish imagery as the story progresses)
+	- figuratively, born from an angel (Hester) + demon (father)?

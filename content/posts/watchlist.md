@@ -10,6 +10,7 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 - Vinland Saga
 - Attack on Titan
 - Howl's Moving Castle
+- To be Hero X
 
 ## TV
 - [[frieren|Frieren]]

@@ -39,6 +39,7 @@ ideas
 - interspersed visual metaphors
 	- carcass/snow on the fox in kraft episode
 	- Land sees cat + its mom for some reason? he's also surprised to see the mom, maybe this refers to his own backstory
+- frieren shows denken again that magic can be fun
 
 ## Remembrance + Praise + Religion
 Ideas about remembrance, praise, and religion lie at the core of Frieren. We see a variety of perspectives on these topics throughout the show:
