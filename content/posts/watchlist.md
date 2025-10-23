@@ -15,7 +15,7 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 ## TV
 - [[frieren|Frieren]]
 - Arcane
-- Scavenger's Reign
+- Scavengers Reign
 - Cyberpunk: Edgerunners
 - The Penguin
 - Brooklyn Nine-Nine
