@@ -40,6 +40,14 @@ ideas
 	- carcass/snow on the fox in kraft episode
 	- Land sees cat + its mom for some reason? he's also surprised to see the mom, maybe this refers to his own backstory
 - frieren shows denken again that magic can be fun
+- frieren _recognizes_ emotion, but struggles to _understand_ it
+	- sees that fern is unhappy about her staff, but may not really understand her attachment
+		- although, she was also very attached to her ring from Himmel
+	- doesn't understand _her_ effect on others, such as leaving her party
+	- doesn't understand why humans are so rushed and can't afford to waste time
+	- also doesn't really understand helping people because for her, whatever is incoveniencing her will eventually go away, and she has all the time in the world
+		-  so this really arises again from her temporal disconnect
+	- at the end, her just thinking abt helping the person is already big character development
 
 ## Remembrance + Praise + Religion
 Ideas about remembrance, praise, and religion lie at the core of Frieren. We see a variety of perspectives on these topics throughout the show:

@@ -27,11 +27,11 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 - Interstellar
 - The Prestige
 - Shutter Island
+- Inception
+- Oppenheimer
 - Puss in Boots 2
 - The Wild Robot
-- Inception
 - Tenet
-- Oppenheimer
 - [[infinity-castle|Demon Slayer: Infinity Castle]]
 - The Shawshank Redemption
 - Memento
