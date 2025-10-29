@@ -14,7 +14,7 @@ First, consider the discrete version of $exp(x)$, $2^x$. We can find $2^x$ by th
 We can see how this simulates a growth rate equal to value, since clearly, $|S_(i + 1) - S_i| = |S_i|$. Therefore, $|S_i| = 2^i$ as desired.
 However, $S_i$ is also just the number of ways to select a subset of the integers in $[0, i]$. How can we express this in a continuous fashion?
 
-Loosely speaking, the "number of ways" to select $k$ numbers in the range $[0, x]$ should just be $x^k/k!$ (since in the continuous case, there is 0 chance of picking two equal numbers). Therefore, summing over all possible values of $k$, we arrive at our desired expression. 
+Loosely speaking, the "number of ways" to select $k$ numbers in the range $[0, x]$ should just be $x^k/(k!)$ (since in the continuous case, there is 0 chance of picking two equal numbers). Therefore, summing over all possible values of $k$, we arrive at our desired expression. 
 
 Let's formalize "number of ways." Note that instead of $|S_(i + 1) - S_i| = |S_i|$, we now want $|S_(x + dif x) - S_x| = |S_x| dif x$. This means we need to slightly redefine $|S_i|$. Currently, it's simply defined as the number of sets in $S_i$, or $sum_(s in S_i) 1$, but instead we want
 $$
