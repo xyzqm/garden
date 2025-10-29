@@ -1,7 +1,7 @@
 ---
 title: Transposes
 tags:
-  - math/linear-algebra
+  - linear
 ---
 [A good background video](https://youtu.be/LyGKycYT2v0?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 

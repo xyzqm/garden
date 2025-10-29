@@ -1,8 +1,7 @@
 ---
 title: The exponential
 tags:
-  - math
-  - combinatorics
+  - combo
 ---
 The exponential distribution is defined such that its growth rate at any instant is equal to its value. It's also well known that $exp(x) = sum x^k/(k!)$. There's a nice combinatorial way to connect these two definitions:
 

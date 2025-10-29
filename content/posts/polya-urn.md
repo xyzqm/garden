@@ -1,7 +1,6 @@
 ---
 title: The Pólya urn
 tags:
-  - combinatorics
   - probability
 ---
 

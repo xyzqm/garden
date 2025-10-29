@@ -4,7 +4,6 @@ tags:
   - dp
   - segment-tree
   - partition
-  - cs
 ---
 https://codeforces.com/contest/2159/problem/D2
 
