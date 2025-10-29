@@ -4,7 +4,7 @@ tags:
   - math
   - combinatorics
 ---
-The exponential distribution is defined such that it's growth rate at any instant is equal to its value. It's also well known that $exp(x) = sum x^k/k!$. There's a nice combinatorial way to connect these two definitions:
+The exponential distribution is defined such that it's growth rate at any instant is equal to its value. It's also well known that $exp(x) = sum x^k/(k!)$. There's a nice combinatorial way to connect these two definitions:
 
 First, consider the discrete version of $exp(x)$, $2^x$. We can find $2^x$ by the following process: let $S_(-1)$ be ${{}}$ (that is, an empty set of sets). Then, define $S_i$ for $i >= 0$ to be $S_-1 union {s union i | s in S}$. That is, we take every set from $S_(i - 1)$, then decide whether to add $i$ into it or not. Here a few values of $S_i$:
 - $S_(-1) = {{}}$
