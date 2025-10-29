@@ -1,7 +1,11 @@
 ---
 title: Inverse Minimum Partition
+tags:
+  - dp
+  - segment-tree
+  - partition
+  - cs
 ---
-#dp #segment-tree #partition
 https://codeforces.com/contest/2159/problem/D2
 
 A very cool problem that relies on two clever observations

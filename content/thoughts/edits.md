@@ -9,3 +9,4 @@ Ideas:
 - a good man with a broken heart
 
 [SUPERPOWERS|ITSV](https://www.youtube.com/watch?v=sXJRiDsUyF8)
+[FRIEREN|TYLER](https://www.youtube.com/watch?v=Z4Gn2eC43s0)
