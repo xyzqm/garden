@@ -6,10 +6,10 @@ tags:
 ---
 The exponential distribution is defined such that its growth rate at any instant is equal to its value. It's also well known that $exp(x) = sum x^k/(k!)$. There's a nice combinatorial way to connect these two definitions:
 
-First, consider the discrete version of $exp(x)$, $2^x$. We can find $2^x$ by the following process: let $S_(-1)$ be ${{}}$ (that is, an empty set of sets). Then, define $S_i$ for $i >= 0$ to be $S_(i - 1) union {s union i | s in S_(i - 1)}$. That is, we take every set from $S_(i - 1)$, then decide whether to add $i$ into it or not. Here a few values of $S_i$:
-- $S_(-1) = {{}}$
-- $S_0 = {{}, {0}}$
-- $S_1 = {{}, {0}, {1}, {0, 1}}$
+First, consider the discrete version of $exp(x)$, $2^x$. We can find $2^x$ by the following process: let $S_0$ be ${{}}$ (that is, an empty set of sets). Then, define $S_i$ for $i > 0$ to be $S_(i - 1) union {s union i | s in S_(i - 1)}$. That is, we take every set from $S_(i - 1)$, then decide whether to add $i$ into it or not. Here a few values of $S_i$:
+- $S_0 = {{}}$
+- $S_1 = {{}, {1}}$
+- $S_2 = {{}, {1}, {2}, {1, 2}}$
 
 We can see how this simulates a growth rate equal to value, since clearly, $|S_(i + 1) - S_i| = |S_i|$. Therefore, $|S_i| = 2^i$ as desired.
 However, $S_i$ is also just the number of ways to select a subset of the integers in $[0, i]$. How can we express this in a continuous fashion?
