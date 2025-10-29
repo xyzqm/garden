@@ -11,6 +11,13 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 - Attack on Titan
 - Howl's Moving Castle
 - To be Hero X
+- Fullmetal Alchemist
+- Delicious in Dungeon
+- Chainsaw Man
+- Dandadan
+- Re:Zero
+- Violet Evergarden
+- Mob Pyscho 100
 
 ## TV
 - [[frieren|Frieren]]

@@ -48,7 +48,8 @@ ideas
 	- also doesn't really understand helping people because for her, whatever is incoveniencing her will eventually go away, and she has all the time in the world
 		-  so this really arises again from her temporal disconnect
 	- at the end, her just thinking abt helping the person is already big character development
-
+- frieren to sein is like eisen to stark
+	- eisen also ran away from his family, so he wanted to help stark
 ## Remembrance + Praise + Religion
 Ideas about remembrance, praise, and religion lie at the core of Frieren. We see a variety of perspectives on these topics throughout the show:
 - **Himmel** epitomizes a pursuit of remembrance. Everything he does, he does so he will be remembered: helping others, building statues of himself, setting out to defeat the Demon King in the first place, etc.
