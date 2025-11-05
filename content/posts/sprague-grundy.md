@@ -42,7 +42,7 @@ And the equivalence classes of positions under this definition are precisely wha
 > While the Sprague-Grundy theorem is often thought of as a very general result, it's only really useful when games are being combined in parallel. Otherwise, the Grundy number has no real meaning.
 
 ---
-Let's consider the identity equivalence class, $0$, defined such that for every position $G$ in this class, $A equiv A + G$ for all games $A$. A trivial example of such a game is the empty position $\{\}$, but there are actually more. In fact:
+Let's consider the identity equivalence class, $0$, defined such that for every position $G$ in this class, $A equiv A + G$ for all games $A$. A trivial example of such a game is the empty position ${}$, but there are actually more. In fact:
 
 >[!info] Lemma 1
 > $0$ is exactly the set of all P-positions.
@@ -56,7 +56,7 @@ If $A$ is an N-position, the first player can win $A + G$ like so:
 
 A similar argument holds for the case when $A$ is a P-position.
 
-On the contrary, no N-position can be in $0$: a simple counter-case is $A = \{\}$.
+On the contrary, no N-position can be in $0$: a simple counter-case is $A = {}$.
 
 Another useful lemma:
 >[!info] Lemma 2
@@ -82,7 +82,7 @@ Then, using this basis, every equivalence class $G$ has a unique binary represen
 
 So, are these binary representations the Grundy numbers, then?
 
-Well, not quite. See, we don't just have one choice of basis. Consider the game of Nim, for instance. The classic basis is $\{*1, *2, *4, *8,...\}$ where $*x$ denotes a single pile of size $x$. In this basis, we would represent the game $*7$ as $111_2$. However, we could also use something like $\{*1, *3, *6, *8, *16,...\}$, in which case $*7$ would be represented as $101_2$ instead. Yet, no matter what basis $X$ we choose, remember that $f_X(G + H)$ **always** equals $f_X(G) \oplus f_X(H)$ due to Lemma 2.
+Well, not quite. See, we don't just have one choice of basis. Consider the game of Nim, for instance. The classic basis is ${*1, *2, *4, *8,...}$ where $*x$ denotes a single pile of size $x$. In this basis, we would represent the game $*7$ as $111_2$. However, we could also use something like ${*1, *3, *6, *8, *16,...}$, in which case $*7$ would be represented as $101_2$ instead. Yet, no matter what basis $X$ we choose, remember that $f_X(G + H)$ **always** equals $f_X(G) oplus f_X(H)$ due to Lemma 2.
 
 What basis should we use then? And how do we even ensure our basis elements are independent?
 
