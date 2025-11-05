@@ -82,7 +82,7 @@ Then, using this basis, every equivalence class $G$ has a unique binary represen
 
 So, are these binary representations the Grundy numbers, then?
 
-Well, not quite. See, we don't just have one choice of basis. Consider the game of Nim, for instance. The classic basis is ${*1, *2, *4, *8,...}$ where $*x$ denotes a single pile of size $x$. In this basis, we would represent the game $*7$ as $111_2$. However, we could also use something like ${*1, *3, *6, *8, *16,...}$, in which case $*7$ would be represented as $101_2$ instead. Yet, no matter what basis $X$ we choose, remember that $f_X(G + H)$ **always** equals $f_X(G) oplus f_X(H)$ due to Lemma 2.
+Well, not quite. See, we don't just have one choice of basis. Consider the game of Nim, for instance. The classic basis is ${*1, *2, *4, *8,...}$ where $*x$ denotes a single pile of size $x$. In this basis, we would represent the game $*7$ as $111_2$. However, we could also use something like ${*1, *3, *6, *8, *16,...}$, in which case $*7$ would be represented as $101_2$ instead. Yet, no matter what basis $X$ we choose, remember that $f_X(G + H)$ **always** equals $f_X(G) xor f_X(H)$ due to Lemma 2.
 
 What basis should we use then? And how do we even ensure our basis elements are independent?
 
