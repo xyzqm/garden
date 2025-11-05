@@ -107,7 +107,7 @@ Putting it all together, we've just discovered [Johnson's rule](https://en.wikip
 ### Problems
 The next two problems involve using total orders to reduce the task of finding an ordered subset to finding an _unordered_ subset instead.
 
-[[posts/flint-and-steel|D2F: Flint and Steel]]
+[[flint-and-steel|D2F: Flint and Steel]]
 
 [[festivals|IOI 2025: Festivals]]
 

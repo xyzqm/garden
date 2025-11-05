@@ -67,3 +67,4 @@ E[T^n] = (n!)/(lambda ^n)
 $$
 As a direct consequence, $"Var"(T) = 1/(lambda^2)$. 
 
+Now, let $N$ be the number of success in a $tau$-second interval. Then, we can show that $E[N] = "Var"(N) = lambda tau$.  The fact that $E[N] = "Var"(N)$ is actually very special, since typically mean and variance have different dimensions and thus this equality is highly unlikely. However, $N$ is a "counting" variable, which means it's dimensionless and thus the above expression makes perfect sense.

@@ -18,10 +18,12 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 - Re:Zero
 - Violet Evergarden
 - Mob Pyscho 100
+- 86
 
 ## TV
 - [[frieren|Frieren]]
 - Arcane
+- Andor
 - Scavengers Reign
 - Cyberpunk: Edgerunners
 - The Penguin
@@ -48,6 +50,7 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 - Nimona
 - Akira
 - F1
+- Rogue One
 - The Greatest Showman
 - Superman
 - Fantastic Four: First-Steps

@@ -1,8 +1,17 @@
 ---
 title: Frieren
 tags:
-  - tv/anime
+  - anime
+  - analysis
 ---
+The concept of _Frieren_ is truly unique. It subverts two major aspects of traditional fantasy: the story takes place _after_ the hero's journey, and its protagonist is not the human hero, Himmel, but rather the party's quasi-immortal elf, Frieren. For me, these choices ended up creating an experience utterly novel, yet still irresistibly poignant.
+
+## Understanding Frieren
+
+Although I already loved the show after my first watch, I found myself confused on several occasions by Frieren's behavior. This confusion started all the way back in the first episode, when Frieren bursts into tears at Himmel's funeral.
+
+## Demons
+
 ideas
 - humans v elves
 	- Fern constantly rushing Frieren + always getting mad at her for sleeping in
