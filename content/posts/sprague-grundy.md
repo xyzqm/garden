@@ -8,7 +8,7 @@ Before we begin, you should probably familiarize yourself with a traditional exp
 > [!Note]
 > Game states will henceforth be referred to as *positions*. Note that any position can be thought of as a game itself: just take the subgraph of the overall DAG that is reachable from the current position.
 
-Theoretically, to solve any impartial game, we need only to determine one bit of information about every possible position: whether the next player (about to make a move) wins, or loses. If the next player wins, the state is called an *N-position*; otherwise, if the previous player wins, the state is a *P-position*. Together, N-positions and P-positions comprise the two possible **outcome classes** of any impartial game.
+Theoretically, to solve any impartial game, we need only to determine a single bit of information about every possible position: whether the next player (about to make a move) wins, or loses. If the next player wins, the state is called an *N-position*; otherwise, if the previous player wins, the state is a *P-position*. Together, N-positions and P-positions comprise the two possible **outcome classes** of any impartial game.
 
 ![[Pasted image 20251104184810.png]]
 
@@ -34,7 +34,11 @@ This motivates a new definition of equivalence:
 >[!tip] Definition
 >$G equiv G'$ iff for all positions $H$, $G + H$ and $G' + H$ belong to the same outcome class.
 >
-> Note that this also means that if $G equiv G'$, $G + H equiv G' + H$ as well, since $+$ is closed.
+> Note that this also means that if $G equiv G'$, $G + H equiv G' + H$ as well, since 
+> $$
+> G equiv G'  =>∀ (H, H'),  G + (H + H') equiv G' + (H + H') => ∀ H', (G + H) + H' equiv (G' + H) + H'
+> $$
+Here, we use the fact that $+$ is associative.
 
 And the equivalence classes of positions under this definition are precisely what the Sprague-Grundy theorem helps us find!
 
