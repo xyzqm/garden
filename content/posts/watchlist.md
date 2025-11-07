@@ -2,6 +2,8 @@
 title: Watchlist
 ---
 A list of everything I've watched, or plan to watch! All lists (besides "To Watch") are sorted in order of enjoyment/beauty, from most to least.
+
+In-depth reviews will be linked below, but you can also find some on my [MAL account](https://myanimelist.net/profile/danielzqm).
 ## To Watch
 - Moonlight
 - Your Name
@@ -23,9 +25,10 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 ## TV
 - [[frieren|Frieren]]
 - Arcane
+- Cyberpunk: Edgerunners
+- Pantheon
 - Andor
 - Scavengers Reign
-- Cyberpunk: Edgerunners
 - The Penguin
 - Brooklyn Nine-Nine
 
@@ -44,10 +47,10 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 - [[infinity-castle|Demon Slayer: Infinity Castle]]
 - The Shawshank Redemption
 - Memento
+- Nimona
 - Batman Begins
 - The Dark Knight Rises
 - Dunkirk (maybe should rewatch)
-- Nimona
 - Akira
 - F1
 - Rogue One
