@@ -22,20 +22,17 @@ To finish from here, notice that $EE[min(x, y)]$ is equivalent to randomly divid
 
 To elegantly evaluate this expected value, we can switch order of summation. That is, for each of the $2n$ elements, sum the probability that it is in the smaller subset. Actually, this is not very nice since our current definition of "smaller" lacks symmetry when both subsets have size $n$, so instead, we will sum the probability that each element is in a subset with size $<= n$, then subtract off the $= n$ case afterward.
 
-This is now much cleaner, since
-$$
-P("size" <= n) = P("# of elements"!= i < n) = 1/2
-$$
+This is now much cleaner, since we can pretty easily show that $P(|S| <= n) = 1/2$, where $S$ is the subset containing $i$.
 
 Therefore, our overall expectation is:
 $$
-EE[min(x, y)] &= sum_(i=1)^(2n) P(i "in smaller subset") \
-&= [sum_(i=1)^(2n) P(i "in subset w/ size" <= n)] - n P("size" = n) \
+EE[min(x, y)] &= sum_(i=1)^(2n) P(i" in smaller subset") \
+&= [sum_(i=1)^(2n) P(i" in subset w/ size" <= n)] - n P("size" = n) \
 &= 2n (1/2) - n binom(2n, n)/2^(2n) \
-&= n(1 - binom(2n, n)/2^(2n))
+&= n lr((1 - binom(2n, n)/2^(2n)))
 $$
 
 Our final answer is then simply twice this quantity, i.e.
 $$
-2n(1 - binom(2n, n)/2^(2n))
+2n lr((1 - binom(2n, n)/2^(2n)))
 $$
