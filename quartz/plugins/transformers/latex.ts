@@ -31,7 +31,7 @@ export const Latex: QuartzTransformerPlugin = () => {
             })
           }
         },
-        [rehypeKatex, { output: "html" } as KatexOptions],
+        [rehypeKatex, { output: "html", macros: { "\\xor": "\\oplus" } } as KatexOptions],
       ]
     },
     externalResources() {
