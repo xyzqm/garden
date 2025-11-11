@@ -21,6 +21,10 @@ In-depth reviews will be linked below, but you can also find some on my [MAL acc
 - Violet Evergarden
 - Mob Pyscho 100
 - 86
+- Iron-Blooded Orphans
+- Code Geass
+- Orb: On the Movements of the Earth
+- 12 Years a Slave
 
 ## TV
 - [[frieren|Frieren]]
