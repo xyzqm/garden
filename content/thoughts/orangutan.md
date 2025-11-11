@@ -6,7 +6,7 @@ tags:
 ---
 An orangutan starts at position $(0, 0)$, and in every second moves either up or to the right, both with probability $1/2$. What's the expected number of seconds until the orangutan hits either $x = n$ or $y = n$?
 
-> [!info]- Solution
+> [!note]- Solution
 > Let's let the process continue for infinite time, and let $t_x$ and $t_y$ denote the times at which the orangutan hits the lines $x = n$ and $y = n$ respectively. Then, we wish to find $EE[min(t_x, t_y)]$.
 > 
 > However, let's instead rewrite $min(t_x, t_y)$ as $t_x + t_y - max(t_x, t_y)$. Why? We want to take advantage of the nice fact that after $2n$ seconds, we're guaranteed to have already hit either $x = n$ or $y = n$. However, we also know that we can't have already hit both prior to these $2n$ seconds: that is, $max(t_x, t_y) >= 2n$. So, if we let $(x, y)$ denote our coordinates after $2n$ seconds, we have that $EE[max(t_x, t_y)] = 2n + 2(n - min(x, y))$.
