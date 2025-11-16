@@ -25,6 +25,7 @@ In-depth reviews will be linked below, but you can also find some on my [MAL acc
 - Code Geass
 - Orb: On the Movements of the Earth
 - 12 Years a Slave
+- Astra: Lost in Space
 
 ## TV
 - [[frieren|Frieren]]
