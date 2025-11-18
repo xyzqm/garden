@@ -21,6 +21,7 @@
 }
 
 :root[saved-theme="dark"] {
+  --background-primary: #181a1b; /* Dark mode default */
   color-scheme: dark;
   img[alt$="invert"] {
     filter: invert(1);
@@ -29,6 +30,7 @@
 
 :root[saved-theme="light"] {
   color-scheme: light;
+  --background-primary: #f8f9fa; /* Light mode default */
 }
 
 :root[saved-theme="dark"] .darkmode {
