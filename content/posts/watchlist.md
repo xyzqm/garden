@@ -6,7 +6,6 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 In-depth reviews will be linked below, but you can also find some on my [MAL account](https://myanimelist.net/profile/danielzqm).
 ## To Watch
 - Moonlight
-- Your Name
 - Spirited Away
 - Jujutsu Kaisen
 - Vinland Saga
@@ -26,13 +25,16 @@ In-depth reviews will be linked below, but you can also find some on my [MAL acc
 - Orb: On the Movements of the Earth
 - 12 Years a Slave
 - Astra: Lost in Space
+- 5cm/sec
+-  Weathering with you + Suzume
 
 ## TV
 - [[frieren|Frieren]]
 - Arcane
 - Cyberpunk: Edgerunners
-- Pantheon
+- Severance
 - Andor
+- Pantheon
 - Scavengers Reign
 - The Penguin
 - Brooklyn Nine-Nine
@@ -47,6 +49,7 @@ In-depth reviews will be linked below, but you can also find some on my [MAL acc
 - Inception
 - Oppenheimer
 - Puss in Boots 2
+- [[your-name|Your Name]]
 - The Wild Robot
 - Tenet
 - [[infinity-castle|Demon Slayer: Infinity Castle]]
