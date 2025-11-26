@@ -4,11 +4,13 @@ tags:
   - anime
   - film
 ---
+![[Pasted image 20251125170041.png]]
+
 **Rating:** 9/10
 ## First Impressions
 Some plot points were kind of unclear, but the emotional impact hit hard. When they meet at kataware-doki...
 ![[Pasted image 20251124111740.png|500]]
-I really like how the classic idea of "[red thread of fate](https://en.wikipedia.org/wiki/Red_thread_of_fate)" is blended with the sci-fi "time-loop" concept---the connection between Taki and Mitsuha starts only because Mitsuha gives him the red cord, but she also only gives him that cord because they are already connected.
+I really like how the classic idea of "[red thread of fate](https://en.wikipedia.org/wiki/Red_thread_of_fate)" is blended with the sci-fi "time-loop" concept---the connection between Taki and Mitsuha starts only because Mitsuha gives him the red cord, but she also only gives him that cord because they are already connected. Therefore, the connection between the two is "fated" by the offset of their timelines.
 
 ## The Plot
 Here are some questions I had after watching and the answers I came up with. Some of the following information comes from the [Earthbound](https://www.amazon.com/your-name-Another-Side-Earthbound/dp/0316473111) light novel, which helps clarify some important plot points that couldn't be squeezed into the movie's runtime.
@@ -22,11 +24,14 @@ Grandma notes that the weaving process has a magical aspect, through which one c
 
 More generally, according to *Earthbound*, "the Miyamizu are descendants of shitori-no-kami, the god of weaving...we reel in the fabric of time, bringing the past and future near to our hearts." We see Yotsuha experience a swap in *Earthbound* as well, where she switches into the body of one of her ancestors. This demonstrates that although the Miyamizu share this body-switching experience, the guy-girl swap is specific to Mitsuha.
 
-Thus, the whole point of the weaving tradition is to grant the weavers a degree of clairvoyance. The reason why is also explained in *Earthbound*: the comet-god is the enemy of the weaving god, who protects Itomori through the cords. This leads into another big question...
+Thus, the whole point of the weaving tradition is to grant the weavers a degree of clairvoyance. The reason why is also explained in *Earthbound*: the comet-god (who's also a dragon, which you can see during the *kuchikamizake* trip) is the enemy of the weaving god, who protects Itomori through the cords. This leads into another big question...
 
 **Why didn't their ancestors just leave Itomori when the first comet fragment hit?**
 
 One of the main ideas of *Earthbound*---communicated directly by the title---is the inexplicably deep connection between a people and their homeland, no matter how dangerous it may be to continue living there. This idea is especially relevant in Japan, where disasters strike much more frequently than they do elsewhere.
+
+![[Pasted image 20251125165641.png|600]]
+
 
 **“In exchange for returning to this world, you must leave behind what is most important to you—the kuchikamizake. You’ll offer it inside the god’s body. It’s half of you.”**
 
@@ -34,7 +39,7 @@ When Hitoha says this to Mitsuha, it's actually Taki in her body. So, "half of y
 
 **Why didn't Taki write his name on Mitsuha's hand?**
 
-In the moment, I think he simply expected he'd have more time. Also, he intended to go look for Mitsuha, so all that would've mattered to him is remembering her name, not necessarily she remembering his.
+In the moment, I think he simply expected he'd have more time. Also, he intended to go look for Mitsuha, so all that would've mattered to him is remembering her name, not necessarily Mitsuha remembering his.
 
 However, it also wouldn't have helped much if Taki had actually written his name. We see later that even when Taki hears Tessie's name, he feels a vague sense of familiarity but still doesn't remember anything about him. Even when Taki recognizes Mitsuha's red cord and runs out into the subway station, he doesn't search any further because he still thinks his feelings are irrational. In the end, the only reason the two get to meet again is because of the look they shared of mutual recognition, confirming that their respective feelings weren't just one-sided delusions.
 
@@ -43,7 +48,7 @@ However, it also wouldn't have helped much if Taki had actually written his name
 I think, in the "fixed" timeline, both remember the events exactly as one would remember a dream. For Taki, we see that even before visiting Itomori, he seemed unable to recall many details: names, faces (educated guess since he didn't draw any faces), etc. The only thing he remembers is the *landscape*, of which he produces many drawings. Importantly, these drawings are also the only physical evidence of his dreams and thus likely became the only part he remembered as time passed. When talking with Okudera, Taki describes this inexplicable attraction to the landscape of Itomori, but doesn't remember anything past that, neither the events that transpired nor the people he met there. Of course, since it's a dream, these memories are not completely lost but merely waiting to be reawakened. 
 
 For Mitsuha, she probably remembers dreaming about the comet splitting and saving the village because of it, but all the other memories are latent, just like Taki's.
-## Further Thoughts
+## Some Ranting
 Stories about dreams are always fascinating. One of my favorite phrases comes from *Inception*, when Saito describes Cobb as someone from a "half-remembered dream." That sentiment has always stuck with me---how can a dream be so vivid, yet so easily, but never completely, forgotten? What *Your Name* explores is how this can apply just as much to real life: you may forget the details of events, or the faces and even names of people, but your emotions surrounding those events and those people will linger for much longer. For instance, I don't remember many details from my trip in 8th grade to Washington, D.C, but there are certain images and emotions I associate with that week that I'll never forget: the soft glow of scattered laughter beneath the moonlight, or that sensation of "in-between", of being neither quite here nor there, on a night-time bus ride...
 
 *Your Name* emphasizes that it is these *retained emotions* that change you most, *not* the specific events that caused them. This is why Taki writes "I love you" instead of his name on Mitsuha's hand: his name would lose relevance to Mitsuha due to the paradox created by their meeting, but his love for her transcends that boundary. Even if she could deny Taki's existence as a physical impossibility, she can't deny the overwhelming love he left in her heart.

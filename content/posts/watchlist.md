@@ -5,13 +5,13 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 
 In-depth reviews will be linked below, but you can also find some on my [MAL account](https://myanimelist.net/profile/danielzqm).
 ## To Watch
+- To be Hero X
 - Moonlight
 - Spirited Away
 - Jujutsu Kaisen
 - Vinland Saga
 - Attack on Titan
 - Howl's Moving Castle
-- To be Hero X
 - Fullmetal Alchemist
 - Delicious in Dungeon
 - Chainsaw Man
@@ -27,6 +27,7 @@ In-depth reviews will be linked below, but you can also find some on my [MAL acc
 - Astra: Lost in Space
 - 5cm/sec
 -  Weathering with you + Suzume
+- Pluto
 
 ## TV
 - [[frieren|Frieren]]
