@@ -42,13 +42,13 @@ In-depth reviews will be linked below, but you can also find some on my [MAL acc
 
 ## Movies
 - Across the Spider-Verse
-- The Dark Knight
 - Into the Spider-Verse
 - Interstellar
-- The Prestige
-- Shutter Island
 - [[your-name|Your Name]]
 - The Wild Robot
+- The Dark Knight
+- The Prestige
+- Shutter Island
 - Inception
 - Oppenheimer
 - Puss in Boots 2

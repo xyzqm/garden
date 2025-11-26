@@ -1,5 +1,8 @@
 ---
 title: To Be Hero X
+tags:
+  - anime
+  - tv
 ---
 **CURRENTLY ON EP 21**
 - the concept of hero agencies being established as a way to encourage competition and prevent one singular hero from gaining too much trust is very clever
