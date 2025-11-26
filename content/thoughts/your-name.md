@@ -12,6 +12,8 @@ Some plot points were kind of unclear, but the emotional impact hit hard. When t
 ![[Pasted image 20251124111740.png|500]]
 I really like how the classic idea of "[red thread of fate](https://en.wikipedia.org/wiki/Red_thread_of_fate)" is blended with the sci-fi "time-loop" concept---the connection between Taki and Mitsuha starts only because Mitsuha gives him the red cord, but she also only gives him that cord because they are already connected. Therefore, the connection between the two is "fated" by the offset of their timelines.
 
+Also the [kuchikamizake trip](https://www.youtube.com/watch?v=GxRrJnk4iyg).scene might be some of the coolest animation I've ever seen :)
+
 ## The Plot
 Here are some questions I had after watching and the answers I came up with. Some of the following information comes from the [Earthbound](https://www.amazon.com/your-name-Another-Side-Earthbound/dp/0316473111) light novel, which helps clarify some important plot points that couldn't be squeezed into the movie's runtime.
 
