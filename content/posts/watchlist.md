@@ -5,7 +5,6 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 
 In-depth reviews will be linked below, but you can also find some on my [MAL account](https://myanimelist.net/profile/danielzqm).
 ## To Watch
-- To be Hero X
 - Moonlight
 - Spirited Away
 - Jujutsu Kaisen
@@ -28,6 +27,7 @@ In-depth reviews will be linked below, but you can also find some on my [MAL acc
 - 5cm/sec
 -  Weathering with you + Suzume
 - Pluto
+- Lord of the Mysteries
 
 ## TV
 - [[frieren|Frieren]]
@@ -38,6 +38,7 @@ In-depth reviews will be linked below, but you can also find some on my [MAL acc
 - Pantheon
 - Scavengers Reign
 - The Penguin
+- To Be Hero X
 - Brooklyn Nine-Nine
 
 ## Movies

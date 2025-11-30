@@ -4,7 +4,7 @@ tags:
   - anime
   - tv
 ---
-**CURRENTLY ON EP 21**
+**CURRENTLY ON EP 23**
 - the concept of hero agencies being established as a way to encourage competition and prevent one singular hero from gaining too much trust is very clever
 	- interesting commentary on capitalism, reminiscent of Edgerunners
 - Queen in the ruins incident felt like a bit of a deus ex machina?
@@ -19,3 +19,4 @@ tags:
 	- is he referencing Wreck/the Fear monsters that are basically staged for nice?
 - Ghostblade is for sure the most compelling character even with no dialogue
 	- his backstory was perfect, the art/sound/score really portrayed his tortuous childhood really well
+- E22: the nice ballet sequence with shand as the puppeteer was really well done
