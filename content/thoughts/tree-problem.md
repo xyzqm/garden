@@ -27,9 +27,9 @@ $$
 where $C$ denotes a child subtree of $X$.
 
 ---
-To finish, notice that when moving our root from $u$ to $v$, the contribution from the first step increases by $E_V dot S_U$  and decreases by $E_U dot S_V$. Expanding this out, the net change to this contribution is
+To finish, notice that when moving our root from $u$ to $v$, the contribution from the first step increases by $E_V S_U$  and decreases by $E_U S_V$. Expanding this out, the net change to this contribution is
 $$
-E_V dot S_U - E_U dot S_V &= (2S_V - 1) S_U - (2S_U - 1)S_V \
+E_V S_U - E_U S_V &= (2S_V - 1) S_U - (2S_U - 1)S_V \
 &= -S_U + S_V
 $$
 which exactly cancels out the change in contribution from the second step!
