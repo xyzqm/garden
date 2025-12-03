@@ -38,7 +38,7 @@ Since our strategy is always going to the smallest node, a natural choice is to 
 
 Now, let's say we are currently processing edge $(u, v)$. There are two cases to consider:
 1. $u$ and $v$ are the respective roots of their components. In this case, simply direct the edge from smaller to larger component as described above. Whether this edge is $u -> v$ or $v -> u$, it is guaranteed to end up in the final tree because neither nodes $u$ nor $v$ have any outgoing edges so far (since they are both roots), and because $(u, v)$ is the lexicographically smallest unprocessed edge, it can't be overridden by any subsequent edge.
-2. Either $u$ or $v$ is not a root. If $u$ is not a root, there must exist a tree-edge $u -> w$ where $w < u$. Therefore, if we orient the edge from $u$ to $v$, $u -> v$ will be safely ignored. The case where $v$ is not a root is symmetric: we simply orient the edge from $v -> u$. 
+2. Either $u$ or $v$ is not a root. If $u$ is not a root, there must exist a tree-edge $u -> w$ where $w < v$. $w > v$ is impossible since edge $(u, w)$ would be processed after $(u, v)$, so it can't yet exist. Therefore, if we orient the edge from $u$ to $v$, $u -> v$ will be safely ignored. The case where $v$ is not a root is symmetric: we simply orient the edge from $v -> u$. 
 
 The key takeaway here is that, by introducing a priority order to the nodes based on their labels, we are able to safely ignore non-DSU edges. This strategy thus forces Theseus to use at most $log n$ extra moves, as desired.
 
