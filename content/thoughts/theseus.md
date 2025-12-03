@@ -28,11 +28,10 @@ Before I get into the details, let me give a loose overview of what the final so
 Process the layers from furthest to closest. Within each layer, process the edges in some order (we will detail the exact order later), and direct each edge from the smaller component to the larger component. Since this is basically small-to-large DSU merging, we expect the final depth to bounded by $log n$. 
 
 Of course, this runs into a couple issues:
-1. Some edges must be "ignored" in order to maintain our tree structure, like $5 -> 3$ in the above graph. How can we guarantee that an edge will be ignored after we process it?
+1. Some edges must be "ignored" in order to maintain our tree structure, like $5 -> 3$ in the above graph. More specifically for small-to-large merging, edges must only be added between roots of components, and all other edges must be ignored. How can we guarantee that an edge will be ignored after we process it?
 2. On the other hand, what if we wanted $5 -> 3$ to end up in the final tree? How do we ensure it's not overridden by some smaller edge like $5 -> 2$?
-3. In order for small-to-large merging to work, edges must only be added between roots of components. This means we have to figure out a way to ignore edges containing non-roots as well.
 
-Therefore, we must process our edges in an order such that we can safely ignore any edge that breaks the tree structure, as well as any edge that contains a non-root.
+Therefore, we must process our edges in an order such that we can safely ignore any edge that breaks our desired structure, while also guaranteeing that correct DSU-edges won't be ignored.
 
 Since our strategy is always going to the smallest node, a natural choice is to order the edges in lexicographic order of $(u, v)$ where $u < v$. 
 
