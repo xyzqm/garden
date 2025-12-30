@@ -22,6 +22,6 @@ For instance, consider the case where our operation order is $("fa"(u), u)$, the
 
 ![[Pasted image 20251229221554.png]]
 
-In step 2 (out of 3), since we don't care about where $"fa"(u)$ settles, we can precompute `from_l[x]` as the minimum cost to freely place $u$ in the left while moving $x$ to $u$. We can show that in total over all $u$, this step takes only $O(n^2)$ time. Similar pre-computation can be applied in other cases, leading to a overall runtime of $cal(O)(n^2)$.
+In step 2 (out of 3), since we don't care about where $"fa"(u)$ settles, we can precompute `from_l[x]` as the minimum cost to freely place $u$ in the left while moving $x$ (the green node) to $u$. We can show that in total over all $u$, this step takes only $O(n^2)$ time. Similar pre-computation can be applied in other cases, leading to a overall runtime of $cal(O)(n^2)$.
 
 My submission: https://qoj.ac/submission/1878265
