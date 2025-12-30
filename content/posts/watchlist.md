@@ -29,6 +29,7 @@ In-depth reviews will be linked below, but you can also find some on my [MAL acc
 - Pluto
 - Lord of the Mysteries
 - 100 meters
+- the expanse
 
 ## TV
 - [[frieren|Frieren]]
