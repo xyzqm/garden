@@ -6,6 +6,10 @@ img {
   margin-right: auto;
 }
 
+img[alt$="bg-white"] {
+  background-color: white;
+}
+
 .tikz {
   display: block;
   margin: 1.5em 0;
