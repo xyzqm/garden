@@ -5,7 +5,11 @@ tags:
   - dp
 ---
 ## Statement
-You are given a rooted tree with $n <= 8000$ nodes and height $m <= 800$. Assign integer $w_i$ to every node such that the *value* of the tree is maximized, where value is defined as  $$sum_u limits(op("mex"))_(v in S_u) w_v$$  where $S_u$ denotes the nodes in the subtree of $u$. (https://qoj.ac/contest/2669/problem/15459)
+You are given a rooted tree with $n <= 8000$ nodes and height $m <= 800$. Assign integer $w_i$ to every node such that the *value* of the tree is maximized, where value is defined as  
+$$
+sum_u limits(op("mex"))_(v in S_u) space w_v 
+$$
+and $S_u$ denotes the nodes in the subtree of $u$. (https://qoj.ac/contest/2669/problem/15459)
 
 ## Solution
 ### $cal(O)(n^3)$
@@ -55,6 +59,4 @@ A good thing about reformulating our DP in this way is that it admits an importa
 1. *All* red chains in the subtree of $u$ have no more than `mx` nodes.
 2. The red chain rooted at $u$ has more than `mx` nodes.
 
-To prove this, consider the case where the red chain rooted at $u$ has fewer than `mx` nodes, but one of its children starts a chain with more than `mx` nodes. Then, it's never less optimal to simply connect this child to node $u$ instead. 
-
-
+To prove this, consider the case where the red chain rooted at $u$ has fewer than `mx` nodes, but one of its children starts a chain with more than `mx` nodes. Then, it's never less optimal to simply connect this child to node $u$ instead.
