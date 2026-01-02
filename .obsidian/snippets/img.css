@@ -7,3 +7,7 @@ img {
 .theme-dark img[alt$="invert"] {
   filter: invert(1);
 }
+
+img[alt$="bg-white"] {
+  background-color: white;
+}
