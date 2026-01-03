@@ -60,3 +60,7 @@ A good thing about reformulating our DP in this way is that it admits an importa
 2. The red chain rooted at $u$ has more than `mx` nodes.
 
 To prove this, consider the case where the red chain rooted at $u$ has fewer than `mx` nodes, but one of its children starts a chain with more than `mx` nodes. Then, it's never less optimal to simply connect this child to node $u$ instead.
+
+TO BE CONTINUED
+
+My submission: https://qoj.ac/submission/1881469
