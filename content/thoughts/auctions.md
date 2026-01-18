@@ -36,3 +36,15 @@ b/c price given to each person doesn't depend on what they bid, it's clearly opt
 
 1/4 lower bound:
 consider 2 bidders with $v_1 > v_2$. With probability $1/2$ they are in different sets, and therefore seller gains revenue of $v_2$ with probability $1/2$, so expected revenue is $v_2/2$, which is $1/4$ of maximum revenue $2v_2$.
+
+4.68 bound paper:
+$S_j$ = how many of the first $j$ bidders are in the sample
+$Z_j$ = fraction of first $j$ bidders in market to sample
+$Z$ = $min Z_j$ 
+- 1/15 proof considers scenarios where $Z >= 1/3$, and shows that this occurs with high probability 
+
+$E_alpha$ => probability that the maximum ratio of $S_j / j$ does not exceed $alpha$
+
+$E^T_alpha$ and $E^(T prime)_alpha$ are positively correlated for any $T$, $T prime$ 
+
+
