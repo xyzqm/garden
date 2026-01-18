@@ -14,7 +14,7 @@ interpret $y_(u, v)$ as edge-weights and find shortest path from $s$ to node $v$
 
 first, note that $d(t) >= 1$ by min-cut assumption (and this is equivalent).
 
-now, consider all possible cuts $A(T) := {v : d(v) <= T}$. we will show that there exists some value of $T in [0, 1)$ such that $"capacity"(A) <= sum c(u,v) y_(u,v)$. 
+now, consider all possible cuts $A(T) := {v : d(v) <= T}$. we will show that there exists some value of T in [0, 1\)$ such that $"capacity"(A) <= sum c(u,v) y_(u,v)$. 
 
 consider $EE_T "capacity"(A(T))$. by linearity, the contribution of each edge to this expectation is precisely $c_(u, v) y_(u, v)$. therefore $EE = "desired quantity"$, which means there must exist some $T$ such that $A(T) <= "desired quantity"$.  
 

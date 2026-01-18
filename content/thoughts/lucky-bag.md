@@ -9,7 +9,8 @@ tags:
 Partition $n$ into any number of positive integers in the range $[l, r]$. Two partitions are considered distinct if the multiset of weights is distinct---that is, $3 + 2 + 1$ is identical to $1 + 2 + 3$. Find the expected number of values that occur $>= k$ times.
 
 $1 <= l <= r <= n$ 
-$k <= n <= 5 dot 10^5$
+
+$k <= n <= 5 cdot 10^5$
 
 ## Solution
 
@@ -59,7 +60,7 @@ For instance, if $l = 2$, we could achieve the configuration ${2, 2, 3, 4}$ by t
 5. ${3, 4} -> {2, 3, 4}$ with operation 2
 6. ${2, 3, 4} -> {2, 2, 3, 4}$ with operation 2
 
-Therefore, our DP has a total of $n dot n / l$ states and each can transition in $cal(O)(1)$ for an overall complexity $cal(O)(n^2 / l)$. 
+Therefore, our DP has a total of $n cdot n / l$ states and each can transition in $cal(O)(1)$ for an overall complexity $cal(O)(n^2 / l)$. 
 
 ### $cal(O) (n sqrt(n))$ 
 
@@ -114,4 +115,3 @@ int32_t main() {
     cout << (sm * inv(ws[n]) % M) << endl;
 }
 ```
-
