@@ -10,7 +10,7 @@ Partition $n$ into any number of positive integers in the range $[l, r]$. Two pa
 
 $1 <= l <= r <= n$ 
 
-$k <= n <= 5 cdot 10^5$
+$k <= n <= 5 dot.op 10^5$
 
 ## Solution
 
@@ -60,8 +60,13 @@ For instance, if $l = 2$, we could achieve the configuration ${2, 2, 3, 4}$ by t
 5. ${3, 4} -> {2, 3, 4}$ with operation 2
 6. ${2, 3, 4} -> {2, 2, 3, 4}$ with operation 2
 
-Therefore, our DP has a total of $n cdot n / l$ states and each can transition in $cal(O)(1)$ for an overall complexity $cal(O)(n^2 / l)$. 
+Therefore, our DP has a total of $n dot.op n / l$ states and each can transition in $cal(O)(1)$ for an overall complexity $cal(O)(n^2 / l)$. 
 
+We need one more clever observation to handle the case when $r < n$. Observe that if we currently have a valid configuration, applying operation 2 can never make it invalid. Therefore, we only need to worry about operation 1.
+
+Any valid configuration that becomes invalid after applying operation 1 must have at least one occurrence of $r$. Therefore, note that every such configuration that has sum `sm` and `x` items bijects to a valid configuration with sum `sm - r` and `x - 1` items.
+
+For instance, if $r = 4$, the configuration ${2, 3, 4, 4}$ bijects to ${2, 3, 4}$. Therefore, the number of configurations for which we are allowed to apply operation 1 is simply `dp[x][sm] - dp[x - 1][sm - r]`. 
 ### $cal(O) (n sqrt(n))$ 
 
 Just put these two solutions together!
@@ -99,11 +104,14 @@ int32_t main() {
         for (int i = 1; i <= n / lb; i++) { // i = # of items with weight >= B
             dp[0].swap(dp[1]);
             dp[1].assign(n + 1, 0);
-            for (int j = lb * i; j <= n; j++) {
-                ad(dp[1][j], dp[1][j - i]); // increment all items by 1
-                ad(dp[1][j], dp[0][j - lb]); // add item with weight lb
-                if (j >= r + i) sb(dp[1][j], dp[0][j - r - i]);
+            for (int j = (i - 1) * lb; j <= n; j++) {
                 ad(ws[j], dp[1][j]);
+                if (j + i <= n) {
+                    int ws = dp[1][j];
+                    if (j >= r) sb(ws, dp[0][j - r]); // subtract off invalid configurations
+                    ad(dp[1][j + i], ws);
+                }
+                if (j + lb <= n) ad(dp[1][j + lb], dp[0][j]);
             }
         }
     }
