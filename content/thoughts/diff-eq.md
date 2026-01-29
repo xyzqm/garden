@@ -22,7 +22,7 @@ Let the current point of intersection be $(1, h)$. Then, we'd like to know how m
 
 Our goal is to find $D F$ in terms of $A D$. Let $r = C D$; then, by Pythagorean theorem, we know that $r^2 = 1 + h^2$. We also know that $E D$ is just a very small arc, so its length is $r dif t$. 
 
-It remains to find $F D$ in terms of $E D$, which can be done by noting that $triangle.t D E F ~ triangle.t C A D$ . Therefore, $(F D)/(E D) = (D C) / (A C) = r$, meaning $dif h = F D = r^2 dif t =  (1 + h^2) dif t$, as desired.
+It remains to find $F D$ in terms of $E D$, which can be done by noting that $triangle.t D E F tilde.op triangle.t C A D$ . Therefore, $(F D)/(E D) = (D C) / (A C) = r$, meaning $dif h = F D = r^2 dif t =  (1 + h^2) dif t$, as desired.
 
 Of course, $h$ is also simply $tan(t)$, therefore the solution to our original differential equation is simply
 $$
