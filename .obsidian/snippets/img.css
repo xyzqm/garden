@@ -11,3 +11,15 @@ img {
 img[alt$="bg-white"] {
   background-color: white;
 }
+
+[alt~="vid-20"] video {
+  width: 20%;
+}
+
+[alt~="vid-30"] video {
+  width: 30%;
+}
+
+[alt~="vid-40"] video {
+  width: 40%;
+}

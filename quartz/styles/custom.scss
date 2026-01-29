@@ -40,3 +40,15 @@ img[alt$="bg-white"] {
 .katex {
   font-size: 1.1em !important; /* Adjust this value as needed */
 }
+
+[alt~="vid-20"] video {
+  width: 20%;
+}
+
+[alt~="vid-30"] video {
+  width: 30%;
+}
+
+[alt~="vid-40"] video {
+  width: 40%;
+}
