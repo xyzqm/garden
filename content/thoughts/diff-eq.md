@@ -31,6 +31,13 @@ $$
 
 (remember to replace $t$ with $t + C$ since $x$ is a time-invariant system.)
 
+#### $dot(x) = sqrt(1 - x^2)$
+
+We can also make a pretty nice geometric argument here in which $sqrt(1 - x^2) dif t$ is interpreted as the y-projection of an arc of length $dif t$. Details left to the reader, but solution turns out to be
+$$
+x = sin(t + C)
+$$
+
 ### $dot(x) = c + f(t)x$
 
 #### $dot(x) = 1 + x$
