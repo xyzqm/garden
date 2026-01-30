@@ -31,6 +31,11 @@ $$
 
 (remember to replace $t$ with $t + C$ since $x$ is a time-invariant system.)
 
+Note that in the general case of $dot(x) = x^2 + a^2$ for $a > 0$, we must be careful to note that the solution is not just $x = a tan(t + C)$ but rather
+$$
+x = a tan(a(t + C))
+$$
+
 #### $dot(x) = sqrt(1 - x^2)$
 
 We can also make a pretty nice geometric argument here in which $sqrt(1 - x^2) dif t$ is interpreted as the y-projection of an arc of length $dif t$. Details left to the reader, but solution turns out to be
