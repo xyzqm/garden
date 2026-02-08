@@ -3,9 +3,7 @@ title: Latin
 tags:
   - language
 ---
-## Grammar
-
-### Subjunctives
+## Subjunctives
 
 ***Jussive:*** let it be done.
 **Ex:** *detur nobis locus, hora, custodes.*
@@ -13,9 +11,28 @@ tags:
 ***Concessive:*** even if...
 **Ex:** *ut sis tu similis Caeli Birrique latronum, non ego sum Capri neque Sulci: cur metuas me?*
 
-### Misc.
+## Dative
 
-Usually in a "si quis/quae/quod" clause, it means "si aliquis/quae/quod".
+Certain nouns have dative -i and genitive -ius, such as: 
+- *unus*
+- *nullus*
+- *ullus*
+- *solus*
+
+**Ex:** *nota magis nulli domus est sua quam mihi lucus Martis...*
+### Dative of Reference
+
+**Ex:** *inpune ergo mihi recitaverit ille togatas, hic elegos?*
+
+### Dative of Agent
+
+**Ex:** *nunc sportula primo limine parva sedet turbae rapienda togatae.*
+
+## Misc.
+
+> *After si, nisi, num, and ne, all the **ali**'s fly away...*
+
+Usually a "si quis/quae/quod" clause means "si aliquis/quae/quod".
 
 **Ex.** *si quis erat dignus describi quod malus ac fur* (Horace 1.4.3)
 **Ex**. *si quid promittere de me possum aliud vere, promitto.* (Horace 1.4.102-3)
@@ -29,7 +46,7 @@ Adjectives in front of verbs can often be treated adverbially.
 
 Can also be seen with accusative nouns...
 
-**Ex:** *.(di) me...finxerunt animi, raro et perpauca loquentis.*
+**Ex:** *(di) me...finxerunt animi, raro et perpauca loquentis.*
 
 ---
 *est quod*: there existed that which...
