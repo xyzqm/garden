@@ -7,7 +7,6 @@ In-depth reviews will be linked below, but you can also find some on my [MAL acc
 ## To Watch
 - Moonlight
 - Spirited Away
-- Jujutsu Kaisen
 - Vinland Saga
 - Attack on Titan
 - Howl's Moving Castle
@@ -16,6 +15,8 @@ In-depth reviews will be linked below, but you can also find some on my [MAL acc
 - Chainsaw Man
 - Dandadan
 - Re:Zero
+- Devs
+- Ex Machina
 - Violet Evergarden
 - Mob Pyscho 100
 - 86
@@ -30,6 +31,7 @@ In-depth reviews will be linked below, but you can also find some on my [MAL acc
 - Lord of the Mysteries
 - 100 meters
 - the expanse
+- Jujutsu Kaisen
 
 ## TV
 - [[frieren|Frieren]]

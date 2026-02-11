@@ -6,13 +6,16 @@ tags:
 ---
 The concept of _Frieren_ is truly unique. It subverts two major aspects of traditional fantasy: the story takes place _after_ the hero's journey, and its protagonist is not the human hero, Himmel, but rather the party's quasi-immortal elf, Frieren. For me, these choices ended up creating an experience utterly novel, yet still irresistibly poignant.
 
-## Understanding Frieren
+## Episodes
 
-Although I already loved the show after my first watch, I found myself confused on several occasions by Frieren's behavior. This confusion started all the way back in the first episode, when Frieren bursts into tears at Himmel's funeral.
+### S2E4
 
-## Demons
+- I found that first date really beautiful + representative of how awkward a first date might be, but in the end both Stark and Fern still really enjoyed it
+	- That feeling of disappointment and the sense of something being "off" when Stark is acting artificial
+		- fun reversal when Fern is commenting on the clouds instead of Stark, allows his true whimsical self to come out
+	- Contrasted with Himmel and Frieren's "date" where it's not really planned at all, but Himmel still finds something to enjoy about it---it's about the person, doesn't matter what specifically you do with them
 
-ideas
+## General Thoughts
 - humans v elves
 	- Fern constantly rushing Frieren + always getting mad at her for sleeping in
 	- serie vs frieren: fear vs anticipation of human era
