@@ -89,7 +89,7 @@
     "sharp": "^0.34.4",
     "shiki": "^1.26.2",
     "source-map-support": "^0.5.21",
-    "tex2typst": "^0.3.26",
+    "tex2typst": "file:tex2typst",
     "to-vfile": "^8.0.0",
     "toml": "^3.0.0",
     "unified": "^11.0.5",
