@@ -47,7 +47,7 @@ ul,
 .typst-doc,
 g[class~="typst-text"] {
   color: var(--darkgray);
-  /* fill: var(--darkgray); */
+  fill: var(--darkgray);
   overflow-wrap: break-word;
   text-wrap: pretty;
 }
