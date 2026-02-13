@@ -52,8 +52,14 @@ g[class~="typst-text"] {
   text-wrap: pretty;
 }
 
+.typst-doc,
+g[class~="typst-text"] {
+  color: var(--dark);
+  fill: var(--dark);
+}
+
 path[class~="typst-shape"] {
-  stroke: var(--darkgray);
+  stroke: var(--dark);
 }
 
 .math {
