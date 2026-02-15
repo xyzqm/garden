@@ -22,7 +22,7 @@ Consider the following algorithm to find such an intersection:
 step_balance = 0
 balance = 0
 start trajectories X and Y at 0
-while step_balance <= D:
+while step_balance < D:
 	if Y_pos <= X_pos:
 		advance Y
 		^ if single step, --step_balance, --balance
