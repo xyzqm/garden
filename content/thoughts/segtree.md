@@ -43,3 +43,6 @@ u >>= x;
 Therefore, the overall runtime of this algorithm is $cal(O)(log n)$.
 
 [Here](https://github.com/programming-team-code/programming_team_code/blob/f89d019368f9cddb0b6468b241dfcd853931f130/data_structures_%5Bl%2Cr%29/seg_tree.hpp) is a clean implementation.
+
+### Sparse Segtree
+https://codeforces.com/blog/entry/60837
