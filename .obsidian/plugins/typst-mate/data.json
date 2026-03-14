@@ -4,6 +4,7 @@
   "mathSymbolRevealDelay": 1000,
   "complementSymbolWithUnicode": true,
   "disableBracketHighlight": false,
+  "useObsidianTheme": false,
   "enableInlinePreview": true,
   "revertTabToDefault": false,
   "jumpOutsideBracket": true,
@@ -15,11 +16,39 @@
   "autoBaseColor": true,
   "baseColor": "#000000",
   "offset": 0,
+  "fitToNoteWidthProfile": "Live",
+  "fitToNoteWidthProfiles": [
+    {
+      "name": "A3",
+      "width": "700pt"
+    },
+    {
+      "name": "A4",
+      "width": "500pt"
+    },
+    {
+      "name": "A5",
+      "width": "350pt"
+    },
+    {
+      "name": "Legal",
+      "width": "516pt"
+    },
+    {
+      "name": "Letter",
+      "width": "516pt"
+    },
+    {
+      "name": "Tabloid",
+      "width": "690pt"
+    }
+  ],
   "skipPreparationWaiting": false,
   "disablePackageCache": false,
   "preamble": "#set page(margin: 0pt, width: auto, height: auto)\n#show raw: set text(size: 1.25em)\n#set text(size: fontsize)\n#let scr(it) = text(features: (\"ss01\",), box($cal(it)$))",
   "openTypstToolsOnStartup": true,
   "enableMathjaxFallback": false,
+  "applyProcessorToMathJax": false,
   "importPath": ".typst",
   "enableDebugger": false,
   "processor": {
