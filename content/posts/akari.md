@@ -3,6 +3,7 @@ title: Akari
 tags:
   - games
   - puzzles
+  - akari
 ---
 ## [394](https://dailyakari.com/archive/394)
 
