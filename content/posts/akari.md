@@ -5,6 +5,8 @@ tags:
   - puzzles
   - akari
 ---
+**NOTE:** you can find my Akari solutions under the #akari tag.
+
 ## [394](https://dailyakari.com/archive/394)
 
 ![[Pasted image 20260216125831.png|500]]
