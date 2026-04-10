@@ -1,26 +1,29 @@
 ---
 title: Akari 459
 tags:
-  - akari
+  - akari/hard
 ---
-**MEDIUM**
+we can place these two lights according to the same theme as [[akari-458|458]]:
+![[Pasted image 20260410141008.png]]
+now, observe that we cannot place a light in either of the red squares, as one forces the other, and if both lights are on the blue X cannot be rescued.
+![[Pasted image 20260410141304.png]]
+now note that in order to rescue the red X, one of the two blue squares must have a light. these two conflict with the green lights, which means all other squares on the red lines are eliminated.
+![[Pasted image 20260410141547.png]]
 
-the core theme of this puzzle is placing lights such that 2s don't suffocate 1s. for instance, at the top of the puzzle, if these two lights are placed:
-![[Pasted image 20260410131455.png]]
-then the red 1 is suffocated. therefore, we must place a light in the blue cell.
+also note that this red x must also be lit by one of the two red squares, and that if we light the green square adjacent to the 2, we must also light the other green square. these would completely block off the blue squares, so no light can be placed in the green squares.
 
-using the same idea, we place the following three lights (the green numbers show the order):
-![[Pasted image 20260410131711.png]]
+![[Pasted image 20260410142031.png]]
+now note that we cannot place lights in the green squares, otherwise the red 1 would be suffocated. following the flow from here:
+![[Pasted image 20260410142250.png]]
 
-we can repeat the same idea with the two 2s (now 1s, circled in green):
-![[Pasted image 20260410131922.png]]
-also note that because of the green squares, each of the blue and red lines must have exactly one light in either of their circled positions (i.e. either we place the left blue and the right red, or the right blue and the left red). therefore, no lights can be placed in the Xs. it follows that a light must be placed in the yellow square:
-![[Pasted image 20260410132241.png]]
-from here, the two green 2s will suffocate each other unless lights are placed in both blue squares.
+![[Pasted image 20260410142649.png]]
 
-![[Pasted image 20260410132550.png]]
-now in the bottom half of the puzzle, we can place a series of lights after rescuing the red X. in the top half, the two green 1s eliminate most cells on the red and blue lines, and in particular this means the yellow light must be placed:
-![[Pasted image 20260410134251.png]]
+(ignore the two x's in the third-to-last row, they shouldn't be there)
 
-from here, we can just follow the natural flow of the game:
-![[Pasted image 20260410134444.png]]
+note that if we **don't** place the light on the blue square, no lights can be placed on the two Xs. therefore, the circled X cannot be rescued. it then follows that the blue square **must** be lit.
+
+from here, just follow the flow!
+
+![[Pasted image 20260410143616.png]]
+
+完成です。
