@@ -5,7 +5,7 @@ tags:
 ---
 we can place these two lights according to the same theme as [[akari-458|458]]:
 ![[Pasted image 20260410141008.png]]
-now, observe that we cannot place a light in either of the red squares, as one forces the other, and if both lights are on the blue X cannot be rescued.
+now, observe that we cannot place a light in either of the red squares, as one forces the other, and if both lights are on the blue X cannot be rescued ([[line-counting]]).
 ![[Pasted image 20260410141304.png]]
 now note that in order to rescue the red X, one of the two blue squares must have a light. these two conflict with the green lights, which means all other squares on the red lines are eliminated.
 ![[Pasted image 20260410141547.png]]
