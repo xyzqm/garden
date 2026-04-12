@@ -1,11 +1,10 @@
 ---
 title: Akari
 tags:
-  - games
   - puzzles
   - akari
 ---
-**NOTE:** you can find my Akari solutions under the #akari tag.
+**NOTE:** you can find my Akari solutions under the #akari tag or in the backlinks of this page.
 
 ## [394](https://dailyakari.com/archive/394)
 
