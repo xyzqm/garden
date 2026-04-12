@@ -3,6 +3,8 @@ title: Akari 458
 tags:
   - akari/medium
 ---
+an [[akari]] puzzle.
+
 the core theme of this puzzle is placing lights such that 2s don't suffocate 1s. for instance, at the top of the puzzle, if these two lights are placed:
 ![[Pasted image 20260410131455.png]]
 then the red 1 is suffocated. therefore, we must place a light in the blue cell.

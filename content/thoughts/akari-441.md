@@ -3,6 +3,8 @@ title: Akari 441
 tags:
   - akari
 ---
+an [[akari]] puzzle.
+
 starting configuration:
 
 ![[Pasted image 20260408151547.png]]

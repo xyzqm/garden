@@ -3,6 +3,8 @@ title: Akari 459
 tags:
   - akari/hard
 ---
+an [[akari]] puzzle.
+
 we can place these two lights according to the same theme as [[akari-458|458]]:
 ![[Pasted image 20260410141008.png]]
 now, observe that we cannot place a light in either of the red squares, as one forces the other, and if both lights are on the blue X cannot be rescued.

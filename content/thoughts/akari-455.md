@@ -1,8 +1,10 @@
 ---
 title: Akari 455
 tags:
-  - akari
+  - akari/very-hard
 ---
+an [[akari]] puzzle.
+
 line counting in the upper right corner places these x's:
 ![[Pasted image 20260406135954.png]]
 we can then place these two lights, as the lights on the other side would suffocate the 2s:
