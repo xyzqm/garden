@@ -4,11 +4,11 @@ tags:
   - math
   - calculus
 ---
-## Some fun ones
+Below is a collection of some miscellaneous 1D differential equations. See [[2d-de|here]] for more on 2D systems.
 
-### Trigonometry...?
+## Trigonometry...?
 
-#### $dot(x) = 1 + x^2$
+### $dot(x) = 1 + x^2$
 
 The form $1 + x^2$ is kind of reminiscent of Pythagorean theorem for a right triangle with legs $1$ and $x$. How can we use this to our advantage?
 
@@ -36,22 +36,22 @@ $$
 x = a tan(a(t + C))
 $$
 
-#### $dot(x) = sqrt(1 - x^2)$
+### $dot(x) = sqrt(1 - x^2)$
 
 We can also make a pretty nice geometric argument here in which $sqrt(1 - x^2) dif t$ is interpreted as the y-projection of an arc of length $dif t$. Details left to the reader, but solution turns out to be
 $$
 x = sin(t + C)
 $$
 
-### $dot(x) = c + f(t)x$
+## $dot(x) = c + f(t)x$
 
-#### $dot(x) = 1 + x$
+### $dot(x) = 1 + x$
 
 Without the $1$ on RHS, $x$ would just be $exp(t + C)$. Then, note that adding some constant $C$ to $x$ will leave the LHS unchanged while increasing the RHS by $C$. Therefore, we should just be $C = -1$ to get 
 $$
 x = exp(t + C) - 1
 $$ 
-#### $dot(x) = 1 + c/t x$
+### $dot(x) = 1 + c/t x$
 
 Again, let's try solving it without the $1$ on the RHS first. For which functions is differentiation equivalent to multiplication by $c/t$? This is just the class of functions $C t^c$. 
 
