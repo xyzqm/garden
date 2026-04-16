@@ -8,7 +8,7 @@ tags:
 
 **Rating:** 9/10
 ## First Impressions
-Some plot points were kind of unclear, but the emotional impact hit hard. When they meet at kataware-doki...
+A beautiful [[anime]] movie. Some plot points were kind of unclear, but the emotional impact hit hard. When they meet at kataware-doki...
 ![[Pasted image 20251124111740.png|500]]
 I really like how the classic idea of "[red thread of fate](https://en.wikipedia.org/wiki/Red_thread_of_fate)" is blended with the sci-fi "time-loop" concept---the connection between Taki and Mitsuha starts only because Mitsuha gives him the red cord, but she also only gives him that cord because they are already connected. Therefore, the connection between the two is "fated" by the offset of their timelines.
 

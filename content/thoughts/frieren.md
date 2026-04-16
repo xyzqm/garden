@@ -4,7 +4,7 @@ tags:
   - anime
   - tv
 ---
-The concept of _Frieren_ is truly unique. It subverts two major aspects of traditional fantasy: the story takes place _after_ the hero's journey, and its protagonist is not the human hero, Himmel, but rather the party's quasi-immortal elf, Frieren. For me, these choices ended up creating an experience utterly novel, yet still irresistibly poignant.
+The concept of the [[anime]] _Frieren_ is truly unique. It subverts two major aspects of traditional fantasy: the story takes place _after_ the hero's journey, and its protagonist is not the human hero, Himmel, but rather the party's quasi-immortal elf, Frieren. For me, these choices ended up creating an experience utterly novel, yet still irresistibly poignant.
 
 ## Episodes
 
