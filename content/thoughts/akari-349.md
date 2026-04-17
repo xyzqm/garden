@@ -1,5 +1,7 @@
 ---
 title: Akari 349
+tags:
+  - akari/very-hard
 ---
 this is probably one of the most creative [[akari]] puzzles i've done so far!
 

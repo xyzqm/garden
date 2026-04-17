@@ -85,6 +85,4 @@ Ideas about remembrance, praise, and religion lie at the core of Frieren. We see
 	
 ## Questions
 - will we see sein/kraft again?
-- why has fern become so calculating? didn't hesitate to say she killed ehre, nor when killing Frieren clone
-	- yet still so sensitive and easy upset?
 - why does frieren find so much joy in magic? would she not have really negative memories associated with her entire village being wiped out?

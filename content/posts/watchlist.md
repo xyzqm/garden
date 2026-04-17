@@ -12,6 +12,7 @@ You may also be interested in my [[anime]]-specific page.
 - [[your-name|Your Name]]
 - The Wild Robot
 - The Dark Knight
+- Dune/Dune 2
 - The Prestige
 - Shutter Island
 - Inception
