@@ -13,7 +13,9 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "umami",
+      host: "danielz.fyi",
+      websiteId: "50574878-0c65-44d6-9714-0014c4f26ab6",
     },
     locale: "en-US",
     baseUrl: "danielz.fyi",
