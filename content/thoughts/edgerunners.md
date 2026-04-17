@@ -32,7 +32,7 @@ Cyberpsychosis adds yet another layer to this false consciousness. When a cyberp
 
 > Each dreamer becomes so blinded by his pursuit of individual glory that they all forget their common enemy.
 
-And alas, cyberpsychosis represents the inevitable fate of all who think in this way: for no single man, no matter how great, how "chromed up", could never even dent his corporate overlords.
+And alas, cyberpsychosis represents the inevitable fate of all who think in this way: for no single man, no matter how great, could ever overthrow the corporate overlords alone.
 ## Closing Thoughts
 
 Revisiting this show has made me remember how raw its emotions were, further amplified by my innate love for the nighttime. And, CD Projekt RED, I must say this show definitely served its purpose; I've been itching to get into the grotesquely sleek, tragically romantic world of Cyberpunk ever since I finished.
