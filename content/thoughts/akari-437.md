@@ -17,7 +17,7 @@ From here, we can eliminate all these squares by using the 1s along the diagonal
 So the lights for the 2 are determined:
 ![[Screenshot 2026-03-18 at 3.15.39 PM.png|500]]
 
-From here, we "rescue" the two red cells:
+From here, we [[rescues|rescue]] the two red cells:
 ![[Screenshot 2026-03-18 at 3.17.03 PM.png|500]]
 
 Now note that we either place lights on the blue cells or the red cell. However, we can't use the blue cells because they light one another, therefore we must light the red cell (this is the [[aspirin box]] technique):
