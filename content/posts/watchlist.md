@@ -3,7 +3,46 @@ title: Watchlist
 ---
 A list of everything I've watched, or plan to watch! All lists (besides "To Watch") are sorted in order of enjoyment/beauty, from most to least.
 
-In-depth reviews will be linked below, but you can also find some on my [MAL account](https://myanimelist.net/profile/danielzqm).
+You may also be interested in my [[anime]]-specific page.
+
+## Movies
+- Across the Spider-Verse
+- Into the Spider-Verse
+- Interstellar
+- [[your-name|Your Name]]
+- The Wild Robot
+- The Dark Knight
+- The Prestige
+- Shutter Island
+- Inception
+- Oppenheimer
+- Puss in Boots 2
+- Tenet
+- [[infinity-castle|Demon Slayer: Infinity Castle]]
+- The Shawshank Redemption
+- Memento
+- Nimona
+- Batman Begins
+- The Dark Knight Rises
+- Dunkirk (maybe should rewatch)
+- Akira
+- F1
+- Rogue One
+- The Greatest Showman
+- Superman
+- Fantastic Four: First-Steps
+## TV
+- [[frieren|Frieren]]
+- Arcane
+- [[edgerunners|Cyberpunk: Edgerunners]]
+- Severance
+- Andor
+- Pantheon
+- Scavengers Reign
+- The Penguin
+- To Be Hero X
+- Brooklyn Nine-Nine
+
 ## To Watch
 - Moonlight
 - Spirited Away
@@ -33,41 +72,3 @@ In-depth reviews will be linked below, but you can also find some on my [MAL acc
 - the expanse
 - Jujutsu Kaisen
 
-## TV
-- [[frieren|Frieren]]
-- Arcane
-- Cyberpunk: Edgerunners
-- Severance
-- Andor
-- Pantheon
-- Scavengers Reign
-- The Penguin
-- To Be Hero X
-- Brooklyn Nine-Nine
-
-## Movies
-- Across the Spider-Verse
-- Into the Spider-Verse
-- Interstellar
-- [[your-name|Your Name]]
-- The Wild Robot
-- The Dark Knight
-- The Prestige
-- Shutter Island
-- Inception
-- Oppenheimer
-- Puss in Boots 2
-- Tenet
-- [[infinity-castle|Demon Slayer: Infinity Castle]]
-- The Shawshank Redemption
-- Memento
-- Nimona
-- Batman Begins
-- The Dark Knight Rises
-- Dunkirk (maybe should rewatch)
-- Akira
-- F1
-- Rogue One
-- The Greatest Showman
-- Superman
-- Fantastic Four: First-Steps
