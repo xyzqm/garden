@@ -66,7 +66,7 @@ To generalize our line solution, we claim the following solution works for any t
 3. From here, make *any* additional upgrades: we claim that any choice of upgrades that minimizes total cost necessarily corresponds to a valid solution.
 
 If claim in point 3 is true (which we will prove momentarily), the problem reduces to the following:
-> You are presented with $n$ boxes. from box $i$ you can take zero items for cost 0, one item for cost $c_i$, and two items for cost $C_i$. it is guaranteed $c_i <= C_i$. Find the maximum number of items that can be taken given that the total cost must not exceeded $K$.
+> You are presented with $n$ boxes. From box $i$ you can take zero items for cost 0, one item for cost $c_i$, and two items for cost $C_i$. it is guaranteed $c_i <= C_i$. Find the maximum number of items that can be taken given that the total cost must not exceeded $K$.
 
 To solve this, we can split boxes into two types:
 1. $c_i <= C_i - c_i$. We can split this box into two single-item boxes with cost $c_i$ and $C_i - c_i$ respectively. Note that we should never take the second box without taking the first box, so any valid solution with this reduction corresponds to a valid solution for the original problem as well.
