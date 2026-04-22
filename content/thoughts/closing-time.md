@@ -37,7 +37,7 @@ Now, consider the case in which the tree is a single line, and $X$ and $Y$ are a
 
 *A possible solution. The square means we want this node to be reachable from both $X$ and $Y$, and the blue costs represent $C(u)$. Therefore, the total cost of this configuration is $0 + 2 + 6 + 2 + 0 = 10 <= K$. The total convenience is 1 + 1 + 2 + 1 + 1 = 6.* 
 
-First, note that in order for any node to be a squares, all nodes on this line must at least be shaded circles first (some of which we can then "upgrade" to squares). Moreover, the nodes upgraded to squares must start from the midpoints and propagate outward. For instance, in the example above, it'd be invalid to have only the second node from the left as a square, and the rest as circles.
+First, note that in order for any node to be a square, all nodes on this line must at least be shaded circles first (some of which we can then "upgrade" to squares). Moreover, the nodes upgraded to squares must start from the midpoints and propagate outward. For instance, in the example above, it'd be invalid to have only the second node from the left as a square, and the rest as circles.
 
 ![[Pasted image 20260421000318.png|500]]
 
@@ -65,7 +65,7 @@ To generalize our line solution, we claim the following solution works for any t
 2. Otherwise, assume some node is reachable twice: this means that all nodes on the path from $X$ to $Y$ must be upgraded at least once.
 3. From here, make *any* additional upgrades: we claim that any choice of upgrades that minimizes total cost necessarily corresponds to a valid solution.
 
-If claim in point 3 is true (which we will prove momentarily), the problem reduces to the following:
+If the claim in point 3 is true (which we will prove momentarily), the problem reduces to the following:
 > You are presented with $n$ boxes. From box $i$ you can take zero items for cost 0, one item for cost $c_i$, and two items for cost $C_i$. it is guaranteed $c_i <= C_i$. Find the maximum number of items that can be taken given that the total cost must not exceeded $K$.
 
 To solve this, we can split boxes into two types:
