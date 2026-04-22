@@ -33,13 +33,15 @@ On the other hand, when the noun is more descriptive than the adjective, it appe
 
 ## Dative
 
-Certain nouns have dative -i and genitive -ius, such as: 
-- *unus*
-- *nullus*
-- *ullus*
-- *solus*
+The general pattern seems to be that the dative establishes a more *direct* context than the ablative (like the Japanese に). For instance, the ablative of agent usually conveys context that isn't the main focus of the action, e.g.:
+> puer ab magistro laudatur.
 
-**Ex:** *nota magis nulli domus est sua quam mihi lucus Martis...*
+The focus of the sentence is that the boy is being praised, not the teacher.
+
+However, when the dative of agent is used, e.g. with the gerundive of obligation:
+> haec vōbīs prōvincia est dēfendenda.
+
+It draws more attention to *vobis* as the subject of obligation.
 ### Dative of Reference
 
 **Ex:** *inpune ergo mihi recitaverit ille togatas, hic elegos?*
@@ -48,6 +50,18 @@ Certain nouns have dative -i and genitive -ius, such as:
 
 **Ex:** *nunc sportula primo limine parva sedet turbae rapienda togatae.*
 
+### Dative Object
+
+Certain verbs like *faveo*, *ignosco*, and *credo* take their objects in the dative rather than the accusative. I think these are usually the verbs that relate more to internal feeling (favor, forgiveness, belief) rather than external action?
+## i-stems
+
+Certain nouns have dative -i and genitive -ius, such as: 
+- *unus*
+- *nullus*
+- *ullus*
+- *solus*
+
+**Ex:** *nota magis nulli domus est sua quam mihi lucus Martis...*
 ## Misc.
 
 > *After si, nisi, num, and ne, all the **ali**'s fly away...*
@@ -56,20 +70,27 @@ Usually a "si quis/quae/quod" clause means "si aliquis/quae/quod".
 
 **Ex.** *si quis erat dignus describi quod malus ac fur* (Horace 1.4.3)
 **Ex**. *si quid promittere de me possum aliud vere, promitto.* (Horace 1.4.102-3)
-**Ex**: *ubi quid datur otii, illudo chartis.* (Horace 1.4.138-9)
+**Ex.** *ubi quid datur otii, illudo chartis.* (Horace 1.4.138-9)
 
 ---
 Adjectives in front of verbs can often be treated adverbially.
 
-**Ex:** *hinc omnis pendet Lucilius.* (Horace 1.4.6)
-**Ex:** *durus componere vers(u)s.* (Horace 1.4.8)
+**Ex.** *hinc omnis pendet Lucilius.* (Horace 1.4.6)
+**Ex.** *durus componere vers(u)s.* (Horace 1.4.8)
 
 Can also be seen with accusative nouns...
 
-**Ex:** *(di) me...finxerunt animi, raro et perpauca loquentis.*
+**Ex.** *(di) me...finxerunt animi, raro et perpauca loquentis.*
 
 ---
 *est quod*: there existed that which...
 
-**Ex:** *erat quod tollere velles.* (Horace 1.4.11)
-**Ex:** *sunt quod quos genus hoc minime iuvat.*
+**Ex.** *erat quod tollere velles.* (Horace 1.4.11)
+**Ex.** *sunt quod quos genus hoc minime iuvat.*
+
+## Open questions
+> quamquam ridentem dicere verum quid vetat?
+
+How to know that ridentem doesn't go with verum?
+
+*Conjecture:* infinitives don't usually split the adjective from the noun?

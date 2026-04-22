@@ -1,8 +1,13 @@
 {
   "pluginList": [
+    "zhaoshenzhai/obsidian-mathlinks",
     "azyarashi/obsidian-typst-mate"
   ],
   "pluginSubListFrozenVersion": [
+    {
+      "repo": "zhaoshenzhai/obsidian-mathlinks",
+      "version": ""
+    },
     {
       "repo": "azyarashi/obsidian-typst-mate",
       "version": "latest"

@@ -3,25 +3,32 @@ title: The Sprague-Grundy theorem
 tags:
   - games
 ---
-Before we begin, you should probably familiarize yourself with a traditional explanation of the Sprague-Grundy theorem first, such as [this one](https://cp-algorithms.com/game_theory/sprague-grundy-nim.html).
+## Preliminaries
 
-> [!Note]
-> Game states will henceforth be referred to as *positions*. Note that any position can be thought of as a game itself: just take the subgraph of the overall DAG that is reachable from the current position.
+First, you may want to read a short introduction to the problem space such as [this one](https://cp-algorithms.com/game_theory/sprague-grundy-nim.html#introduction).
+
+Traditionally, the Nim game is introduced *prior* to deriving the Sprague-Grundy theorem. In this post, we will instead show how Nim naturally arises from a **greedy algorithm** to categorize games. Specifically, we will first motivate the usage of XOR, then the usage of MEX.
 
 Theoretically, to solve any impartial game, we need only to determine a single bit of information about every possible position: whether the next player (about to make a move) wins, or loses. If the next player wins, the state is called an *N-position*; otherwise, if the previous player wins, the state is a *P-position*. Together, N-positions and P-positions comprise the two possible **outcome classes** of any impartial game.
 
 ![[Pasted image 20251104184810.png]]
 
-*An example of a simple game, with positions labeled N or P. Recall that all games can be represented as DAGs (directed acyclic graphs).*
+*An example of a simple game with positions labeled N or P. Recall that all impartial games can be represented as DAGs (directed acyclic graphs).*
 
-However, let's say we want equivalence classes that are a bit more fine-grained. Why? Well, consider the operation of combining two positions $G$ and $H$ (henceforth denoted as $G + H$) in parallel, which means that these two positions will be played side-by-side: on each player's turn, they can choose to move on *exactly one* of the positions, and leave the other unchanged (a classic example of this would be a two-pile Nim game).
+The positions are labelled according to the following rules:
+1. All terminal states (i.e. states with no out-degree) are P-positions.
+2. If a state has an edge to any P-position, it is an N-position.
+3. Otherwise, it is a P-position.
+
+## Sums of games
+
+We define the sum of two games $G + H$ as a new game in which the games $G$ and $H$ are played in parallel: on each player's turn, they can choose to move in *exactly one* of the two games, and leave the other unchanged (a classic example of this would be a two-pile Nim game).
 
 > [!Note]
 > Considering the positions as DAGs, this $+$ operation corresponds precisely to a Cartesian product:
 ![[Pasted image 20251104184829.png]]
 > *A simple Cartesian product, illustrated. Each edge corresponds to a move on exactly one of the two parallel positions.*
->
-> Note that the $+$ operation as defined here is both commutative and associative. It is also closed, since the Cartesian product of two DAGs is still a DAG.
+> Note that the $+$ operation as defined here is both commutative and associative. It is also closed over the space of impartial games, since the Cartesian product of two DAGs is still a DAG.
 
 Importantly, under our current definition of equivalence by outcome classes (i.e. all N-positions are equivalent, as are all P-positions), equivalent positions **might not** produce equivalent results when combined with other positions. Specifically, two N-positions combined could produce either an N-position or a P-position.
 
@@ -31,89 +38,86 @@ Importantly, under our current definition of equivalence by outcome classes (i.e
 
 This motivates a new definition of equivalence:
 
->[!tip] Definition
->$G equiv G'$ iff for all positions $H$, $G + H$ and $G' + H$ belong to the same outcome class.
+>[!tip] Definition: position equivalence
+>$G equiv H$ iff for all positions $X$, $X + G$ and $X + H$ belong to the same outcome class.
 >
-> Note that this also means that if $G equiv G'$, $G + H equiv G' + H$ as well, since 
-> $$
-> G equiv G'  =>∀ (H, H'),  G + (H + H') equiv G' + (H + H') => ∀ H', (G + H) + H' equiv (G' + H) + H'
-> $$
-Here, we use the fact that $+$ is associative.
 
-And the equivalence classes of positions under this definition are precisely what the Sprague-Grundy theorem helps us find!
+To assist with the following inductive proofs, we introduce the notion of the **size** of a position $|G|$ as the total number of reachable positions from $G$ after one more more moves. Importantly, this means that if position $G$ can move to position $H$, $|H| < |G|$. 
 
->[!note]
-> While the Sprague-Grundy theorem is often thought of as a very general result, it's only really useful when games are being combined in parallel. Otherwise, the Grundy number has no real meaning.
+We will also refer to the previous player and next player as Players P and N, respectively.
 
----
-Let's consider the identity equivalence class, $0$, defined such that for every position $G$ in this class, $A equiv A + G$ for all games $A$. A trivial example of such a game is the empty position ${}$, but there are actually more. In fact:
+We can now prove our first theorem:
+> [!note] Theorem: P-positions
+> For any P-position $G$, $G equiv emptyset$ ($emptyset$ denotes the empty game, which is also a P-position).
 
->[!info] Lemma 1
-> $0$ is exactly the set of all P-positions.
+*Proof.* By definition, we must show that for all $X$, $X + G$ and $X$ have the same winner. We split this into two cases:
+1. $X$ is a P-position, so we want to show $X + G$ is also a P-position. 
+	- If player N moves $X -> X'$, player P must be able to make the move $X' -> X''$ where $X''$ is a P-position. By induction on $|X|$, $X'' + G$ is also a P-position. 
+	- Symmetric reasoning for if player N moves $G -> G'$ instead. 
+	- Therefore, no matter how player N moves in $X + G$, player P can always return it to a P-position.
+2. $X$ is an N-position, so we want to show that $X + G$ is also an N-position.
+	- If $X$ is an N-position, there must exists a move $X -> X'$ such that $X'$ is a P-position. From the first case, $X' + G$ is also a P-position, therefore in both games player N can move to a P-position, as desired.
 
-**Proof:**
-Let's pick some P-position $G$. We wish to prove that for all positions $A$, $A equiv A + G$. Note that this is actually equivalent to proving the simpler statement that for all positions $A$, $A$ and $A + G$ belong to the same outcome class.
-
-If $A$ is an N-position, the first player can win $A + G$ like so:
-- Always play in $A$ according to their original strategy for $A$.
-- If the second player plays in $G$, the first player will always have a response since $G$ is a P-position.
-
-A similar argument holds for the case when $A$ is a P-position.
-
-On the contrary, no N-position can be in $0$: a simple counter-case is $A = {}$.
-
-Another useful lemma:
->[!info] Lemma 2
-> For all positions $G$, $G + G = 0$.
-
-**Proof:**
-Player 2 can always simply mirror Player 1's move. Thus, $G + G$ is a P-position and therefore is in $0$.
-
-...Wait a minute. $G + G = 0$? This $+$ operation is starting to look suspiciously like XOR! In fact, Lemma 2 is *precisely the reason why XOR appears in the Sprague-Grundy theorem:* **not** because of the nim-sum, but because of this much more fundamental "mirror" property.
-
-By the way, this property also gives us an easier way to check equivalence:
->[!info] Lemma 3
-> $G equiv G'$ iff $G + G' = 0$.
-
-**Proof:**
-For all $A$, $A + G equiv A + G + (G + G') equiv A + (G + G) + G' equiv A + G'$. Here, we've used the fact that $+$ is associative.
+Importantly, this means that *all P-positions are still equivalent to one another.*
 
 ---
+> [!info] Corollary
+> For all games $G$, $G + G equiv emptyset$. 
 
-Now, let's define a *basis* of games $X_i$ such that every game $G$ is equivalent to the sum of *exactly one* subset of $X$. Essentially, the games in $X$ must all be independent, as well as span all possible games under the $+$ operation.
+*Proof.* We just need to show $G + G$ is a P-position, which is true because player P can always just mirror the moves of player N.
 
-Then, using this basis, every equivalence class $G$ has a unique binary representation $f_X(G)$, where the $i$th bit of $f_X(G)$ denotes whether $X_i$ is a member of the equivalent subset or not. Importantly, combining two games in parallel then corresponds to simply XOR-ing these binary representations!
+---
+Now that we've now discovered the inverse of $G$ (specifically, $-G = G$), note that our notions of equivalence and sum define a **group**:
+1. The operation $+$ is both associative and commutative.
+2. The identity element is $emptyset$. 
+3. The inverse of an element $G$ is $G$ itself.
 
-So, are these binary representations the Grundy numbers, then?
+> [!info] Corollary
+> $G equiv H$ iff $G + H$ is a P-position, i.e. $G + H equiv emptyset$.
 
-Well, not quite. See, we don't just have one choice of basis. Consider the game of Nim, for instance. The classic basis is ${*1, *2, *4, *8,...}$ where $*x$ denotes a single pile of size $x$. In this basis, we would represent the game $*7$ as $111_2$. However, we could also use something like ${*1, *3, *6, *8, *16,...}$, in which case $*7$ would be represented as $101_2$ instead. Yet, no matter what basis $X$ we choose, remember that $f_X(G + H)$ **always** equals $f_X(G) xor f_X(H)$ due to Lemma 2.
+*Proof.* By elementary group properties.
+## XOR?
 
-What basis should we use then? And how do we even ensure our basis elements are independent?
+The fundamental reason that XOR shows up is the fact that $G + G = emptyset$. In particular, consider a set of positions ${g_i}$ and the following two sums:
+- $G = g_1 + g_2 + g_4$;  we encode this as $f(G) = 1101$. 
+- $H = g_2 + g_3$; we encode this as $f(H) = 0110$.
 
-Enter: mex! Just like XOR, the use of the mex function in the Sprague-Grundy theorem is typically justified by converting all games into Nim. However, there again exists a more fundamental reason for its use: it encapsulates a clever *greedy algorithm* that helps us quickly find a valid basis.
+Then we have that $G + H = g_1 + g_3 + g_4 => f(G + H) = 1011 = f(G) xor f(H)$.
 
-Whaa? OK, let me describe this greedy algorithm to you first, without using mex at all.
-1. Topologically sort all game states (guaranteed to be possible since game is a DAG).
-2. Initialize our basis $X$ as an empty *list*, $[]$ (because order matters!).
-3. In reverse topological order, check if our current game $G$ is independent of $X$. If yes, append $G$ to the end of $X$.
+Note that this XOR property holds for *any choice* of ${g_i}$. However, we'd also like an additional condition:
+> Any non-empty sum of *distinct* elements of ${g_i}$ should not be equivalent to $emptyset$. 
+
+or, alternatively:
+> Every position $G$ should have a unique representation as a sum of *distinct* ${g_i}$. 
+
+In linear algebra terms, we want ${g_i}$ to be an **independent basis** of all possible positions. If this holds, then we have the nice property that $G equiv emptyset$ iff $f(G) = 0$.
+
+Therefore, it remains to solve the following question: how do we actually find such a basis?
+
+## MEX!
+
+Let me first describe a simple algorithm to find a basis:
+1. Topologically sort all game states.
+2. Initialize our basis $g$ as an empty *list*, $[]$ (because order matters!).
+3. In reverse topological order, check if our current game $G$ is independent of $g$. If yes, append $G$ to the end of $g$.
 
 And that's it!
 
-Wait, what? That's it? How is this even remotely related to mex? And how do we check whether a game is independent of $X$? The key idea is to show that because of this specific greedy approach, the $i$th basis element $X_i$ has the property that it can transition to an equivalent state of **every** subset of the first $i$ basis elements. That is, for every $z < 2^i$, $X_i$ can transition to a state $Z$ such that $f_X(Z) = z$. This will enable us to implement a much faster check for independence.
+Wait, what? That's it? How is this even remotely related to MEX? And how do we check whether a game is independent of $G$? The key idea is to show that because of this specific greedy approach, the $i$th basis element $g_i$ has the property that it can transition to an equivalent state of **every** subset of the first $i$ basis elements. That is, for every $z < 2^i$, $g_i$ can transition to a state $Z$ such that $f(Z) = z$. This will enable us to implement a much faster check for independence.
 
 In fact, together with the properties of XOR, this claim generalizes to the following:
 
->[!info] Lemma 4
-> For every state $Y$ and every $z < f_X(Y)$, $Y$ can transition to some state $Z$ such that $f_X(Z) = z$.
+>[!info] Theorem
+> For every state $Y$ and every $z < f(Y)$, $Y$ can transition to some state $Z$ such that $f(Z) = z$.
 
 Do you see where mex could come in now?
 
 **Proof:**
-We induct. Let's say this claim is true for every state we've encountered so far in our reverse topological order: the base case is rather simple. Now, let our current state be $G$, and the set of possible next states as $T_i$. Let $m$ be the mex of $f_X(T_i)$ over all $T_i$. We wish to show that $f_X(G) = m$.
+We induct. Let's say this claim is true for every state we've encountered so far. Now, let our current state be $G$, and the set of possible next states as $T_i$. Let $m$ be the MEX of $f(T_i)$ over all $T_i$. We wish to show that $f(G) = m$.
 
 To do this, consider some game $M$ in equivalence class $m$ and spanned by our current basis $X$. If no such game exists, $G$ is independent of $X$ and thus will be added as a new element to the basis. Note that this also means we can transition to every game currently spanned by $X$, so our inductive hypothesis still holds.
 
-Otherwise, we then need to prove is that $G equiv M$, or that $G + M = 0$. We can show this by splitting into two cases:
+Otherwise, we then need to prove is that $G equiv M => G + M equiv emptyset$. We can show this by splitting into two cases:
 1. The first player moves either $G$ or $M$ to a state $Z$ with $f_X(Z) < m$. The second player can then match this value by moving on the other game. Both states will have value $f_X(Z)$ and will thus form a P-position.
 2. The first player moves either $G$ or $M$ to a state $Z$ with $f_X(Z) > m$. The second player can then move this state back to one with value $m$. Both games will now have value $m$ and will thus form a P-position.
 
