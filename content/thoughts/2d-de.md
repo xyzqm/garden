@@ -2,7 +2,7 @@
 title: 2D differential equations
 tags:
 ---
-Today, we'll consider [[diff-eq|differential equations]] with two variables.
+*Today*, we'll consider [[diff-eq|differential equations]] with two variables.
 
 ## Linear
 

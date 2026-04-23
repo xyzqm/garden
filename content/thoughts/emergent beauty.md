@@ -8,7 +8,7 @@ I think one characteristic that has defined many of my interests is my attractio
 
 From this fact came the realization that some of these pitches sound good together---enter scales and chords. Then, someone realized certain chords could be combined to create packets of emotion, then these packets coalesced into cohesive pieces…and so humanity’s diverse discography, spanning every emotion, environment, and aesthetic, emerges from a singularly simple property of sound.
 
-2\. **Puzzles.** One of my favorite puzzles is [[akari|Akari]], a game which involves placing lights to satisfy certain requirements. It has only three rules:
+2\. [[puzzle|Puzzles]]. One of my favorite puzzles is [[akari|Akari]], a game which involves placing lights to satisfy certain requirements. It has only three rules:
 
 1. If a square is marked with a number, that many lights must be placed next to that square.  
 2. No two lights can shine on one another.  
