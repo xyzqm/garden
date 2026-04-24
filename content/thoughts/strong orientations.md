@@ -2,7 +2,7 @@
 title: Strong orientations
 ---
 Per [Wikipedia](https://en.wikipedia.org/wiki/Strong_orientation):
-> In [graph theory](https://en.wikipedia.org/wiki/Graph_theory "Graph theory"), a **strong orientation** of an [undirected graph](https://en.wikipedia.org/wiki/Undirected_graph "Undirected graph") is an assignment of a direction to each edge (an [orientation](https://en.wikipedia.org/wiki/Orientation_\(graph_theory\) "Orientation (graph theory)")) that makes it into a [strongly connected graph](https://en.wikipedia.org/wiki/Strongly_connected_graph "Strongly connected graph"). 
+> In [[graph theory]], a **strong orientation** of an undirected graph is an assignment of a direction to each edge (an [orientation](https://en.wikipedia.org/wiki/Orientation_\(graph_theory\) "Orientation (graph theory)")) that makes it into a [strongly connected graph](https://en.wikipedia.org/wiki/Strongly_connected_graph "Strongly connected graph"). 
 
 A natural question that follows: *which undirected graphs have a strong orientation?*
 
@@ -28,6 +28,10 @@ Today, I'll present another approach which Wikipedia cites as [Boesch and Tindel
 > Consider a mixed graph $G$ (i.e. with both directed and undirected edges) such that every pair of nodes in $G$ can reach one another. If there exists an undirected edge $(u, v)$ in $G$ that is not a bridge, we always assign a direction to this edge such that all-pairs connectivity is preserved.
 
 If this is true, we can direct all the edges of a bridgeless graph in any order until the entire graph is an SCC.
+
+![[Pasted image 20260423213527.png]]
+
+*Two examples of such mixed graphs, and the corresponding orientation (shown in blue) assigned to the edge $(u, v)$*.
 
 *Proof of claim.* Consider the graph $G \\ {(u, v)}$ (i.e. $G$ with edge $(u, v)$ removed). We wish to show that in this graph, there always exists a path either from $u -> v$ or from $v -> u$. If the former is true, we can direct this edge from $v -> u$; otherwise, we can direct this edge from $u -> v$.
 
