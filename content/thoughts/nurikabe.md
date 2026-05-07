@@ -49,6 +49,15 @@ The newly shaded cell must be filled in, otherwise the shaded cells cannot form 
 From here, the solution is reasonably guessed:
 ![400](https://www.puzzle-nurikabe.com/screenshots/b2c4f2de8e512d696ec552b4ffcfac6569e9a36f3a82d.png)
 
-There's no shame in guessing Nurikabe puzzles; even the automated solver is unable to solving some of the 7x7 puzzles without guessing!
+There's no shame in guessing Nurikabe puzzles; even the automated solver is unable to solve some of the 7x7 puzzles without guessing!
 
 
+## Some solves
+
+![[Screen Recording 2026-05-06 at 8.13.22 PM.mov]]
+
+the core technique in this puzzle is to note that any square not directly adjacent to a 2 can be shaded in ([source](https://puzsq.logicpuzzle.app/puzzle/159765)).
+
+![[Screen Recording 2026-05-06 at 8.17.44 PM.mov]]
+
+[this puzzle](https://puzsq.logicpuzzle.app/puzzle/159955) is quite clever: the core trick is figuring out how to route the 9 in order to avoid a whirlpool.

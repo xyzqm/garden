@@ -13,3 +13,5 @@ here, we can't light the two red squares because they are both adjacent a single
 
 ![[Pasted image 20260416175850.png]]
 after placing this light, note that in order to light all 4 green regions, we must either choose all the red lights or all the blue lights. in either case, the 4 green Xs are eliminated.
+
+#fragment

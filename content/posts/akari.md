@@ -13,3 +13,7 @@ All puzzles and puzzle numbers come from https://dailyakari.com/. I highly recom
 - [[rescues]]
 ## Favorites
 - [[akari-349|349]]
+- 203
+- 252
+- 483
+- 335
