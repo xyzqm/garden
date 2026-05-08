@@ -22,3 +22,4 @@ These are "simpler" problems that are still quite fun to think about.
 - [2122D: Traffic Lights](https://codeforces.com/contest/2122/problem/D)
 - [1481E: Sorting Books](https://codeforces.com/contest/1481/problem/E)
 - [2147D: Game on Array](https://codeforces.com/contest/2147/problem/D)
+- [2150C: Limited Edition Shop](https://codeforces.com/contest/2150/problem/C)

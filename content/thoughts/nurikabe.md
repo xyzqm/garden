@@ -54,6 +54,8 @@ There's no shame in guessing Nurikabe puzzles; even the automated solver is unab
 
 ## Some solves
 
+For writeups, check the backlinks to this page!
+
 ![[Screen Recording 2026-05-06 at 8.13.22 PM.mov]]
 
 the core technique in this puzzle is to note that any square not directly adjacent to a 2 can be shaded in ([source](https://puzsq.logicpuzzle.app/puzzle/159765)).
