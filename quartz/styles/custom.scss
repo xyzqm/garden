@@ -10,6 +10,10 @@ img[alt$="bg-white"] {
   background-color: white;
 }
 
+img[alt$="500"] {
+  width: 500px;
+}
+
 .tikz {
   display: block;
   margin: 1.5em 0;
