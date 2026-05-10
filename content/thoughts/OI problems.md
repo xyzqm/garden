@@ -10,10 +10,12 @@ here are some of my favorite OI problems!
 - 2018 seats
 - 2018 highway tolls
 - 2018 werewolf
+- mechanical doll
 - [[2020 stations]]
 - 2016 detecting molecules
 ## CF
 - [2147F: Exchange Queries](https://codeforces.com/contest/2147/problem/F)
+- [2223D: Zhily and Cycle](https://codeforces.com/contest/2223/problem/D)
 ## Simple
 
 These are "simpler" problems that are still quite fun to think about.

@@ -1,7 +1,7 @@
 ---
 title: Nurikabe
 ---
-A [[puzzle]] type.
+ A [[puzzle]] type.
 
  You can find lots of nurikabe puzzles [here](https://www.puzzle-nurikabe.com/), as well as a good explanation of the rules [here](https://www.conceptispuzzles.com/index.aspx?uri=puzzle/nurikabe/rules) and common strategies [here](https://www.conceptispuzzles.com/index.aspx?uri=puzzle/nurikabe/techniques).
 
