@@ -63,3 +63,6 @@ the core technique in this puzzle is to note that any square not directly adjace
 ![[Screen Recording 2026-05-06 at 8.17.44 PM.mov]]
 
 [this puzzle](https://puzsq.logicpuzzle.app/puzzle/159955) is quite clever: the core trick is figuring out how to route the 9 in order to avoid a whirlpool.
+
+## Favorites
+https://puzsq.logicpuzzle.app/puzzle/151634

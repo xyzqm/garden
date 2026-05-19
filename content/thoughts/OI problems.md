@@ -13,6 +13,12 @@ here are some of my favorite OI problems!
 - mechanical doll
 - [[2020 stations]]
 - 2016 detecting molecules
+## JOI
+- Designated Cities
+- Dungeon 3
+- Sandcastle 2
+- [[JOI Lamps]]
+- Two Dishes
 ## CF
 - [2147F: Exchange Queries](https://codeforces.com/contest/2147/problem/F)
 - [2223D: Zhily and Cycle](https://codeforces.com/contest/2223/problem/D)
