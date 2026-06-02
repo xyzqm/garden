@@ -22,6 +22,7 @@ here are some of my favorite OI problems!
 ## CF
 - [2147F: Exchange Queries](https://codeforces.com/contest/2147/problem/F)
 - [2223D: Zhily and Cycle](https://codeforces.com/contest/2223/problem/D)
+- 2229F: Load Unbalancing
 ## Simple
 
 These are "simpler" problems that are still quite fun to think about.
