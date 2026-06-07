@@ -8,6 +8,7 @@ title: 2026 summer log
 # 6.6
 - authored some [flows content](https://github.com/cpinitiative/usaco-guide/pull/6241)
 - finished summer schedule for college stuff
+- finished [[survivor bias]] draft
 # 6.5
 - created tetrar
 # 6.4
