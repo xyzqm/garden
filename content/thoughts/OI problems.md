@@ -19,11 +19,16 @@ here are some of my favorite OI problems!
 - Sandcastle 2
 - [[JOI Lamps]]
 - Two Dishes
+- Sightseeing in Kyoto (https://qoj.ac/problem/3502); kinda related to green's theorem?
 ## CF
 - [2147F: Exchange Queries](https://codeforces.com/contest/2147/problem/F)
 - [2223D: Zhily and Cycle](https://codeforces.com/contest/2223/problem/D)
 - 2229F: Load Unbalancing
 - [cake is a lie](https://codeforces.com/contest/2232/problem/F) (fun extended euclidean algo problem)
+- 2006C: [Eri and Expanded Sets](https://codeforces.com/contest/2006/problem/C)
+- 1943D: [Counting is Fun](https://codeforces.com/contest/1943/problem/D2)
+## Misc.
+- [Gesture Password](https://www.luogu.com.cn/problem/P7246): you are given a weighted tree. in one operation, you may pick a path of nodes and decrement the weights of all those nodes. what's the minimum number of operations to reduce all weights to EXACTLY 0?
 ## Simple
 
 These are "simpler" problems that are still quite fun to think about.

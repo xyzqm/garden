@@ -2,13 +2,60 @@
 title: 2026 summer log
 ---
 # TODO
-- finish vlog + edit?
-- college research stuff
+- ESSAY BRAINSTORMING
+- finish revising paper for submission
+- read other alec papers
+- add tree queries to usaco guide
+- finish vlog + arcane edit?
+- design lang app (offloaded)
+- calc textbook
+- write about LP duality?
 
+## Songs to edit to
+- Calligraphy - Saba
+- i love you/the greatest - billie eilish
+# 6.13
+- solved [range increment](https://atcoder.jp/contests/arc220/tasks/arc220_c)
+- review [gesture password](https://www.luogu.com.cn/problem/P7246)
+- [[arcane x i love you]] edit storyboard
+# 6.12
+- revised paper
+- watched 3 idiots
+# 6.11
+- wrote evil akshaj (+ a couple more np-complete problems)
+	- also wrote up solution and stressed against gemini
+- fixed resume
+- met with alec to discuss next potential topic
+- two questions about favorite/least favorite social scene
+- edited up to 1:40
+# 6.10
+- authored Catalan numbers module for usaco.guide ([module](https://usaco.guide/adv/catalan) and [problem](https://usaco.guide/problems/cf-balanced-subsequences/solution))
+- answered long question about social image at school
+- won a game of forbidden desert!
+- authored a couple np-hard problems, solved two andrew problems
+# 6.9
+- vp [[cf 1943]]; brick A, solve B and C
+- 3 more brainstorming questions (skipped 2)
+- vp [cf 1942](https://codeforces.com/contest/1924), genuinely terrible problems B and C
+- wrote a med-level graph problem
+- added like 5 seconds of fish bowl content to the edit
+# 6.8
+- solve andrew's problem
+- lang app PRD
+- attempted to add akari line counting but way too slow so far
+- four essay brainstorming questions (skipped Q2)
+- ch 1-2 of wuthering heights (+2 reading Qs)
+- calc outline begun
+
+# 6.7
+- vp [div 1 round 2006](https://codeforces.com/contest/2006) (result: A-C, but 30+ minutes in middle for cc meeting)
+- add solution for [joi mergers](https://github.com/cpinitiative/usaco-guide/pull/6216)
+- hour of bball at park; knee didn't suffer too much
 # 6.6
 - authored some [flows content](https://github.com/cpinitiative/usaco-guide/pull/6241)
 - finished summer schedule for college stuff
 - finished [[survivor bias]] draft
+- edited up to 1:15 of vlog
 # 6.5
 - created tetrar
 # 6.4

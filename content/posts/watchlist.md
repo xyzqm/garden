@@ -22,6 +22,7 @@ You may also be interested in my [[anime]]-specific page.
 - [[infinity-castle|Demon Slayer: Infinity Castle]]
 - The Shawshank Redemption
 - Memento
+- 3 Idiots
 - Nimona
 - Batman Begins
 - The Dark Knight Rises
@@ -47,12 +48,12 @@ You may also be interested in my [[anime]]-specific page.
 ## To Watch
 - Moonlight
 - Spirited Away
+- Paprika
+- A Silent Voice
 - Vinland Saga
 - Attack on Titan
 - Howl's Moving Castle
 - Fullmetal Alchemist
-- Delicious in Dungeon
-- Chainsaw Man
 - Dandadan
 - Re:Zero
 - Devs
