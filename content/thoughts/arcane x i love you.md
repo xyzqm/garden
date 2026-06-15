@@ -1,7 +1,9 @@
 ---
 title: arcane x i love you
 ---
-an [[edit]] storyboard.
+an [[edit]].
+
+## Storyboard
 
 in this edit, I want to explore how *love* influenced the events of Arcane S1.
 
@@ -26,3 +28,18 @@ And nothin' has to change today
 You didn't mean to say, "I love you"  
 I love you and I don't want to  
 Ooh
+
+## Debrief
+
+Instagram: https://www.instagram.com/reel/DZlT6_7SEJW/
+Youtube: https://youtu.be/bGK525WCXZk?si=r3AX9tfo3Q6y2q5q
+
+Total time taken to edit: 4-5 hours?
+
+I think I actually spent more time figuring out how to make the text zoom with the background than actually putting the edit together (both around 2 hrs...). But for future reference, here's the workflow:
+1. Open the relevant clip in Fusion.
+2. Use "Planar Tracker" to track some surface in the video. If we just need zoom, we can just select "TRS" for the tracker settings.
+3. To zoom some text along with this, we can choose "Corner Pin" to place a screen into the background.
+4. Also to make the text appear between the background and the foreground, we have to make a copy of the video with the background removed. I used wide.video for this, but there might be a better alternative to this in the future.
+
+Also, dissolves (cross/dip to color) seem to be pretty nice for soft songs like this!
