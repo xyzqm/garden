@@ -46,6 +46,7 @@ You may also be interested in my [[anime]]-specific page.
 - Brooklyn Nine-Nine
 
 ## To Watch
+- 100 meters
 - Moonlight
 - Spirited Away
 - Paprika
@@ -70,7 +71,6 @@ You may also be interested in my [[anime]]-specific page.
 -  Weathering with you + Suzume
 - Pluto
 - Lord of the Mysteries
-- 100 meters
 - the expanse
 - Jujutsu Kaisen
 

@@ -11,9 +11,23 @@ title: 2026 summer log
 - calc textbook
 - write about LP duality?
 
+# WEEK
+- start reading new alec papers
+- write wuthering heights essay
+- vp every morning?
+- personal statement brainstorming
+- prepare cf contest
+- try transcribing some songs? e.g. calligraphy
+- figure out algebraic reason for determinant (i.e. how does it detect whether **any** linear combination of vectors becomes 0?)
+
 ## Songs to edit to
 - Calligraphy - Saba
-- i love you/the greatest - billie eilish
+- i love you/the greatest - billie eilish (see)
+
+# 6.16
+- vp [this contest](https://codeforces.com/contest/1835/problem/A)...terrible experience
+# 6.14
+- finished and posted [[arcane x i love you]]
 # 6.13
 - solved [range increment](https://atcoder.jp/contests/arc220/tasks/arc220_c)
 - review [gesture password](https://www.luogu.com.cn/problem/P7246)
