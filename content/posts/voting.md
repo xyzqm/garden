@@ -97,3 +97,4 @@ cal(D) &= 1 + (C(2) - C(1))/C(1) \
 $$
 
 where the last inequality arises from the requirement that $nu_1 <= nu_2$. 
+
