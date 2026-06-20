@@ -1,3 +1,74 @@
 @use "./variables.scss" as *;
 
+
 // put your custom CSS here!
+:root[saved-theme="dark"] {
+  --background-primary: #181a1b; /* Dark mode default */
+  color-scheme: dark;
+  img[alt$="invert"] {
+    filter: invert(1);
+  }
+  object[aria-label~="invert"] {
+    filter: invert(1);
+  }
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+object {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img[alt$="bg-white"] {
+  background-color: white;
+}
+
+img[alt$="500"] {
+  width: 500px;
+}
+
+.tikz {
+  display: block;
+  margin: 1.5em 0;
+  text-align: center;
+  fill: currentColor;
+}
+
+.callout.is-collapsed {
+  padding-bottom: 1rem;
+  .callout-content {
+    height: 0;
+    margin-top: -1rem;
+    transition:
+      height 0.1s cubic-bezier(0.02, 0.01, 0.47, 1),
+      margin 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
+    overflow-y: clip;
+  }
+}
+
+.katex-display {
+  overflow: visible;
+}
+
+.katex {
+  font-size: 1.1em !important; /* Adjust this value as needed */
+}
+
+[alt~="vid-20"] video {
+  width: 20%;
+}
+
+[alt~="vid-30"] video {
+  width: 30%;
+}
+
+[alt~="vid-40"] video {
+  width: 40%;
+}

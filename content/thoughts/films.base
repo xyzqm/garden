@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.tags.contains("film")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - rating
+    sort:
+      - property: rating
+        direction: DESC
+    columnSize:
+      file.name: 241
+      note.rating: 184

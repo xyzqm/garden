@@ -1,0 +1,28 @@
+{
+  "name": "@local/tikzjax",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "node-tikzjax": ">=1.0.0"
+  },
+  "quartz": {
+    "name": "tikzjax",
+    "displayName": "TikzJax",
+    "description": "Render TikZ diagrams server-side via node-tikzjax",
+    "category": "transformer",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "requiresInstall": true,
+    "defaultOrder": 95,
+    "defaultEnabled": false,
+    "defaultOptions": {}
+  }
+}
