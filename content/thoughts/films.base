@@ -4,8 +4,6 @@ filters:
 views:
   - type: cards
     name: Cards
-    order:
-      - title
     sort:
       - property: rating
         direction: DESC
