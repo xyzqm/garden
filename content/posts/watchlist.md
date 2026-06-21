@@ -8,10 +8,9 @@ You may also be interested in my [[anime]]-specific page.
 ## Movies
 ![[films.base]]
 
-- Across the Spider-Verse
 - Into the Spider-Verse
 - Interstellar
-- [[your name|Your Name]]
+- [[Your Name|Your Name]]
 - The Wild Robot
 - The Dark Knight
 - Dune/Dune 2
@@ -21,7 +20,7 @@ You may also be interested in my [[anime]]-specific page.
 - Oppenheimer
 - Puss in Boots 2
 - Tenet
-- [[infinity castle|Demon Slayer: Infinity Castle]]
+- [[Infinity Castle|Demon Slayer: Infinity Castle]]
 - The Shawshank Redemption
 - Memento
 - 3 Idiots

@@ -2,6 +2,16 @@ filters:
   and:
     - file.tags.contains("film")
 views:
+  - type: cards
+    name: Cards
+    order:
+      - title
+    sort:
+      - property: rating
+        direction: DESC
+    image: note.image
+    cardSize: 210
+    imageAspectRatio: 1
   - type: table
     name: Table
     order:

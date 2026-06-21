@@ -1,9 +1,10 @@
 ---
-title: Kimi no na wa
+title: Your Name
 tags:
   - anime
   - film
 rating: 9
+image: "[[Pasted image 20251125170041.png]]"
 ---
 ![[Pasted image 20251125170041.png]]
 
