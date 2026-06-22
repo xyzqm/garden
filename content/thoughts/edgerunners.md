@@ -1,9 +1,13 @@
 ---
 title: "Cyberpunk: Edgerunners"
+rating: 9.6
+tags:
+  - tv
+image: "[[pasted-image-20260415234832.png]]"
 ---
 ![[Pasted image 20260415234832.png|500]]
 
-**Rating:** 9/10
+**Rating:** 9.6/10
 
 This show holds a special place in my heart as the first [[anime]] I ever watched. To be honest, I'm glad it was: it definitely has a more "western" feel to it than any other anime I've watched since then, which means the "weird" stuff people commonly complain about barely shows up in Edgerunners. Instead, it has a much faster pace, less exposition, and overall just feels way more frenetic---in line, of course, with the destructive "live fast, die a legend" mentality that pervades the show.
 

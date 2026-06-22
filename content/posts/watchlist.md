@@ -6,7 +6,7 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 You may also be interested in my [[anime]]-specific page.
 
 ## Movies
-![[films.base]]
+![[Films.base]]
 
 - Into the Spider-Verse
 - Interstellar
@@ -35,9 +35,10 @@ You may also be interested in my [[anime]]-specific page.
 - Superman
 - Fantastic Four: First-Steps
 ## TV
-- [[frieren|Frieren]]
+![[TV.base]]
+
 - Arcane
-- [[edgerunners|Cyberpunk: Edgerunners]]
+- [[Edgerunners|Cyberpunk: Edgerunners]]
 - Severance
 - Andor
 - Pantheon

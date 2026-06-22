@@ -1,0 +1,10 @@
+filters:
+  and:
+    - file.tags.contains("tv")
+views:
+  - type: cards
+    name: Cards
+    sort:
+      - property: rating
+        direction: DESC
+    image: note.image

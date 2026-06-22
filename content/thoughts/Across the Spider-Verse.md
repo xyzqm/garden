@@ -9,8 +9,6 @@ image: https://m.media-amazon.com/images/I/91x4nWCLbwL._AC_UF1000,1000_QL80_.jpg
 
 ## My favorite scenes (in no particular order)
 
-
-
 ![[Pasted image 20260620164534.png]]
 
 The entire "Mona Lisa" sequence leading up to this moment really made me adore this duo, and the climactic moment they share where they both (basically) confess their feelings felt really well-written, with lines that maintained the swagger of both characters while still getting genuine feelings across.

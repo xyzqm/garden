@@ -98,7 +98,8 @@ $$
 
 where the last inequality arises from the requirement that $nu_1 <= nu_2$. 
 
-Some key takeaways from this derivation that demonstrate why the metric constraint is so helpful:
-- Consider the adversarial case we constructed without the metric constraint, in which voters who prefer candidate 1 associate a pathologically high cost with candidate 2.
-- Because of the metric constraint, this means that candidate 1 must also be very far from candidate 2. Then, if the distance between them is $d$, voters who prefer candidate 2 must associate cost at least $d / 2$ with candidate $1$. 
-- In other words, the metric constraints ensure to some degree that the preferences of all voters are "equally weighted", and that none are negligible in comparison to others.
+### Some intuition
+
+Consider the adversarial case we constructed without the metric constraint, in which voters who prefer candidate 1 associate a pathologically high cost with candidate 2. Because of the metric constraint, this means that candidate 1 must also be very far from candidate 2. Then, if the distance between them is $d$, voters who prefer candidate 2 must associate cost at least $d / 2$ with candidate $1$. 
+
+In other words, the metric constraints ensure to some degree that the preferences of all voters are "equally weighted", and that none are negligible in comparison to others.

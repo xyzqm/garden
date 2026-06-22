@@ -3,6 +3,8 @@ title: To Be Hero X
 tags:
   - anime
   - tv
+rating: 7
+image: https://m.media-amazon.com/images/M/MV5BYmZjNzBhYjYtMzY1MS00M2U1LWFjZGQtY2RmY2FiNWE5YzkwXkEyXkFqcGc@._V1_.jpg
 ---
 **CURRENTLY ON EP 23**
 - the concept of hero agencies being established as a way to encourage competition and prevent one singular hero from gaining too much trust is very clever
