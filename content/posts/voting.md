@@ -58,11 +58,14 @@ Before we move on, we should formally define what it means for an arrangement to
 
 The first three are fairly intuitive, and the 4th condition is just the triangle inequality.
 
-Note that this means our distance function is NOT constrained to only Euclidean geometry; in fact, it will turn out to be more convenient to use L1 distance (Manhattan distance) rather than L2 distance (Euclidean) later on.
+Note that this means our distance function is NOT constrained to only Euclidean geometry. In fact, it will be more convenient to visualize distances as a weighted graph, like so:
+![[Pasted image 20260629141121.png]]
+
+The distance between two points is then defined as the shortest path between them in this graph.
 
 ### A basic upper bound for $n = 2$
 
-This counter-case above shows that the distortion of any $n = 2$ deterministic mechanism must be at least $3$. However, using the metric constraints, we can actually show there exists a mechanism whose distortion is *at most* $3$, thereby proving that $3$ is the optimum distortion of any $n = 2$ deterministic mechanism.
+The above counter-case above shows that the distortion of any $n = 2$ deterministic mechanism must be at least $3$. However, using the metric constraints, we can actually show there exists a mechanism whose distortion is *at most* $3$, thereby proving that $3$ is the optimum distortion of any $n = 2$ deterministic mechanism.
 
 Some preliminary notes:
 - Let $nu_1$ and $nu_2$ denote the fraction of voters that prefer candidates $1$ and $2$, respectively. For instance, in our above case, we have $nu = (0.5, 0.5)$.

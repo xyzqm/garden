@@ -48,6 +48,7 @@ You may also be interested in my [[anime]]-specific page.
 - Brooklyn Nine-Nine
 
 ## To Watch
+- Pluto
 - 100 meters
 - Moonlight
 - Spirited Away
@@ -71,7 +72,6 @@ You may also be interested in my [[anime]]-specific page.
 - Astra: Lost in Space
 - 5cm/sec
 -  Weathering with you + Suzume
-- Pluto
 - Lord of the Mysteries
 - the expanse
 - Jujutsu Kaisen
