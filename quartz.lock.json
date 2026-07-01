@@ -146,10 +146,10 @@
       "installedAt": "2026-06-03T13:16:36.665Z"
     },
     "graph": {
-      "source": "github:quartz-community/graph",
-      "resolved": "https://github.com/quartz-community/graph.git",
-      "commit": "46f0ba1c3c0cc484697572e7bcf315fa384d80d2",
-      "installedAt": "2026-06-03T13:32:35.872Z"
+      "source": "github:xyzqm/graph",
+      "resolved": "https://github.com/xyzqm/graph.git",
+      "commit": "1e86d5de90fd2793d39e8d3d04d9fda28016de15",
+      "installedAt": "2026-07-01T07:26:17.152Z"
     },
     "hard-line-breaks": {
       "source": "github:quartz-community/hard-line-breaks",
@@ -258,6 +258,12 @@
       "resolved": "https://github.com/quartz-community/tag-page.git",
       "commit": "eabf3eec55c0bab7f49e69957341f34d2ae3c5a1",
       "installedAt": "2026-06-03T13:32:36.377Z"
+    },
+    "tikzjax": {
+      "source": "./plugins/tikzjax",
+      "resolved": "/Users/danielzhu/Documents/garden/plugins/tikzjax",
+      "commit": "local",
+      "installedAt": "2026-07-01T07:26:16.115Z"
     },
     "unlisted-pages": {
       "source": "github:quartz-community/unlisted-pages",
