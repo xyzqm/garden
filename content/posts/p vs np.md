@@ -4,6 +4,9 @@ draft: true
 ---
 If you've ever studied CS, you're probably familiar with the infamous [P versus NP problem](https://en.wikipedia.org/wiki/P_versus_NP_problem). In this post, I'll try to explain why we even care about this problem, what it means to be NP-hard and NP-complete, and lastly some techniques to show whether a given problem belongs in these categories or not.
 
+## Preliminaries
+
+A basic understanding of [[models of computation]] would be helpful!
 ## Why P?
 
 Why should we draw the divide between "efficient" and "inefficient" as between P and NP in the first place? After all, an algorithm that runs in $n^100$ time is surely worse than one that runs in $2^(n/1000)$, right? One may make the argument that the former is *asymptotically better* than the latter, but this never felt super compelling to me. 
@@ -15,10 +18,6 @@ This invariance means that although P and NP were originally defined relative to
 ## What is NP?
 
 Contrary to somewhat popular belief, NP does not mean non-polynomial but rather *nondeterministic polynomial*, which refers to any program that a *nondeterministic Turing machine* may run in polynomial time.
-
-### NTMs
-
-As such, I should probably elaborate a bit on the difference between a deterministic and non-deterministic machine. Loosely speaking, a deterministic machine 
 
 ## Additional resources
 

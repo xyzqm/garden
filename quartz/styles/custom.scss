@@ -5,7 +5,7 @@
 :root[saved-theme="dark"] {
   --background-primary: #181a1b; /* Dark mode default */
   color-scheme: dark;
-  img[alt$="invert"] {
+  img[alt*="invert"] {
     filter: invert(1);
   }
   object[aria-label~="invert"] {
