@@ -14,4 +14,12 @@ This invariance means that although P and NP were originally defined relative to
 
 ## What is NP?
 
-https://www.youtube.com/watch?v=6OPsH8PK7xM
+Contrary to somewhat popular belief, NP does not mean non-polynomial but rather *nondeterministic polynomial*, which refers to any program that a *nondeterministic Turing machine* may run in polynomial time.
+
+### NTMs
+
+As such, I should probably elaborate a bit on the difference between a deterministic and non-deterministic machine. Loosely speaking, a deterministic machine 
+
+## Additional resources
+
+![](https://www.youtube.com/watch?v=6OPsH8PK7xM)

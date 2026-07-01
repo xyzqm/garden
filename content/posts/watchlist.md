@@ -37,7 +37,6 @@ You may also be interested in my [[anime]]-specific page.
 ![[TV.base]]
 
 - Arcane
-- [[Edgerunners|Cyberpunk: Edgerunners]]
 - Severance
 - Andor
 - Pantheon

@@ -1,5 +1,6 @@
 ---
 title: 2026 summer log
+draft: true
 ---
 # TODO
 - ESSAY BRAINSTORMING

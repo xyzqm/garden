@@ -6,6 +6,4 @@ tags:
 rating: 7.5
 image: "[[Pasted image 20260622135909.png]]"
 ---
-very compelling protagonist + story, excited to see how it progresses!
-
-the chainsaw seems to be an apt metaphor for teenage hormones and violence
+Don't have much to say about this show, it was just...alright? Not sure if I'll watch more content in the future, although I heard the Reze Arc movie was good.
