@@ -8,7 +8,7 @@ The content of this page is currently very barebones and just meant to be enough
 
 I built a machine that computes 123 + 456! Is this a computer?
 
-Unfortunately not, as computers must operate on some kind of input—if your machine instead took in two arbitrary three digit numbers and added them together, that would qualify as a computer. Indeed, the ability to solve a problem on different inputs is precisely what makes a computer interesting. We will now study two models for interacting with these inputs: finite-state machines and Turing machines.
+Not quite, as computers must operate on some kind of input—if your machine instead took in two arbitrary three digit numbers and added them together, that would qualify as a computer. Indeed, the ability to solve a problem on different inputs is precisely what makes a computer interesting. We will now study two models for interacting with these inputs: finite-state machines and Turing machines.
 
 ## Finite-state machines
 
@@ -184,5 +184,5 @@ Turing machines are FSMs with one important added feature: read/write access to 
 
 ### Non-deterministic Turing machines
 
-Unlike deterministic Turing machines (DTMs), non-deterministic Turing machines (NDTMs) can be in multiple states at once; that is, each state can specify a set of actions (next state, write, move tape) to perform per transition rather than just a single one. The following image from Wikipedia best illustrates the difference:
+Unlike deterministic Turing machines (DTMs), non-deterministic Turing machines (NDTMs) can be in multiple states at once; that is, each state can specify a *set* of actions (next state, write, move tape) to perform per transition rather than just a single one. The following image from Wikipedia best illustrates the difference:
 ![invert|500](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Difference_between_deterministic_and_Nondeterministic.svg/960px-Difference_between_deterministic_and_Nondeterministic.svg.png)
