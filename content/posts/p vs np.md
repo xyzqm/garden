@@ -45,7 +45,7 @@ $$
 
 $and$ denotes logical and, $or$ denotes logical or, and $not$ denotes negation. The problem is then to find whether there exists some $x_1, x_2, x_3$ such that the above expression evaluates to 1.
 
-The cousin of CNF is **disjunctive normal form** (DNF) which swaps $and$ and $or$. However, we prefer CNF since any boolean formula may be converted into an *equisatisfiable* CNF formula in polynomial time. However, the same is not true for DNF; for instance, the DNF expansion of 
+The cousin of CNF is **disjunctive normal form** (DNF) which swaps $and$ and $or$. However, we prefer CNF since any boolean formula may be converted into an *equisatisfiable* CNF formula in polynomial time. The same is not true for DNF; for instance, the DNF expansion of 
 $$
 (x_1 or x_2) and (x_3 or x_4) and (x_5 or x_6) and ... and (x_(2n - 1) or x_(2n))
 $$
