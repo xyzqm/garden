@@ -1,6 +1,6 @@
+filters:
+  and:
+    - draft == true
 views:
-  filters:
-    and:
-      - draft == true
   - type: table
     name: Table
