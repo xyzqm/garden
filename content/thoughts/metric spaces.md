@@ -1,6 +1,21 @@
 ---
 title: Metric spaces
 ---
+## Overview
+
+A metric space is a collection of points that additionally has a way to define the distance $d(i, j)$ between every pair of points,  which must satisfy the following conditions:
+1. $d(i, i) = 0 quad "for all " i$
+2. $d(i, j) > 0 quad "for all" i != j$
+3. $d(i, j) = d(j, i) quad "for all" i != j$
+4.  $d(i, j) <= d(i, k) + d(k, j) quad "for all" i, j, k$
+Some examples of metric spaces include:
+- $RR^n$ with Euclidean distance 
+- $RR^n$ with Manhattan distance
+- a weighted graph with shortest-path distance
+
+A fun visual for the last example, courtesy of [this math exchange answer](https://math.stackexchange.com/a/1064389/1652430):
+![[Pasted image 20260707224438.png]]
+
 notes from #napkin
 
 ## Convergence
@@ -63,4 +78,23 @@ An infinite collection of open sets in $RR$ whose intersection is ${0}$ are the 
 First, we show that if $S$ is closed, $M \\ S$ must be open. Assume for contradiction that there exists some $p in.not S$ such that for every $epsilon > 0$, there exists some $p' in S$ such that $d(p, p') < epsilon$. Then, we can write a sequence $x_n$ containing these values of $p'$ for $epsilon = 1/n$, which thus converges to $p$. This means $p in "lim" S$, a contradiction. 
 
 A similar contradiction argument works in the reverse direction. Suppose $S$ is open, and there exists a sequence of elements $x_i in.not S$ that converges to an element $p$ in $S$. Then $p$ has no $epsilon$-neighborhood in $S$ for any $epsilon > 0$, contradicting the openness of $S$. $qed$
+
+## Completeness
+
+![[Pasted image 20260706102832.png]]
+
+If the sequence converges, can we select $m, n >= N$ such that for all $n >= N, d(x_n, p) < epsilon / 2$. By the triangle inequality, this means $d(x_m, x_n) <= d(x_m, p) + d(x_n, p) < epsilon$, as desired. $qed$ 
+
+![[Pasted image 20260706103050.png]]
+
+![[Pasted image 20260706103422.png]]
+
+We first prove that if $S$ is complete, it is closed in $M$. This is because any convergent sequence in $S$ is a Cauchy sequence, which by completeness must converge to another element in $S$.
+
+Moreover, because $M$ is a complete metric space, any Cauchy sequence in $S$ must converge to some element in $M$. Therefore, if $S$ is closed in $M$, all such convergent points must be contained in $S$, making it closed. $qed$
+
+![[Pasted image 20260706105249.png]]
+
+*Sketch.* Take any starting point $x_0$; we will show that iterating $T$ on $x_0$ will eventually converge to a fixed point. This is because the sequence $T^n (x_0)$ is Cauchy, and $M$ is a complete metric space. $qed$
+
 
