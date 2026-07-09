@@ -1,0 +1,28 @@
+{
+  "name": "@local/anchor-fix",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "@quartz-community/utils": ">=1.0.0"
+  },
+  "quartz": {
+    "name": "anchor-fix",
+    "displayName": "Anchor Fix",
+    "description": "Normalizes bare same-page anchor hrefs (e.g. block references from path-less wikilinks) to match generated element ids",
+    "category": "transformer",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "requiresInstall": false,
+    "defaultOrder": 65,
+    "defaultEnabled": true,
+    "defaultOptions": {}
+  }
+}

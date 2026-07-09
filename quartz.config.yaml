@@ -80,6 +80,9 @@ plugins:
     options:
       markdownLinkResolution: shortest
     order: 60
+  - source: ./plugins/anchor-fix
+    enabled: true
+    order: 65
   - source: github:quartz-community/description
     enabled: true
     order: 70
