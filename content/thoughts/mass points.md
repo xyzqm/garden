@@ -57,6 +57,7 @@ Similar flavor but a bit harder:
 > If $D = A + B + C$ and $A'$ is the intersection of line $A D$ and segment $overline(B C)$, prove that $A' = B + C$.
 
  > [!tip]- Solution
+> 
 > Since $A' = B + C$, [[#^cc1f19|the second exercise]] guarantees that $A'$ lies on $overline(B C)$. Moreover, since $D = A + (B + C) = A + A'$, $A'$ must lie on line $A D$ as well. Therefore, $A'$ is precisely the intersection between segment $overline(B C)$ and line $A D$.
 
 Typically, we are not given the masses of $A, B,$ and $C$ but rather several side lengths from which the masses are to be deduced:
