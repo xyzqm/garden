@@ -176,7 +176,7 @@ plugins:
       group: toolbar
       groupOptions:
         grow: true
-  - source: github:quartz-community/backlinks
+  - source: ./plugins/backlinks # local fork: collapses Base pages into their embedding page
     enabled: true
     layout:
       position: right
