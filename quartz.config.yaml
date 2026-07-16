@@ -156,13 +156,15 @@ plugins:
     layout:
       position: left
       priority: 50
-  - source: github:xyzqm/graph # SHOULD CHANGE BACK ONCE PATCH GOES THROUGH
+  - source: ./plugins/graph # local submodule fork (github:xyzqm/graph) so patches persist
     enabled: true
     options:
       localGraph:
         showTags: false
       globalGraph:
         showTags: false
+        removeSlugs:
+          - index
     layout:
       position: right
       priority: 10

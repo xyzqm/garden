@@ -1,0 +1,3 @@
+[submodule "plugins/graph"]
+	path = plugins/graph
+	url = https://github.com/xyzqm/graph.git
