@@ -164,7 +164,7 @@ plugins:
       globalGraph:
         showTags: false
         removeSlugs:
-          - index
+          - /
     layout:
       position: right
       priority: 10
