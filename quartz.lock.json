@@ -148,8 +148,8 @@
     "graph": {
       "source": "github:xyzqm/graph",
       "resolved": "https://github.com/xyzqm/graph.git",
-      "commit": "1e86d5de90fd2793d39e8d3d04d9fda28016de15",
-      "installedAt": "2026-07-01T07:26:17.152Z"
+      "commit": "5a983a802372db1242c9405606ffacff05bd6936",
+      "installedAt": "2026-07-16T20:47:12.050Z"
     },
     "hard-line-breaks": {
       "source": "github:quartz-community/hard-line-breaks",
