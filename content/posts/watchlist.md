@@ -47,6 +47,7 @@ You may also be interested in my [[anime]]-specific page.
 
 ## To Watch
 - Pluto
+- Lost
 - 100 meters
 - Moonlight
 - Spirited Away

@@ -14,6 +14,7 @@ configuration:
     - private
     - templates
     - .obsidian
+    - '**/drafts.base'
   theme:
     fontOrigin: googleFonts
     cdnCaching: true

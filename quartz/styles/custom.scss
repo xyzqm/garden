@@ -13,6 +13,13 @@
   }
 }
 
+  // typst renders display equations as a bare <svg style="margin:0 auto">
+  // (no default bottom margin like a <p> gets), so the callout needs an
+  // explicit override when one is the last visible child
+  .callout:not(.is-collapsed) > .callout-content > svg.typst-doc:last-child {
+    margin-bottom: 1rem !important;
+  }
+
 img {
   display: block;
   margin-left: auto;
