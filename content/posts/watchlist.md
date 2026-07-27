@@ -42,8 +42,8 @@ You may also be interested in my [[anime]]-specific page.
 - Pantheon
 - Scavengers Reign
 - The Penguin
-- To Be Hero X
 - Brooklyn Nine-Nine
+- To Be Hero X
 
 ## To Watch
 - Pluto

@@ -3,12 +3,12 @@ title: Your Name
 tags:
   - anime
   - film
-rating: 9
+rating: 10
 image: "[[Pasted image 20251125170041.png]]"
 ---
 ![[Pasted image 20251125170041.png]]
 
-**Rating:** 9/10
+**Rating:** more objectively a 9/10, but I'm biased so 10/10
 ## First Impressions
 A beautiful [[anime]] movie. Some plot points were kind of unclear, but the emotional impact hit hard. When they meet at kataware-doki...
 ![[Pasted image 20251124111740.png|500]]
