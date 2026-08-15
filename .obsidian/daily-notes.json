@@ -1,0 +1,6 @@
+{
+  "folder": "diary",
+  "format": "YYYY-MM-DD",
+  "template": "templates/diary-entry",
+  "autorun": false
+}
