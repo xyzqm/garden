@@ -7,3 +7,6 @@
 [submodule "plugins/bases-page"]
 	path = plugins/bases-page
 	url = https://github.com/xyzqm/bases-page.git
+[submodule "plugins/explorer"]
+	path = plugins/explorer
+	url = https://github.com/xyzqm/explorer.git

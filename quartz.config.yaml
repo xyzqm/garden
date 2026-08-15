@@ -148,11 +148,13 @@ plugins:
   - source: github:quartz-community/content-page
     enabled: true
   - source: github:quartz-community/folder-page
-    enabled: true
+    enabled: false
   - source: github:quartz-community/tag-page
     enabled: true
-  - source: github:quartz-community/explorer
+  - source: ./plugins/explorer # local submodule fork (github:xyzqm/explorer) so patches persist; adds rootFolder to show one folder's pages flat with no folder/collapse UI
     enabled: true
+    options:
+      rootFolder: posts
     layout:
       position: left
       priority: 50
