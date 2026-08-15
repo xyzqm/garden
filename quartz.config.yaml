@@ -243,7 +243,7 @@ plugins:
       position: left
       priority: 25
       display: mobile-only
-  - source: github:quartz-community/bases-page
+  - source: ./plugins/bases-page # local submodule fork (github:xyzqm/bases-page) so patches persist; makes file.path/file.folder vault-root-relative to match Obsidian's own Bases
     enabled: true
     options: {}
     order: 50

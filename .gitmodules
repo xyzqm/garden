@@ -4,3 +4,6 @@
 [submodule "plugins/backlinks"]
 	path = plugins/backlinks
 	url = https://github.com/xyzqm/backlinks.git
+[submodule "plugins/bases-page"]
+	path = plugins/bases-page
+	url = https://github.com/xyzqm/bases-page.git
