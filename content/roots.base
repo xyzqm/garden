@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.inFolder("content/posts")
+properties:
+  note.name:
+    displayName: title
+  description:
+    displayName: ""
+views:
+  - type: cards
+    name: Cards
+    order:
+      - file.name
+      - description
