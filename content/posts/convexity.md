@@ -5,6 +5,7 @@ tags:
   - math
   - greedy
   - convex
+description: How to go about proving certain functions are convex.
 ---
 Convexity often arises naturally in many "intuitively" greedy problems. We'll first give some examples, then go over typical strategies for proving convexity, as well as how to take advantage of it.
 ## Examples

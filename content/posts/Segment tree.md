@@ -2,12 +2,13 @@
 title: Segment tree
 tags:
   - segment-tree
+description: A bit on iterative segment trees.
 ---
 ## Iterative Segment Tree
 
 Here is what the structure looks like for $n = 7$:
 
-![[Pasted image 20260208131423.png | 600]]
+![[Pasted image 20260620170759.png| 600]]
 
 The blue nodes shown are those which are relevant to the query $[7, 11)$. Also note that some nodes, in this case $1$ and $3$, will never be accessed. In particular:
 - If a node has an odd index $i$ *and* its corresponding range can be doubled to the left,  its parent $floor(i / 2)$ will represent that doubled range.

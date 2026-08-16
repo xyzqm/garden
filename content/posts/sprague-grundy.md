@@ -2,6 +2,7 @@
 title: The Sprague-Grundy theorem
 tags:
   - games
+description: How can we define a group on the set of impartial games?
 ---
 ## Preliminaries
 

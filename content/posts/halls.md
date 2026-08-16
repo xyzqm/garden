@@ -3,6 +3,7 @@ title: Hall's marriage theorem
 tags:
   - cs
   - flows
+description: Two proofs of Hall's marriage theorem, and problems.
 ---
 ## Statement
 

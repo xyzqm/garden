@@ -1,6 +1,8 @@
 ---
 title: Akari
 tags:
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8xK9zAOhD8av7hH4pF7vntiMm7yLIdlRujS60EbWCIg&s=10
+description: A fun puzzle genre + some of my solutions and strategies.
 ---
 **NOTE:** you can find my Akari solutions under the #akari tag or in the backlinks of this page.
 

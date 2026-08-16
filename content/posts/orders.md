@@ -3,6 +3,7 @@ title: Orders
 tags:
   - cs
   - orders
+description: Common strategies to rearrange elements into an "optimal order."
 ---
 A common problem archetype is the following: "given $n$ tasks, order them in some optimal way" or "find an order of $n$ tasks satisfying a certain condition". I will outline some common methods to solve these problems below.
 ## Total Orders

@@ -1,5 +1,6 @@
 ---
 title: Voting
+description: An introduction to social choice theory and metric voting.
 ---
 ## The setup
 

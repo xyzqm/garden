@@ -2,6 +2,7 @@
 title: Transposes
 tags:
   - linear
+description: Why are the determinants of a matrix and its transpose equal?
 ---
 [A good background video](https://youtu.be/LyGKycYT2v0?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 

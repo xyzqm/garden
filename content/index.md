@@ -2,10 +2,6 @@
 title: Home
 ---
 ![[tree.png|invert]]
-I'm Daniel, and this is my [digital garden](https://jzhao.xyz/posts/networked-thought)! Feel free to explore [[posts/|the main yard]] (my more fleshed out posts), or venture past into [[thoughts/|the overgrowth]] (random but fascinating fragments).
+I'm Daniel, and this is my [digital garden](https://jzhao.xyz/posts/networked-thought). If you're looking for something specific the search bar is your best friend, but if not, feel free to start from any of the posts listed below and click through any links that interest you!
 
-Some things I love:
-- [[emergent beauty]] ([[music]], [[akari]], CS)
-- lots of [[watchlist|visual media]], including [[anime]]
-- basketball
-
+![[roots.base]]

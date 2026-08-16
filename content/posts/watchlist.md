@@ -1,5 +1,6 @@
 ---
 title: Watchlist
+description: Movie + TV reviews.
 ---
 A list of everything I've watched, or plan to watch! All lists (besides "To Watch") are sorted in order of enjoyment/beauty, from most to least.
 

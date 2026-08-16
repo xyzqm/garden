@@ -2,6 +2,7 @@
 title: Bernoulli/Poisson processes
 tags:
   - probability
+description: Some intuition behind the formulas.
 ---
 ## Bernoulli Processes
 Flip $n$ coins, each of which comes up heads with probability $p$: this is a Bernoulli process (so named because each coin is just a Bernoulli random variable).
