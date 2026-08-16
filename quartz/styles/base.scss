@@ -56,6 +56,17 @@ path[class~="typst-shape"] {
   stroke: var(--darkgray);
 }
 
+// Typst-rendered math embeds an unscoped `<style>svg{fill:none}</style>` in every
+// inline SVG it emits. That's unlayered CSS living in the article body, so per the
+// cascade it beats any layered rule (all of ours, incl. these toolbar icons' fill)
+// no matter the specificity — silently blanking icons like the theme/reader-mode
+// toggles on any page (or popover preview) containing math. !important is the only
+// thing that out-ranks an unlayered rule from inside a layer.
+.darkmode svg,
+.readermode svg {
+  fill: var(--darkgray) !important;
+}
+
 .math {
   &.math-display {
     text-align: center;
