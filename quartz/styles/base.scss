@@ -67,6 +67,10 @@ path[class~="typst-shape"] {
   fill: var(--darkgray) !important;
 }
 
+.global-graph-icon svg {
+  fill: var(--dark) !important;
+}
+
 .math {
   &.math-display {
     text-align: center;
