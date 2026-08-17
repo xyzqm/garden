@@ -9,9 +9,9 @@ In the last two weeks, I had the pleasure of interning at [Probook](https://prob
 
 On Monday, I flew in to New York around 11 PM with my friend Yibo, founding engineer #1 at Probook and the person who actually referred me for this internship. 
 
-| ![[BFB0B86B-6042-4C8B-A8D1-017123D21204_4_5005_c.jpeg\|200]] | ![[953E3E64-C1D0-4A5C-8489-47AED0F7C4DC_4_5005_c.jpeg\|200]] |
+| ![[Pasted image 20260815144605.jpeg\|200]] | ![[Pasted image 20260815144620.jpeg\|200]] |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![[0F53CB0C-DB13-4BDD-9C64-4BAEE6EC80B1_1_105_c.jpeg\|200]]  | ![[E454C645-643A-413D-8BAA-3D5C52A34792_4_5005_c.jpeg\|200]] |
+| ![[Pasted image 20260815144625.jpeg\|200]]  | ![[Pasted image 20260815144627.jpeg\|200]] |
 
 Upon arriving in Manhattan, I had two immediate reactions:
 1. Why does it smell so bad?
@@ -19,14 +19,14 @@ Upon arriving in Manhattan, I had two immediate reactions:
 
 Just a minute in, I had noticed both a really bad thing and a really good thing...quite fitting for a city of such extremes like NYC. Thankfully, the latter helped us dodge the former as we went into a restaurant called Chubby Skewers, which replaced the terrible streetside smell with the savory scent of self-cooked skewers.
 
-![[f10bafa67d2b5d787b9439dccd32d9e8.jpeg|360]]
+![[Pasted image 20260815145442.jpeg|360]]
 
 After eating, we walked around for a bit and discussed the internship as well as just general thoughts on AI, and I got back to my hotel room around 1 AM.
 
 ## 8.4
 
 Tuesday was my first day of work, and I showed up at the Empire State Building around 9:30AM. I spent my morning getting to know the rest of the Engineering team, and Yibo and Alex also onboarded me to the project I'd be working on.
-![[0B18C778-F55E-4A89-9967-3B0143C15696_1_105_c.jpeg|381]]
+![[Pasted image 20260815150236.jpeg|381]]
 *In the office.*
 
 After lunch I was tempted to jump straight into coding (or rather, Claude Code), but Yibo gave me two valuable tips:
@@ -56,14 +56,33 @@ At the end of the day, I played some Cambio with Yibo, Michael, and Carl. Michae
 My first weekend in NYC! I slept nice and late, got a good ramen lunch at Tonchin, then headed to [Activate Games](https://playactivate.com/union-square), which was way more fun than I expected. Our favorite room was definitely the laser room, and we actually failed level 4 an embarrassing number of times. Afterward, we got some dinner from Chubby Tan then headed to [Beat the Bomb](https://www.beatthebomb.com/locations/brooklyn). I must say I was expecting an actual escape room, but it ended up feeling like an unsuccessful combination of escape room games and Activate, and the slime bomb also felt rather gimmicky. It was still pretty fun especially with our group (Toby, Carl, Yibo, Alex and I), but I don't think it deserves 4.9 stars.
 
 Afterward, we headed to Toby's apartment lounge to hang out and ended up playing another 2-3 hours of Cambio—by the time I got back to my hotel it was almost 4. I'll also leave the story behind this image as an exercise for the reader:
-![[ACF8ECD4-43CE-4DE8-B126-35F710EA6A34_1_105_c.jpeg|353]]
+![[Pasted image 20260815165524.jpeg|353]]
 
 ## 8.9
 
 I got hotpot with Yibo, Alex, and JW before Yibo left for Boston, and I spent the rest of the day hanging out with Alex and JW. We went to two escape rooms, Houdini's Workshop and High Speed (subway themed). The first one was alright but didn't feel that much better than rooms I'd been to before; the second one, though, had really cool theming, and its first room was a really cool reconstruction of a subway car.
 
-![[D0492CFD-C4A0-4E04-BFF5-B07A74933464_1_105_c.jpeg|311]]
+![[Pasted image 20260815165925.jpeg|311]]
 
 *The first room of High Speed.*
 
 We got dinner at an alright Japanese restaurant, then I headed home comparatively early (around 11PM or so).
+
+## The rest
+
+I spent most of my last week refining my fine-tuning work and expanding coverage to all required variables. We also got a ping-pong table during that time, so I played quite a few games with Carl and Ryan (and won almost all of them!) We also played basketball Wednesday night in Carl's apartment gym, which was really fun. On the last Friday, we still had ~$400 left on the intern card, so we decided to splurge on a 6-man lunch at [Omakase 33](https://omakase33.com/). 
+
+![[Pasted image 20260817135700.jpeg]]
+
+*Company all-hands!*
+
+![[Pasted image 20260817135718.jpeg]]
+
+*Final dinner with eng team :(*
+
+## In review...
+
+On Saturday, I met up with a friend from SIP for breakfast then took an Uber Shuttle to JFK...and so concluded this short but incredible chapter of my life. If I had to summarize what I learned:
+1. Agentic coding is super flexible, and it's more than worthwhile to spend the time developing the system that best suits you rather than just running with whatever comes out-of-the-box.
+2. Yibo shared with me the interesting idea that although agents have long overtaken human SWEs in implementation ability/skill, humans still possess superior context/memory management (for now)—that is, we're good at forgetting unimportant things despite recency, and at remembering important things even from the distant past. Therefore, human SWEs have the most value as top-level orchestrators who can use their larger context windows to guide high-level judgements, while entrusting the rest to agents.
+3. LLMs have so much untapped potential, and (assuming sufficient compute resources) you're only bottlenecked by how much you're willing to try.
