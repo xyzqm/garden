@@ -1,7 +1,7 @@
 "use strict";
 
 const assert = require("node:assert/strict");
-const { splitCommentSpans } = require("../logic.js");
+const { splitCommentSpans } = require("../main.js").__test;
 
 function run(name, fn) {
   fn();
