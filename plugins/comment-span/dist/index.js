@@ -98,9 +98,6 @@ const commentSpanCss = `
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition:
-    opacity 0.15s ease,
-    visibility 0.15s ease;
 }
 
 .comment-span-tooltip.active {

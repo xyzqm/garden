@@ -92,7 +92,9 @@ function buildCommentSpanElement(doc, text, comment) {
   span.className = "comment-span";
   span.textContent = text;
   if (typeof setTooltip === "function") {
-    setTooltip(span, comment);
+    // delay: 0 overrides Obsidian's default hover delay (~300ms) so the
+    // tooltip appears instantly.
+    setTooltip(span, comment, { delay: 0 });
   } else {
     span.classList.add("comment-span-css-tooltip");
     span.setAttribute("data-comment", comment);
