@@ -92,9 +92,14 @@ function buildCommentSpanElement(doc, text, comment) {
   span.className = "comment-span";
   span.textContent = text;
   if (typeof setTooltip === "function") {
-    // delay: 0 overrides Obsidian's default hover delay (~300ms) so the
-    // tooltip appears instantly.
-    setTooltip(span, comment, { delay: 0 });
+    // Uses Obsidian's native tooltip. Note that the first tooltip shown
+    // waits for Obsidian's global hover delay (the constant is 300ms in
+    // 1.13.x); while a tooltip is already on screen that timer is skipped,
+    // so moving between spans swaps instantly. Passing { delay: 0 } here
+    // does not change that -- the initial show is scheduled by Obsidian's
+    // own aria-label hover handler, not by these options. Managing our own
+    // tooltip element would be the way to make it immediate.
+    setTooltip(span, comment);
   } else {
     span.classList.add("comment-span-css-tooltip");
     span.setAttribute("data-comment", comment);
