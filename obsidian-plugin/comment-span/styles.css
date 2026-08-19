@@ -1,0 +1,39 @@
+.comment-span {
+  background-color: var(--text-highlight-bg, var(--background-modifier-hover));
+  border-radius: var(--radius-s, 4px);
+  padding: 0 0.1em;
+  cursor: help;
+}
+
+/* Fallback tooltip for when the Obsidian setTooltip API is unavailable.
+   Used only if main.js could not call setTooltip() at render time. */
+.comment-span-css-tooltip {
+  position: relative;
+}
+
+.comment-span-css-tooltip::after {
+  content: attr(data-comment);
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%) translateY(-4px);
+  white-space: pre-wrap;
+  max-width: 20em;
+  width: max-content;
+  padding: 4px 8px;
+  border-radius: var(--radius-s, 4px);
+  background-color: var(--background-modifier-hover);
+  color: var(--text-normal);
+  font-size: var(--font-ui-smaller, 12px);
+  box-shadow: var(--shadow-s);
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.1s ease-in-out;
+  z-index: var(--layer-tooltip, 70);
+}
+
+.comment-span-css-tooltip:hover::after {
+  opacity: 1;
+  visibility: visible;
+}

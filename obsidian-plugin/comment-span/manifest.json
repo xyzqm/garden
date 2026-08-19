@@ -1,0 +1,8 @@
+{
+  "id": "comment-span",
+  "name": "Comment Span",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.4",
+  "description": "Renders {text|comment} inline syntax as text with a dim highlight and a hover tooltip showing the comment, in both Reading view and Live Preview.",
+  "isDesktopOnly": false
+}

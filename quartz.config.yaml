@@ -76,6 +76,9 @@ plugins:
     layout:
       position: right
       priority: 30
+  - source: ./plugins/comment-span
+    enabled: true
+    order: 55
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
