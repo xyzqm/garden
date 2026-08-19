@@ -11,10 +11,7 @@ Transposes are inextricably linked to the concept of *duality*.
 The transpose of a vector is its dual vector: $v^T$ essentially represents the operation "project onto $v$", and it can be applied to some vector $x$ simply by left-multiplying, i.e. $v^T x$.
 Therefore, $v^T$ should primarily be thought of as a *function*.
 
-One way to visualize a row vector $v^T$ is by drawing its level curves.
-That is, for each integer $k$, we draw a single line representing
-all vectors $x$ such that $v^T x = k$. 
-For instance, here's how we'd represent the row vector $[1, 1]$:
+One way to visualize a row vector $v^T$ is by drawing its level curves. That is, for each integer $k$, we draw a single line representing all vectors $x$ such that $v^T x = k$. For instance, here's how we'd represent the row vector $[1, 1]$:
 
 
 ```tikz
@@ -134,8 +131,7 @@ As a quick refresher, $det([x_1 thick x_2])$ is the signed area of the parallelo
 ```
 Equivalently, the determinant is the *scale factor* by which $A$ transforms the area of any shape.
 
-Now, how do we visualize the scaling induced by $A^T$? It will actually be easier to visualize this
-in the backwards direction---that is, to find the area of the shape that $A^T$ maps to the unit square.
+Now, how do we visualize the scaling induced by $A^T$? It will actually be easier to visualize this in the backwards direction---that is, to find the area of the shape that $A^T$ maps to the unit square.
 If this area is $x$, then we hope to show that $det(A) = 1/x$.
 
 Let's draw in level curves for $A = mat(1,4;2,1;)$. Then, by definition of the level curves, the shape which $A^T$ maps to the unit square is precisely the shaded region:
@@ -190,5 +186,4 @@ as desired.
 
 By the way, the basis which defines the second parallelogram has a special name: it is the [dual basis](https://en.wikipedia.org/wiki/Dual_basis) of $A$. 
 
-Also unfortunately, this similarity argument doesn't seem to extend to higher dimensions. However, I hope it still provided a more visceral feel for what exactly the transpose does, and how
-it's visually related to the original basis.
+Also unfortunately, this similarity argument doesn't seem to extend to higher dimensions. However, I hope it still provided a more visceral feel for what exactly the transpose does, and how it's visually related to the original basis.

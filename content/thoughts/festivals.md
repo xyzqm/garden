@@ -14,8 +14,7 @@ title: "IOI 2025: Festivals"
 > 
 > Then, we note that if there exists a total ordering, all coupons with the same break-even price should be considered equivalent. For instance, consider several coupons with the same break-even price of $0$: they will all then be of the form $X prime = X dot T_i$, and therefore will always compose into the transformation $X prime = X product T_i$, no matter how they are ordered. A similar argument holds for other values of $F_i$.
 > 
-> This motivates a comparator based on $F_i$, and 
-> we can actually show that it's always optimal to sort in increasing order of $F_i$. Consider two coupons $1$ and $2$ with $F_1 < F_2$, and a starting value of $X = F_1$: 
+> This motivates a comparator based on $F_i$, and we can actually show that it's always optimal to sort in increasing order of $F_i$. Consider two coupons $1$ and $2$ with $F_1 < F_2$, and a starting value of $X = F_1$: 
 > 
 > - If we put 1 before 2, we effectively only apply 2 (since by definition, 1 leaves an input of $X = F_1$ unchanged).
 > 

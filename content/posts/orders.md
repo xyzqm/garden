@@ -8,11 +8,9 @@ description: Common strategies to rearrange elements into an "optimal order."
 A common problem archetype is the following: "given $n$ tasks, order them in some optimal way" or "find an order of $n$ tasks satisfying a certain condition". I will outline some common methods to solve these problems below.
 ## Total Orders
 
-In many cases, it will be possible to define a *total order* on the tasks; that is, it's possible to assign each task a "priority" such that it's always optimal to do high-priority tasks before 
-low-priority ones.
+In many cases, it will be possible to define a *total order* on the tasks; that is, it's possible to assign each task a "priority" such that it's always optimal to do high-priority tasks before low-priority ones.
 
-An example of a non-total order is rock-paper-scissors, because the three moves can't be
-placed into a total order (e.g. rock > paper > scissors) due to their cyclic nature.
+An example of a non-total order is rock-paper-scissors, because the three moves can't be placed into a total order (e.g. rock > paper > scissors) due to their cyclic nature.
 
 > [!info] Tasks and Deadlines
 > ([CSES](https://cses.fi/problemset/task/1630)) You have to process $n$ tasks. Each task has a duration and a deadline, and you will process the tasks in some order one after another. Your reward for a task is $d−f$ where $d$ is its deadline and $f$ is your finishing time. (The starting time is $0$, and you have to process all tasks even if a task would yield negative reward.)

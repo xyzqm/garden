@@ -4,8 +4,7 @@ title: Flint and Steel
 [Problem](https://codeforces.com/problemset/problem/2133/F)
 
 > [!info]- Hint
-> Consider the following subproblem: given an unordered subset of creepers, can we find an order
-> of detonation such that no creeper is killed before it is detonated?
+> Consider the following subproblem: given an unordered subset of creepers, can we find an order of detonation such that no creeper is killed before it is detonated?
 
 > [!note]- Solution
 > A simple case where no such order exists is when the detonation intervals of two creepers both contain each other, like so:
@@ -35,8 +34,7 @@ title: Flint and Steel
 > 
 > ```
 > This turns out to be the _only_ case where no viable detonation order exists.
-> Moreover, it turns out that we can always just determine the detonation order by detonating the creepers
-> in order of increasing radius.
+> Moreover, it turns out that we can always just determine the detonation order by detonating the creepers in order of increasing radius.
 > 
 > We can show this with a proof by contradiction. Assume that the smallest detonation interval, which belongs to creeper $x$, contains another creeper, $y$.
 > Then, according to our condition above, the detonation interval of creeper $y$ cannot contain creeper $x$.
