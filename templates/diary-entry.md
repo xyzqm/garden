@@ -1,7 +1,6 @@
 ---
 title: "{{date:dddd, D MMMM YYYY}}"
-date:
-  "{ date:YYYY-MM-DD }":
+date: {{date:YYYY-MM-DD}}
 mood:
 ---
 
