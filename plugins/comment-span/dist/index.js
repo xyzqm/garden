@@ -75,11 +75,17 @@ function walk(node) {
 
 const commentSpanCss = `
 .comment-span {
-  background-color: var(--highlight);
+  background-color: var(--comment-span-bg, var(--highlight));
   border-bottom: 1px dotted var(--gray);
   border-radius: 3px;
   padding: 0 0.1rem;
   cursor: help;
+}
+
+/* --highlight is the same low-alpha grey in both themes, which all but
+   disappears against the dark surface. Lift the alpha in dark mode only. */
+:root[saved-theme="dark"] {
+  --comment-span-bg: rgba(143, 159, 169, 0.3);
 }
 
 .comment-span-tooltip {
