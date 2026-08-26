@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("content/posts")
+    - file.hasTag("me")
 properties:
   note.name:
     displayName: title
@@ -8,10 +8,7 @@ properties:
     displayName: ""
 views:
   - type: cards
-    name: Cards
-    filters:
-      and:
-        - '!file.hasTag("me")'
+    name: Table
     order:
       - file.name
       - description

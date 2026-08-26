@@ -1,6 +1,8 @@
 ---
 description: My experience as the first-ever intern at Probook.
 draft: false
+tags:
+  - me
 ---
 
 In the last two weeks, I had the pleasure of interning at [Probook](https://probook.ai/) as a member of their Engineering team (and I later discovered I was the first *ever* intern at Probook, which was quite cool). Here's a rough chronology of my experience and a reflection on all the incredible things I learned, fun I had, and friends I made.

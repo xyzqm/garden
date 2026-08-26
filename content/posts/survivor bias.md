@@ -1,6 +1,8 @@
 ---
 title: Survivor bias
 description: Some thoughts on survivor bias.
+tags:
+  - me
 ---
 "History is written by the victors" is a quote everyone may know, but its wisdom often seems far from our own lives—after all, we're far from becoming history, right? 
 
