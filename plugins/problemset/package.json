@@ -1,0 +1,60 @@
+{
+  "name": "@local/problemset",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "@myriaddreamin/typst-ts-node-compiler": ">=0.6.0"
+  },
+  "quartz": {
+    "name": "problemset",
+    "displayName": "Problemset",
+    "description": "Render Typst-rendered problem/theorem boxes from code fences, server-side",
+    "category": "transformer",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "requiresInstall": false,
+    "defaultOrder": 82,
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "environments": ["problem"],
+      "markdownEmphasis": true,
+      "numbering": "per-page",
+      "pageWidth": "560pt",
+      "fontSize": "12.5pt",
+      "extraPreamble": "",
+      "labels": {}
+    },
+    "optionSchema": {
+      "environments": {
+        "type": "array"
+      },
+      "markdownEmphasis": {
+        "type": "boolean"
+      },
+      "numbering": {
+        "type": "enum",
+        "values": ["per-page", "off"]
+      },
+      "pageWidth": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "string"
+      },
+      "extraPreamble": {
+        "type": "string"
+      },
+      "labels": {
+        "type": "object"
+      }
+    }
+  }
+}

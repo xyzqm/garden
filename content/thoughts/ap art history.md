@@ -2,13 +2,15 @@
 
 ![[Pasted image 20260824143812-1.png]]
 
-- 25 000 years old
+- 25 000 years old in Namibia (Southern Africa)
+- charcoal on stone
 - could be a combination of animal head + human form => representative of complex shamanistic belief
 	- also demonstrates that the artist had a capacity for imagination—"modern symbolic thought"/"the human capacity"—by drawing something that didn't really exist in the world
 
 ## 2. Hall of Bulls
 
 ![[Pasted image 20260824144439-1.png]]
+- 16000-14000 BCE, France
 - caves provide "a uniquely dry place to feature art"
 - artists used charcoal + ocher (natural clay pigment, comes in variety of colors like brown, red, yellow, white)
 - **why?** some suggest for ritual purposes; artists may have believed that drawing their prey would make their hunt easier
@@ -24,9 +26,10 @@
 
 ## 4. Running horned woman
 
-![[Pasted image 20260825213616-1.png|321]]
+![[Pasted image 20260825213616-1.png|354]]
 
 - Algeria, 6000-4000 BCE
 - dots => body paint, scarification?
 - no face => artistic choice, or a god?
 - painted over smaller figures => worshippers?
+- found at high elevation, hard to get to, isolated

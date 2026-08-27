@@ -1,0 +1,8 @@
+{
+	"id": "problemset",
+	"name": "Problemset",
+	"version": "0.1.0",
+	"minAppVersion": "1.4.4",
+	"description": "Renders problem/theorem code fences as Typst theorion boxes (WASM, offline after first package fetch).",
+	"isDesktopOnly": false
+}

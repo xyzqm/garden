@@ -95,6 +95,15 @@ plugins:
     options:
       renderEngine: typst
     order: 80
+  - source: ./plugins/problemset # local plugin: Typst problem boxes
+    enabled: true
+    order: 82
+    options:
+      environments: [problem]
+      markdownEmphasis: true
+      numbering: per-page
+      pageWidth: 560pt
+      fontSize: 12.5pt
   - source: ./plugins/tikzjax
     enabled: true
     order: 85
