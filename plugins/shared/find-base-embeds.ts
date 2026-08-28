@@ -16,6 +16,11 @@ export interface EmbedScanFile {
 
 const embedRegex = /!\[\[([^\]|#]+)/g;
 
+/** Mirrors how Quartz slugifies path segments: lowercased, whitespace runs become dashes. */
+function normalizeName(name: string): string {
+  return name.toLowerCase().replace(/\s+/g, "-");
+}
+
 /**
  * Obsidian resolves embeds by bare filename, so match a base by name with or
  * without extension. Derived from `slug`, not `relativePath` — Quartz assigns
@@ -28,9 +33,9 @@ function buildBaseLookup(baseFiles: EmbedScanFile[]): Map<string, string> {
   for (const f of baseFiles) {
     const fileName = f.slug.split("/").pop() ?? "";
     const nameNoExt = fileName.replace(/\.base$/i, "");
-    lookup.set(fileName.toLowerCase(), f.slug);
-    lookup.set(nameNoExt.toLowerCase(), f.slug);
-    lookup.set(f.slug.toLowerCase(), f.slug);
+    lookup.set(normalizeName(fileName), f.slug);
+    lookup.set(normalizeName(nameNoExt), f.slug);
+    lookup.set(normalizeName(f.slug), f.slug);
   }
   return lookup;
 }
@@ -61,7 +66,8 @@ export function findBaseEmbedEdges(allFiles: EmbedScanFile[], contentDir: string
     embedRegex.lastIndex = 0;
     let match: RegExpExecArray | null;
     while ((match = embedRegex.exec(raw))) {
-      const target = match[1]?.trim().toLowerCase();
+      const trimmed = match[1]?.trim();
+      const target = trimmed ? normalizeName(trimmed) : undefined;
       const baseSlug = target ? lookup.get(target) : undefined;
       if (baseSlug) edges.push({ source: file.slug, target: baseSlug });
     }

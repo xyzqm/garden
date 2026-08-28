@@ -13,17 +13,23 @@
       "commit": "e608ca815e137e22b598094f735bcd8a481dafaa",
       "installedAt": "2026-06-03T13:32:35.204Z"
     },
+    "anchor-fix": {
+      "source": "./plugins/anchor-fix",
+      "resolved": "./plugins/anchor-fix",
+      "commit": "local",
+      "installedAt": "2026-08-27T00:00:00.000Z"
+    },
     "backlinks": {
-      "source": "github:quartz-community/backlinks",
-      "resolved": "https://github.com/quartz-community/backlinks.git",
-      "commit": "7490f921b7bd974c3f2f985ad3744b06160827d6",
-      "installedAt": "2026-06-03T13:32:35.225Z"
+      "source": "./plugins/backlinks",
+      "resolved": "./plugins/backlinks",
+      "commit": "local",
+      "installedAt": "2026-08-27T00:00:00.000Z"
     },
     "bases-page": {
-      "source": "github:quartz-community/bases-page",
-      "resolved": "https://github.com/quartz-community/bases-page.git",
-      "commit": "f8fc7da3515a4d4bbe0bd4be0fd9188823866a01",
-      "installedAt": "2026-06-03T13:32:35.344Z"
+      "source": "./plugins/bases-page",
+      "resolved": "./plugins/bases-page",
+      "commit": "local",
+      "installedAt": "2026-08-27T00:00:00.000Z"
     },
     "breadcrumbs": {
       "source": "github:quartz-community/breadcrumbs",
@@ -48,6 +54,12 @@
       "resolved": "https://github.com/quartz-community/cname.git",
       "commit": "ec4c81c91da13a6f6c2cbe1656daf5c14575dab3",
       "installedAt": "2026-06-03T13:16:37.301Z"
+    },
+    "comment-span": {
+      "source": "./plugins/comment-span",
+      "resolved": "./plugins/comment-span",
+      "commit": "local",
+      "installedAt": "2026-08-27T00:00:00.000Z"
     },
     "comments": {
       "source": "github:quartz-community/comments",
@@ -110,10 +122,10 @@
       "installedAt": "2026-06-03T13:16:36.746Z"
     },
     "explorer": {
-      "source": "github:quartz-community/explorer",
-      "resolved": "https://github.com/quartz-community/explorer.git",
-      "commit": "a2dfd1373abe58ace461ebea0b4e94cb287f894e",
-      "installedAt": "2026-06-03T13:32:35.808Z"
+      "source": "./plugins/explorer",
+      "resolved": "./plugins/explorer",
+      "commit": "local",
+      "installedAt": "2026-08-27T00:00:00.000Z"
     },
     "favicon": {
       "source": "github:quartz-community/favicon",
@@ -146,10 +158,10 @@
       "installedAt": "2026-06-03T13:16:36.665Z"
     },
     "graph": {
-      "source": "github:xyzqm/graph",
-      "resolved": "https://github.com/xyzqm/graph.git",
-      "commit": "5a983a802372db1242c9405606ffacff05bd6936",
-      "installedAt": "2026-07-16T20:47:12.050Z"
+      "source": "./plugins/graph",
+      "resolved": "./plugins/graph",
+      "commit": "local",
+      "installedAt": "2026-08-27T00:00:00.000Z"
     },
     "hard-line-breaks": {
       "source": "github:quartz-community/hard-line-breaks",
@@ -211,6 +223,12 @@
       "commit": "0a51a4c6abb3c86961a9bbf46f4538da87fcf9f8",
       "installedAt": "2026-06-03T13:16:36.691Z"
     },
+    "problemset": {
+      "source": "./plugins/problemset",
+      "resolved": "./plugins/problemset",
+      "commit": "local",
+      "installedAt": "2026-08-27T00:00:00.000Z"
+    },
     "roam": {
       "source": "github:quartz-community/roam",
       "resolved": "https://github.com/quartz-community/roam.git",
@@ -261,9 +279,9 @@
     },
     "tikzjax": {
       "source": "./plugins/tikzjax",
-      "resolved": "/Users/danielzhu/Documents/garden/plugins/tikzjax",
+      "resolved": "./plugins/tikzjax",
       "commit": "local",
-      "installedAt": "2026-07-01T07:26:16.115Z"
+      "installedAt": "2026-08-27T00:00:00.000Z"
     },
     "unlisted-pages": {
       "source": "github:quartz-community/unlisted-pages",
