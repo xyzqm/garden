@@ -33,7 +33,7 @@ We can also interpret the identity
 $$
 (n + 1)_k - (n)_k = k dot (n)_(k - 1)
 $$
-from a combinatorial perspective. If we have $(n + 1)$ balls, $(n + 1)_k$ denotes the number of ways to select and permute $k$ of them, while $(n)_k$ represents the same quantity but *restricted only to the first $n$ balls.* Therefore, the selections that are included by the former but not the later are precisely those that include the $(n + 1)$st ball. 
+from a combinatorial perspective. If we have $(n + 1)$ balls, $(n + 1)_k$ denotes the number of ways to select and permute $k$ of them, while $(n)_k$ represents the same quantity but *restricted only to the first $n$ balls.* Therefore, the selections that are included by the former but not the latter are precisely those that include the $(n + 1)$st ball. 
 
 To count the number of selections that contain the $(n + 1)$st ball, we note that we may first select and order $k - 1$ other balls among the first $n$, then place the $(n + 1)$st ball at any position among them. This results in $(n)_(k - 1) dot k$ ways, as desired.
 
