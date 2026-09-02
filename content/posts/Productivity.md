@@ -25,7 +25,7 @@ Parental pressure has helped me internalize productive habits by creating the fo
 
 > In parallel, I've also grown better at projecting possible actions into the future and grasping the true weight of their consequences. Since I've never failed gravely nor know anyone else who has, it always seemed to me that even if I made a bad decision in the short run, everything would work out in the short run. But I'd fallen victim to [[Survivor bias|survivor bias]], and recognizing this delusion has helped deepen my fear of failure and strengthen the feedback loop. 
 
-I find this loop effective because it offers me enough help to escape deadlines unscathed, but till eaves me enough autonomy to feel the weight of the consequences that would have been. Thus, it allows me to reap the tactile benefits of "learning by mistake" while still avoiding the worst outcomes.
+I find this loop effective because it offers me enough help to escape deadlines unscathed, but till leaves me enough autonomy to feel the weight of the consequences that would have been. Thus, it allows me to reap the tactile benefits of "learning by mistake" while still avoiding the worst outcomes.
 
 ## My system, and how to (not) use Todoist
 
