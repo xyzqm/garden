@@ -1,7 +1,8 @@
 ---
-title: The Scarlet Letter
 tags:
   - book
+rating: 7
+image: https://images.penguinrandomhouse.com/cover/9780451531353
 ---
 ## 1: The Prison-Door
 - Anne Hutchinson vs. Hester Prynne: both deviate from society, one good, one bad

@@ -1,9 +1,10 @@
 ---
-title: The Great Gatsby
 tags:
   - book
+image: "[[Pasted image 20260620140759.png]]"
+rating: 10
 ---
-![[Pasted image 20260518211851.png|500]]
+![[Pasted image 20260620140759.png|500]]
 
 **Rating:** 10/10
 

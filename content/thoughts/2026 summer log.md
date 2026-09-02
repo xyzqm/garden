@@ -69,7 +69,7 @@ draft: true
 # 6.6
 - authored some [flows content](https://github.com/cpinitiative/usaco-guide/pull/6241)
 - finished summer schedule for college stuff
-- finished [[survivor bias]] draft
+- finished [[Survivor bias]] draft
 - edited up to 1:15 of vlog
 # 6.5
 - created tetrar

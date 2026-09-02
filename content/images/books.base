@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.hasTag("book")
+views:
+  - type: cards
+    name: Cards
+    sort:
+      - property: rating
+        direction: DESC
+    image: note.image
+    cardSize: 200

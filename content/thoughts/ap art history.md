@@ -40,7 +40,9 @@
 - iran 5000 years ago
 - likely made for burial, not daily use
 - probably not with potters wheel either => evidenced by uneven, asymmetrical markings
-- painted w/ dark pigments
+- painted w/ dark pigments on terra cotta
+- ibex + hunting dogs => domestication
+- symbol inside horn = grain
 
 ## 6. Anthropomorphic stele
 
@@ -48,6 +50,8 @@
 
 - 4000-3000 BCE in Saudi Arabia
 - probably used w/ religious + burial practices
+- likely depicting warriors
+- similar figures found elsewhere => indicates existence of a trade network
 
 ## 7. Jade cong
 
@@ -66,3 +70,48 @@
 - 3000 BCE in England
 - stones transported huge distances, nearly 300 miles!
 - purpose unclear, but buried people were probably highly honored + may have connections to solar and lunar calendars
+
+## 9. Ambum Stone
+
+![[Pasted image 20260829154038.png]]
+
+*1500 BCE, New Guinea.*
+
+- could have been used as a pestle
+	- neck could have been used to hold the tool
+- very smooth and symmetric
+- could be anteater, bird, bat, or extinct marsupial
+- made from **greywacke**—hard sedimentary stone 
+- New Guinea writes legislation to try to regain control of their artifacts
+	- grows more effective over time
+- carved using only stone tools
+- formal supernatural meaning erased, replaced by "primitive" and aesthetic appeal according to Western standards
+
+## 10. Tlatilco Figurines
+
+![[Pasted image 20260829160241.png|276]]
+
+- 1200-600 BC in Mexico
+- de-emphasis of hands + feet but incredible detail in hair => cultural significance?
+- two heads could reflect the idea of duality
+
+![[Pasted image 20260829160453.png|241]]
+
+- male figures more commonly found w/ costumes/mask, suggesting they were valued more for ritual importance, while females themselves had ritual value
+- much skill required to mold the figure proprtions and also create the detailed hair
+	- esp considering figures were < 6 in tall
+- used in burials
+
+## 11. Terracotta fragments
+![[Pasted image 20260829161054.png]]
+
+- 1000 BCE, Lapita people (island dwellers)
+- pieces have been recovered across thousands of miles of islands
+	- pieces also connected across islands!
+- pottery => used for storage rather than cooking
+- started from Taiwan, then moved east
+	- patterns grew less complex as they moved further east
+- motifs carved with sharp implements
+- sand added to clay to reduce elasticity and prevent cracking when firing
+- could have been used for commerce
+- 

@@ -1,5 +1,4 @@
 ---
-title: Watchlist
 description: Movie + TV reviews.
 tags:
   - me
@@ -9,7 +8,7 @@ A list of everything I've watched, or plan to watch! All lists (besides "To Watc
 You may also be interested in my [[anime]]-specific page.
 
 ## Movies
-![[Films.base]]
+![[Pasted image 20260620172308.base]]
 
 - Into the Spider-Verse
 - Interstellar
@@ -37,7 +36,7 @@ You may also be interested in my [[anime]]-specific page.
 - Superman
 - Fantastic Four: First-Steps
 ## TV
-![[TV.base]]
+![[Pasted image 20260622135114.base]]
 
 - Arcane
 - Severance
@@ -49,7 +48,11 @@ You may also be interested in my [[anime]]-specific page.
 - To Be Hero X
 
 ## To Watch
+- Erased
+- Parasyte
+- Your Lie in April
 - When I Fly Towards You
+- Mr. Robot
 - Pluto
 - Lost
 - 100 meters
