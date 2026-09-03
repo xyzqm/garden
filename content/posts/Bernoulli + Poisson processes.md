@@ -1,5 +1,4 @@
 ---
-title: Bernoulli/Poisson processes
 tags:
   - probability
 description: Some intuition behind the formulas.
@@ -45,6 +44,8 @@ $$
 P(k, tau) = e^(-lambda tau) ((lambda tau)^k)/(k!)
 $$
 
+### Exponential random variable
+
 Another derived random variable to consider is $T$, the time of first success.
 Note that $1 - "cdf"(T) = P[T >= tau] = P(0, tau) = e^(-lambda tau)$.
 From this, we can derive the PDF:
@@ -56,16 +57,19 @@ Note that $bb(E)[T]$ is still $1/lambda$, since $bb(E)[T] = dif t + (1 - lambda 
 
 A more interesting problem: what's $bb(E)[T^n]$?  We can use a similar argument as we did for expected value (taking advantage of the fact that the Poisson process is _memoryless_) to get that
 $$
-bb(E)[T^n] = (1 - lambda dif t) (bb(E)[T^n] + dif t space bb(E)[T^(n - 1)])
+bb(E)[T^n] &= (1 - lambda dif t) EE[(T + dif t)^n] \
+&= (1 - lambda dif t) (EE[T^n] + n dif t dot  EE[T^(n - 1)]) 
 $$
 Rearranging, we get:
 $$
-lambda dif t space bb(E)[T ^n] = dif t space bb(E)[T^(n - 1)]
+lambda dif t dot bb(E)[T ^n] = n dif t dot bb(E)[T^(n - 1)]
 $$ 
 Here, we use the fact that $(1 - lambda dif t) dif t = dif t$ since $(dif t) ^2 = 0$. From here, we can show that
 $$
 E[T^n] = (n!)/(lambda ^n)
 $$
-As a direct consequence, $"Var"(T) = 1/(lambda^2)$. 
+As a direct consequence, $EE[T^2] = 2/lambda^2$ and $"Var"(T) = 1/(lambda^2)$. 
 
-Now, let $N$ be the number of success in a $tau$-second interval. Then, we can show that $E[N] = "Var"(N) = lambda tau$.  The fact that $E[N] = "Var"(N)$ is actually very special, since typically mean and variance have different dimensions and thus this equality is highly unlikely. However, $N$ is a "counting" variable, which means it's dimensionless and thus the above expression makes perfect sense.
+### Poisson random variable
+
+Now, let $N$ be the number of success in a $tau$-second interval. Then, we can show that $E[N] = "Var"(N) = lambda tau$.  The fact that $E[N] = "Var"(N)$ is actually very special, since typically mean and variance have different dimensions and thus this equality is highly unlikely. However, $N$ is a "counting" variable, which means it's dimensionless, and thus the above expression makes perfect sense.

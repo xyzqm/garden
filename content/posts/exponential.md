@@ -23,7 +23,7 @@ $$
 That is, sets are now assigned a "weight" which decreases as the set size increases.
 It can be shown that under this definition, the loose argument made above can be made precise.
 
-This definition of $|S_i|$ can also be interpreted probabilistically by defining a random process in which each interval $[x, x + dif x]$ is selected independently with probability $dif x$. This corresponds to a [[bernoulli-poisson|Poisson process]] with $lambda = 1$. In particular, the chance of selecting exactly $k$ intervals is just
+This definition of $|S_i|$ can also be interpreted probabilistically by defining a random process in which each interval $[x, x + dif x]$ is selected independently with probability $dif x$. This corresponds to a [[Bernoulli + Poisson processes|Poisson process]] with $lambda = 1$. In particular, the chance of selecting exactly $k$ intervals is just
 $$
 ((x^k)/(k!))/(|S_x|) = e^(-x) (x^k)/(k!)
 $$
