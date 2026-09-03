@@ -32,4 +32,8 @@ rating: 6
 
 **The new cannot assimilate into the old without concessions and compromise.** With Catherine, Heathcliff sees no intermediate option between total estrangement and absolute, mutual devotion. However, the latter would cause an immediate upset of established social order and expectations, and when he realizes such drastic revolution is impossible, he doesn't retreat to more gradual means but rather gives up completely. In the end, his inability to settle for less leaves him with nothing at all.
 
-But where Heathcliff and Catherine failed, Hareton and Cathy succeed because both sides compromise and come to terms with the natural inequality of their relationship. Hareton puts aside his pride and allows Cathy to teach him how to read, while Cathy also puts aside her prejudice and offers Hareton an honest chance at education. Although Cathy's social status remains higher than Hareton's, their emergent bond demonstrates that social change must happen in gradual steps rather than all at once.
+But where Heathcliff and Catherine failed, Hareton and Cathy succeed because both sides compromise and come to terms with the natural inequlity of their relationship. Hareton puts aside his pride and allows Cathy to teach him how to read, while Cathy also puts aside her prejudice and offers Hareton an honest chance at education. Although Cathy's social status remains higher than Hareton's, their emergent bond demonstrates that social change must happen in gradual steps rather than all at once.
+
+## Essays
+- [[The necessity of gradual assimilation]]
+- [[Setting in Wuthering Heights]]
