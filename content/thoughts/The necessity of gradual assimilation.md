@@ -1,4 +1,4 @@
-(an AP Literature FRQ #3 practice)
+(an [[AP Literature]] FRQ #3 practice)
 
 In her novel *Wuthering Heights,* Emily Bronte explores the conflict between old, elite society and new outsiders like Heathcliff and Hareton Earnshaw attempting to assimilate. By contrasting the former’s failure against the latter’s success, Bronte suggests that drastic attempts to resolve the societal tension between old and new always result in failure and destruction, and that progress comes only through gradual steps and compromise.  
 

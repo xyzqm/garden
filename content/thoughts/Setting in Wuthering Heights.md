@@ -1,4 +1,4 @@
-(an AP Literature FRQ #3 practice)
+(an [[AP Literature]] FRQ #3 practice)
 
 > In many works of literature, a home, estate, or physical setting functions as more than mere background; it operates as a reflection of the characters’ psychological states, social status, or moral alignment. Contrast between two contrasting settings can highlight fundamental conflicts in values, temperament, or worldview.
 > 
