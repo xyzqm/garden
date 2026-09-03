@@ -11,3 +11,13 @@ The seclusion and wilderness of Wuthering Heights reflect the impulse and passio
 In contrast, the quiet and order of Thrushcross Grange leaves its children—Edgar Linton, Isabella Linton, and Catherine "Cathy" Linton—with a curious mix of kindness, sensitivity, and prejudice. Compared to Wuthering Heights, Thrushcross Grange provides a more comfortable residence for its children, which gives them a gentler nature. For instance, Edgar Linton treats Catherine far less roughly than Heathcliff does: he accommodates brash demands like admitting Heathcliff into the house, and also faithfully attends to Catherine when she falls ill. However, the upper-class upbringing Thrushcross Grange provides also leaves the Lintons with an air of superiority and prejudice. When Catherine and Heathcliff first stumble upon Thrushcross Grange, the Lintons take the former in but expel the latter on the basis of his skin color and unrefined appearance; then later, Cathy demeans Hareton for his illiteracy and even refuses to accept him as her cousin.
 
 For all their differences, the two environments share a major flaw: their seclusion. While the seclusion of Wuthering Heights enables impulse and passion to transform into violence and abuse, the seclusion of Thrushcross Grange fosters elitism and prejudice.
+
+## Reflection
+
+I wanted to address how the specific physical elements of each location affected its residents, but as I began writing, I realized I lacked sufficient knowledge of these physical details. In retrospect, a few features I could have mentioned: 
+- Thrushcross Grange is surrounded by a high wall => seclusion, social division, elitism
+	- Soft carpets, plush furniture
+- Exposed firearms at Wuthering Heights => endorses violence
+	- later threatens Heathcliff with a pistol
+- because rough interior offers little comfort, Catherine and Heathcliff come to view the moors as their true home
+	- _"The roof... had never been under-drawn: its entire anatomy lay bare to an inquiring eye, except where a frame of wood laden with oatcakes and clusters of legs of beef, mutton, and ham, concealed it"_ (Ch. 1).
