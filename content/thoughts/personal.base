@@ -4,11 +4,13 @@ filters:
 properties:
   note.name:
     displayName: title
-  description:
-    displayName: ""
 views:
   - type: cards
     name: Table
+    groupBy:
+      property: draft
+      direction: DESC
     order:
       - file.name
       - description
+    sort: []

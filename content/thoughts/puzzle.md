@@ -5,6 +5,6 @@ See [[emergent beauty|here]] for a bit about why I love puzzles so much!
 
 *Favorites*
 - [[light and shadow]]
-- [[akari]]
+- [[Akari]]
 - [[nurikabe]]
 - hamiltonian path

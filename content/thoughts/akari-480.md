@@ -1,7 +1,7 @@
 ---
 title: Akari 480
 ---
-an [[akari]] puzzle.
+an [[Akari]] puzzle.
 
 note that we cannot light these two squares as a contradiction is formed:
 ![[Pasted image 20260430152401.png]]

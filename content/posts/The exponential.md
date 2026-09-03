@@ -1,5 +1,4 @@
 ---
-title: The exponential
 tags:
   - combo
 description: A combinatorial look at the exponential Taylor series.

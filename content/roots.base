@@ -4,14 +4,15 @@ filters:
 properties:
   note.name:
     displayName: title
-  description:
-    displayName: ""
 views:
   - type: cards
     name: Cards
     filters:
       and:
         - '!file.hasTag("me")'
+    groupBy:
+      property: draft
+      direction: DESC
     order:
       - file.name
       - description

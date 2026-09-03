@@ -1,7 +1,7 @@
 ---
 title: Akari 462
 ---
-an [[akari]] puzzle.
+an [[Akari]] puzzle.
 
 the first observation here is pretty random:
 ![[Pasted image 20260412151437.png]]

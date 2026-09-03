@@ -29,13 +29,13 @@ Again, we may suspect that $f(k)$ will look something like a parabola, but this 
 The idea of this strategy is to show that if we have solutions of size $k - 1$ and $k + 1$ with costs $f(k - 1)$ and $f(k + 1)$ respectively, we can construct a solution of size $k$ with cost $<= (f(k - 1) + f(k + 1))/2$ (or $>=$, depending on the problem).
 
 Let's apply this approach to the second example. First, consider $l = 1$. Let's draw two valid solutions, one for $k - 1$ and one for $k + 1$, as follows:
-![[Pasted image 20260406204433.png|500]]
+![[Pasted image 20260620140759-1.png|500]]
 *Green tiles are tiles common to both solutions.*
 
 Note that if we move the larger of the red and blue tiles over to the $k - 1$ solution, the resultant solution will have size $k$ and sum $>= (f(k - 1) + f(k + 1))/2$. 
 
 For $l = 1$, we have to be a bit more clever. Consider the following:
-![[Pasted image 20260406205449.png|500]]
+![[Pasted image 20260620140759-2.png|500]]
 *Edges are drawn between overlapping tiles. Note that each component forms a zig-zag pattern.*
 
 Our claim is that there exists two optimal solutions for $k - 1$ and $k + 1$ such that all components are either green (equal # of tiles on left and right) or red (one more tile on right). Assuming this is true, there will be exactly **two** red components, and we can toggle the one with larger net gain to achieve $f(k) >= (f(k - 1) + f(k + 1))/2$.

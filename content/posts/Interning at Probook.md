@@ -1,6 +1,5 @@
 ---
 description: My experience as the first-ever intern at Probook.
-draft: false
 tags:
   - me
 ---

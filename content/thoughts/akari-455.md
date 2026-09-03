@@ -3,7 +3,7 @@ title: Akari 455
 tags:
   - akari/very-hard
 ---
-an [[akari]] puzzle.
+an [[Akari]] puzzle.
 
 line counting in the upper right corner places these x's:
 ![[Pasted image 20260406135954.png]]

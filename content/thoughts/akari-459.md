@@ -3,7 +3,7 @@ title: Akari 459
 tags:
   - akari/hard
 ---
-an [[akari]] puzzle.
+an [[Akari]] puzzle.
 
 we can place these two lights according to the same theme as [[akari-458|458]]:
 ![[Pasted image 20260410141008.png]]

@@ -3,7 +3,7 @@ title: Akari 437
 tags:
   - akari/medium
 ---
-an [[akari]] puzzle.
+an [[Akari]] puzzle.
 
 First, note that we cannot place the light here, otherwise it's impossible to light both squares marked with an X:
 ![[Pasted image 20260318151315.png|500]]

@@ -1,7 +1,6 @@
 ---
 tags:
   - me
-draft: false
 description: A reflection on my struggle with productivity—what's worked for me, what hasn't, and why.
 ---
 I've struggled with productivity for quite some time now. Maybe it's the fact that for most of my academic life, i've been able to slack off, procrastinate, and still get assignments done in a satisfactory manner. But I know one day, that will no longer be the case. Once day, I'll be bottlenecked not by my intellectual capability but rather my inability to get things done; but instead of correcting the habit, I'll fall into an even deeper pit of procrastination and escapism, until all my intellect is gone as well. So to prevent that from happening, here's a chance for me to reflect on my struggle with productivity—what's worked for me, what hasn't, and why. 

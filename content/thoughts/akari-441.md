@@ -3,7 +3,7 @@ title: Akari 441
 tags:
   - akari
 ---
-an [[akari]] puzzle.
+an [[Akari]] puzzle.
 
 starting configuration:
 

@@ -3,7 +3,7 @@ title: Akari 460
 tags:
   - akari
 ---
-an [[akari]] puzzle.
+an [[Akari]] puzzle.
 
 these 2 must be here, otherwise the two 2's would suffocate each other:
 

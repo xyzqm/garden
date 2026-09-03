@@ -3,7 +3,7 @@ title: Akari 461
 tags:
   - akari/very-hard
 ---
-an [[akari]] puzzle.
+an [[Akari]] puzzle.
 
 here's the core pattern of this puzzle (which took me way too long to figure out):
 ![[Pasted image 20260411191151.png]]

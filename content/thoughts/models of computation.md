@@ -2,7 +2,7 @@
 title: Models of computation
 draft: false
 ---
-The content of this page is currently very barebones and just meant to be enough to understand [[p vs np]]. More may be added in the future.
+The content of this page is currently very barebones and just meant to be enough to understand [[P vs NP]]. More may be added in the future.
 
 ## What is a computer?
 

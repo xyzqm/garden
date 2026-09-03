@@ -3,7 +3,7 @@ title: "Akari: aspirin box"
 tags:
   - akari
 ---
-an [[akari]] technique
+an [[Akari]] technique
 
 ![[Pasted image 20260318175125.png|500]]
 

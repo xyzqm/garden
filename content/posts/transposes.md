@@ -1,5 +1,4 @@
 ---
-title: Transposes
 tags:
   - linear
 description: Why are the determinants of a matrix and its transpose equal?
@@ -176,7 +175,7 @@ Let's draw in level curves for $A = mat(1,4;2,1;)$. Then, by definition of the l
 \end{document}
 ```
 Now, how can we relate the area of this parallelogram to our first one? Well,
-according to [[transposes#^lemma|our lemma]], the two altitudes of the new parallelogram are $1/(|x_1|)$ and $1/(|x_2|)$, respectively. We also know that the two altitudes of the original parallelogram are $det(A)/(|x_1|)$ and $det(A)/(|x_2|)$, respectively. 
+according to [[Transposes#^lemma|our lemma]], the two altitudes of the new parallelogram are $1/(|x_1|)$ and $1/(|x_2|)$, respectively. We also know that the two altitudes of the original parallelogram are $det(A)/(|x_1|)$ and $det(A)/(|x_2|)$, respectively. 
 And since the two parallelograms have the same angles, this means that they must be *similar*: the new one is just the original one scaled by a factor of $1/det(A)$!
 This means the area of our new parallelogram is simply
 $$

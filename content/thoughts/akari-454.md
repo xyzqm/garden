@@ -3,7 +3,7 @@ title: Akari 454
 tags:
   - akari/very-hard
 ---
-an [[akari]] puzzle.
+an [[Akari]] puzzle.
 
 cycle in the bottom right:
 ![[Pasted image 20260406141542.png]]

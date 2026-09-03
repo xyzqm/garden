@@ -1,6 +1,4 @@
 ---
-title: P vs NP
-draft: false
 description: An introduction to P vs NP, NP-hard, and NP-complete + some illustrative proofs.
 ---
 If you've ever studied CS, you're probably familiar with the infamous [P versus NP problem](https://en.wikipedia.org/wiki/P_versus_NP_problem). In this post, I'll try to explain why we even care about this problem, what it means to be NP-hard and NP-complete, and lastly how to show whether a given problem belongs in these categories or not.

@@ -1,5 +1,4 @@
 ---
-title: Voting
 description: An introduction to social choice theory and metric voting.
 ---
 ## The setup
@@ -8,7 +7,7 @@ Consider an election in which there are $n$ candidates and $m$ voters. Each vote
 
 Well, if we know the exact cost table for all (voter, candidate) pairs, all is well; we just need to do some arithmetic.
 
-![[Pasted image 20260617000037.png|500]]
+![[Pasted image 20260620140759-9.png|500]]
 
 *Summing costs for each candidate across all voters, we determine that we should elect the third candidate because he minimizes total cost.*
 
@@ -16,7 +15,7 @@ Well, if we know the exact cost table for all (voter, candidate) pairs, all is w
 
 However, what if we don't know the exact costs each voter associates with each candidate? In practice, even the voters themselves often cannot quantify their exact cost profiles: instead, they are typically asked to *rank* the candidates from most to least favorite. Therefore, instead of full **cardinal** information, we now receive only **ordinal** information.
 
-![[Pasted image 20260617001346.png|500]]
+![[Pasted image 20260620140759-10.png|500]]
 
 How can we decide which candidate to elect in this new scenario?
 
@@ -31,7 +30,7 @@ Now, can we evaluate how good this mechanism is?
 
 Well, in the above example, the optimal total cost was 10, but we picked a candidate whose total cost was 115; therefore, we've missed the optimal cost by a factor of 11.5. However, we can construct an even worse case:
 
-![[Pasted image 20260617002200.png|300]]
+![[Pasted image 20260620140759-11.png|300]]
 
 We're now off by a factor of...infinity???
 
@@ -41,7 +40,7 @@ Formally, the existence of this case means that the **distortion** of our mechan
 
 To prevent distortion from blowing up, we can try placing reasonable constraints on the underlying costs of each voter. The constraint we will consider today is the *metric constraint*, in which costs must be determined according to a metric embedding of voters and candidates.
 
-![[Pasted image 20260618221754.png|500]]
+![[Pasted image 20260620140759-12.png|500]]
 
 In this illustration, the voters and candidate are placed along a single number line, and the costs equal the distances between each (voter, candidate) pair. For instance, the left voter associates 0 cost with the first candidate and 1 cost with the second candidate. On the other hand, the right voter associates $0.5 + epsilon$ cost with the first candidate and $0.5 - epsilon$ cost with the second candidate.
 

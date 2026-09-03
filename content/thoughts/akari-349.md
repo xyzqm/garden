@@ -3,7 +3,7 @@ title: Akari 349
 tags:
   - akari/very-hard
 ---
-this is probably one of the most creative [[akari]] puzzles i've done so far!
+this is probably one of the most creative [[Akari]] puzzles i've done so far!
 
 the entire puzzle pretty much repeats the same central shape, so let's just analyze this shape first:
 ![[Pasted image 20260416175507.png]]

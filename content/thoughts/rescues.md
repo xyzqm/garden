@@ -1,7 +1,7 @@
 ---
 title: "Akari: rescues"
 ---
-an [[akari]] technique.
+an [[Akari]] technique.
 
 a *rescue* can be used when an unlit square can only possibly be lit by one other square. for instance, in this configuration ([[akari-462|462]]):
 ![[Pasted image 20260412153558.png]]

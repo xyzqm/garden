@@ -1,5 +1,4 @@
 ---
-title: The Sprague-Grundy theorem
 tags:
   - games
 description: How can we define a group on the set of impartial games?
@@ -12,7 +11,7 @@ Traditionally, the Nim game is introduced *prior* to deriving the Sprague-Grundy
 
 Theoretically, to solve any impartial game, we need only to determine a single bit of information about every possible position: whether the next player (about to make a move) wins, or loses. If the next player wins, the state is called an *N-position*; otherwise, if the previous player wins, the state is a *P-position*. Together, N-positions and P-positions comprise the two possible **outcome classes** of any impartial game.
 
-![[Pasted image 20251104184810.png]]
+![[Pasted image 20260620140759-6.png]]
 
 *An example of a simple game with positions labeled N or P. Recall that all impartial games can be represented as DAGs (directed acyclic graphs).*
 
@@ -27,13 +26,13 @@ We define the sum of two games $G + H$ as a new game in which the games $G$ and 
 
 > [!Note]
 > Considering the positions as DAGs, this $+$ operation corresponds precisely to a Cartesian product:
-![[Pasted image 20251104184829.png]]
+![[Pasted image 20260620140759-7.png]]
 > *A simple Cartesian product, illustrated. Each edge corresponds to a move on exactly one of the two parallel positions.*
 > Note that the $+$ operation as defined here is both commutative and associative. It is also closed over the space of impartial games, since the Cartesian product of two DAGs is still a DAG.
 
 Importantly, under our current definition of equivalence by outcome classes (i.e. all N-positions are equivalent, as are all P-positions), equivalent positions **might not** produce equivalent results when combined with other positions. Specifically, two N-positions combined could produce either an N-position or a P-position.
 
-![[Pasted image 20251104184848.png]]
+![[Pasted image 20260620140759-8.png]]
 
 *Two N-positions combined don't always yield equivalent results.*
 

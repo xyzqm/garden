@@ -1,6 +1,5 @@
 ---
 title: HOC Retreat 2026
-draft: false
 description: A recap of my 2026 all-HOC retreat.
 tags:
   - me

@@ -1,5 +1,4 @@
 ---
-title: Hall's marriage theorem
 tags:
   - cs
   - flows
@@ -9,7 +8,7 @@ description: Two proofs of Hall's marriage theorem, and problems.
 
 Hall's marriage theorem gives a necessary and sufficient condition for whether a bipartite graph has a perfect matching: for every $S subset L$, if $T$ is the neighborhood of $S$ in $R$, then $|S|$ must be $<= |T|$. Here, the neighborhood of $S$ refers to the set of all nodes in $R$ that are connected directly to a node in $S$. 
 
-![[Pasted image 20260108103247.png|bg-white|400]]
+![[Pasted image 20260620140759-3.png|bg-white|400]]
 
 *An $X$-perfect matching. We can verify Hall's condition on, for instance, $S = {1, 2, 3}$, whose neighborhood is the first four nodes in $Y$. $|S| = 3 < 4$, therefore the condition is satisfied.*
 ## Proof 1 (Flows)
@@ -54,12 +53,12 @@ There are $2n$ candies, each with a potentially different color. Determine wheth
 
 The next few problems are from https://cjquines.com/files/halls.pdf. Also in solutions, $N(W)$ will denote the neighborhood of $W$.
 
-![[Pasted image 20260111143323.png]]
+![[Pasted image 20260620140759-4.png]]
 
 > [!note]- Solution
 > Construct the graph in which each of the 4006 polygons is a vertex, and an edge is drawn between two vertices if their corresponding polygons can be pierced by a single pin. Now we just need to show that for every set of polygons $W$, $|W| <= |N(W)|$. Since all polygons have area 1, $|W|$ and $|N(W)|$ are precisely the areas of $W$ and $N(W)$ respectively, so our desired inequality easily follows since the area defined by $N(W)$ must strictly contain $W$. 
 
-![[Pasted image 20260111144350.png]]
+![[Pasted image 20260620140759-5.png]]
 
 > [!note]- Solution
 > Consider the graph in which each row and column its own vertex (so 16 vertices total), and a piece in position $(i, j)$ corresponds to an edge between nodes $r_i$ and $c_j$. The $n$ constraint means that the degree of every node in this graph is exactly $n$. 

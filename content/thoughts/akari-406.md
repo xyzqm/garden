@@ -3,7 +3,7 @@ title: Akari 406
 tags:
   - akari/very-hard
 ---
-an [[akari]] puzzle.
+an [[Akari]] puzzle.
 
 as with [[akari-460|460]], observe that the following placements creates the dreaded L-shape:
 ![[Pasted image 20260411192917.png]]
