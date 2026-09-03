@@ -13,7 +13,9 @@
 - 16000-14000 BCE, France
 - caves provide "a uniquely dry place to feature art"
 - artists used charcoal + ocher (natural clay pigment, comes in variety of colors like brown, red, yellow, white)
+- twisted perspective/composite pose => different parts of figure shown from different perspectives
 - **why?** some suggest for ritual purposes; artists may have believed that drawing their prey would make their hunt easier
+- related to hunting or connection between moral and spiritual realm?
 
 ## 3. Camelid sacrum in the shape of a canine
 
@@ -70,6 +72,7 @@
 - 3000 BCE in England
 - stones transported huge distances, nearly 300 miles!
 - purpose unclear, but buried people were probably highly honored + may have connections to solar and lunar calendars
+- could also have been center for pilgrimage for those seeking healing
 
 ## 9. Ambum Stone
 
@@ -114,4 +117,4 @@
 - motifs carved with sharp implements
 - sand added to clay to reduce elasticity and prevent cracking when firing
 - could have been used for commerce
-- 
+- red-slip earthenware: coated with a liquid suspension of fine red iron-rich clay before being fired
