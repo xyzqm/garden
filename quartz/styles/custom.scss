@@ -79,3 +79,16 @@ img[alt$="500"] {
 [alt~="vid-40"] video {
   width: 40%;
 }
+
+/* Obsidian's Bases UI re-serializes a .base from its in-memory model on every
+   view edit, and `displayName: ""` is indistinguishable from "unset" there, so
+   the patch never survives. Suppress the card labels here instead.
+   roots.base and personal.base are embedded in index.md; the slugs with the
+   extension are their standalone virtual pages. */
+body[data-slug="index"],
+body[data-slug="roots.base"],
+body[data-slug="thoughts/personal.base"] {
+  .bases-card-label {
+    display: none;
+  }
+}
