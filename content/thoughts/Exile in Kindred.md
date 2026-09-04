@@ -15,12 +15,12 @@ By luring generation after generation of white slave holders with the promise of
 ## Reflection
 
 As written, the essay focuses more on Rufus' story rather than Dana's exile. Perhaps I could've written something more like:
-> Dana's exile introduces tension between her modern enlightenment and institutional slavery, and her interactions with Rufus demonstrate that the former cannot overpower the latter.
+> Dana's exile brings her modern enlightened ideals into conflict with the antebellum South, and her ultimate defeat demonstrates that even the humanization of enslaved people cannot stop the juggernaut of institutional slavery.
 
-TS1: Dana initially believes she can prevent Rufus from following the footsteps of his slaveholder father through education and by appealing to his sympathetic nature.
+TS1: Dana tries to remedy the horrors~~problems~~ of~~she perceives during~~ her exile with her modern-day ideals, and she initially believes that humanizing enslaved people for Rufus Weylin will force him to recognize the moral necessity of abandoning slavery.
 - tries to teach him not to use the n-word
 - also tries to be a friend to rufus
 
-TS2: However, her efforts cannot overpower the allure of institutional slavery, whose promise to satiate any desire, without retribution, proves too tempting even for Rufus.
-- Rufus first taps into this power he possesses as a white man when he lies to Dana and withholds her letters from Kevin, knowing that even were she to find out, she could not take any action against him.
+TS2: However, even after Rufus comes to perceive Dana and Alice Greenwood as friends rather than property, his sympathies still succumb to the tempting reward that comes with perpetrating institutional slavery: the ability to satiate any desire with an African-American, without retribution.
+- Rufus first taps into this power when he lies to Dana and withholds her letters from Kevin, knowing that even were she to find out, she could not take any action against him.
 - Once he begins to realize he can manipulate and use African-Americans however he desires with no fear of retribution, his 
