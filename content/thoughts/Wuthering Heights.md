@@ -2,7 +2,7 @@
 image: https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1478641029i/32929156.jpg
 tags:
   - book
-rating: 6
+rating: 7.5
 ---
 **Author**: Emily Bronte
 **Genre**: Gothic

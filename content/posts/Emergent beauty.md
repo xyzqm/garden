@@ -1,7 +1,8 @@
 ---
 title: Emergent beauty
 tags:
-  - sapling
+  - me
+description: How does beautiful complexity emerge from simple rules?
 ---
 I think one characteristic that has defined many of my interests is my attraction to *emergent beauty*. Let me offer a few examples:  
 1\. **[[music|Music]].** This is probably one of the most universal interests, as I haven’t yet met anyone who doesn’t like music at all. However, music can have very different meanings for different people, hence the existence of so many genres. Personally, I love music because it all derives from this simple fact: sounds can be created at different pitches. 

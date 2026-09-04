@@ -1,6 +1,7 @@
 filters:
   and:
     - file.hasTag("book")
+    - file.name != "book"
 views:
   - type: cards
     name: Cards
