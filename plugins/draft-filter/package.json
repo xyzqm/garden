@@ -1,0 +1,25 @@
+{
+  "name": "@local/draft-filter",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "quartz": {
+    "name": "draft-filter",
+    "displayName": "Draft Filter",
+    "description": "Removes draft pages from builds, except when serving locally so drafts can be previewed",
+    "category": "filter",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "requiresInstall": false,
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {}
+  }
+}

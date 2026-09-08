@@ -121,7 +121,7 @@ plugins:
     order: 92
   - source: github:quartz-community/fonts
     enabled: true
-  - source: github:quartz-community/remove-draft
+  - source: ./plugins/draft-filter # local stand-in for remove-draft: keeps draft: true pages when serving locally
     enabled: true
   - source: github:quartz-community/explicit-publish
     enabled: false

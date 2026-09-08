@@ -217,11 +217,11 @@
       "commit": "3c3d104335e2fc5ff62371ead157667adb79b046",
       "installedAt": "2026-06-03T13:32:36.284Z"
     },
-    "remove-draft": {
-      "source": "github:quartz-community/remove-draft",
-      "resolved": "https://github.com/quartz-community/remove-draft.git",
-      "commit": "0a51a4c6abb3c86961a9bbf46f4538da87fcf9f8",
-      "installedAt": "2026-06-03T13:16:36.691Z"
+    "draft-filter": {
+      "source": "./plugins/draft-filter",
+      "resolved": "./plugins/draft-filter",
+      "commit": "local",
+      "installedAt": "2026-09-07T00:00:00.000Z"
     },
     "problemset": {
       "source": "./plugins/problemset",
