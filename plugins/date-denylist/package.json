@@ -1,0 +1,27 @@
+{
+  "name": "@local/date-denylist",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "quartz": {
+    "name": "date-denylist",
+    "displayName": "Date Denylist",
+    "description": "Overwrites the modified date from created-modified-date's git strategy, ignoring commits on a denylist (e.g. bulk mechanical renames/link-casing fixups that aren't real content edits)",
+    "category": "transformer",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "requiresInstall": false,
+    "defaultOrder": 15,
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "ignoreCommits": []
+    }
+  }
+}
