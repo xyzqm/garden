@@ -29,7 +29,7 @@ A common perspective on math, especially higher maths, is that it's too far remo
 1. **The pragmatist:** Most math you learn in school actually *is* highly practical. Calculus forms the backbone of physics and engineering; number theory has profound implications for cryptography; mathematical concepts that seem esoteric at first always seem to turn up in unexpected applications. 
 2. **The dreamer:** Math may feel abstract, but we must remember that its abstractions are inextricably tied to and motivated by our physical reality. We defined $3 + 5 = 8$ because $3$ apples with $5$ apples make $8$ apples; we defined graph theory to abstract notions of travel between cities or relationships between people; we defined calculus because our world operates in continuous time steps rather than discrete ticks; the list goes on. From the dreamer's perspective, math provides a way to isolate interesting properties of our real world and play around with them in a perfect sandbox. 
 
-Recently, I've been leaning toward the dreamer. I love how math allows us to analyze the beauty of certain real-world problems in isolation, ranging from [[Hall's marriage theorem|matchmaking]] to [[Voting|voting]] to [[Mathematical modeling#Flow|water flow]] and so much more. For more on this perspective, see [[Mathematical modeling]].
+Recently, I've been leaning toward the dreamer. I love how math allows us to analyze the beauty of interesting real-world problems in isolation, ranging from [[Hall's marriage theorem|matchmaking]] to [[Voting|voting]] to [[Mathematical modeling#Flow|water flow]] and so much more. For more on this perspective, see [[Mathematical modeling]].
 
 ## Types of perfection
 
