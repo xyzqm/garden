@@ -13,7 +13,7 @@ Well, if we know the exact cost table for all (voter, candidate) pairs, all is w
 
 ## Losing information
 
-However, what if we don't know the exact costs each voter associates with each candidate? In practice, even the voters themselves often cannot quantify their exact cost profiles: instead, they are typically asked to *rank* the candidates from most to least favorite. Therefore, instead of full **cardinal** information, we now receive only **ordinal** information.
+However, what if we don't know the exact costs each voter associates with each candidate? In practice, even the voters themselves often cannot quantify their exact cost profiles: instead, they typically only *rank* the candidates from most to least favorite. Therefore, instead of full **cardinal** information, we now receive only **ordinal** information.
 
 ![[Pasted image 20260620140759-10.png|500]]
 
@@ -34,7 +34,7 @@ Well, in the above example, the optimal total cost was 10, but we picked a candi
 
 We're now off by a factor of...infinity???
 
-Formally, the existence of this case means that the **distortion** of our mechanism is infinite, since there exists a construction of costs that causes our mechanism to incur cost worse than the optimal cost by a factor of $oo$.  
+Formally, the existence of this case means that the **distortion** of our mechanism is infinite, since there exists a construction of costs that causes our mechanism to be worse than the optimal choice by a factor of $oo$.  
 
 ## Metric social choice
 

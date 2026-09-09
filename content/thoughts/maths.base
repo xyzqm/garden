@@ -1,0 +1,9 @@
+filters:
+  and:
+    - file.hasLink("content/thoughts/A love letter to math.md")
+views:
+  - type: cards
+    name: Cards
+    order:
+      - file.name
+      - description

@@ -1,4 +1,5 @@
-## 1. Apollo 11 Stones
+## U1. Global Prehistory
+### 1. Apollo 11 Stones
 
 ![[Pasted image 20260824143812-1.png]]
 
@@ -7,7 +8,7 @@
 - could be a combination of animal head + human form => representative of complex shamanistic belief
 	- also demonstrates that the artist had a capacity for imagination—"modern symbolic thought"/"the human capacity"—by drawing something that didn't really exist in the world
 
-## 2. Hall of Bulls
+### 2. Hall of Bulls
 
 ![[Pasted image 20260824144439-1.png]]
 - 16000-14000 BCE, France
@@ -17,7 +18,7 @@
 - **why?** some suggest for ritual purposes; artists may have believed that drawing their prey would make their hunt easier
 - related to hunting or connection between moral and spiritual realm?
 
-## 3. Camelid sacrum in the shape of a canine
+### 3. Camelid sacrum in the shape of a canine
 
 ![[Pasted image 20260825213312-1.png]]
 
@@ -26,7 +27,7 @@
 - i think it's interesting for pretty self-explanatory reasons
 - 14000-7000 BCE from Mexico, but exact time unknown
 
-## 4. Running horned woman
+### 4. Running horned woman
 
 ![[Pasted image 20260825213616-1.png|354]]
 
@@ -35,7 +36,7 @@
 - no face => artistic choice, or a god?
 - painted over smaller figures => worshippers?
 - found at high elevation, hard to get to, isolated
-## 5. Susa I pottery
+### 5. Susa I pottery
 
 ![[Pasted image 20260827074848-1.png|643]]
 
@@ -46,7 +47,7 @@
 - ibex + hunting dogs => domestication
 - symbol inside horn = grain
 
-## 6. Anthropomorphic stele
+### 6. Anthropomorphic stele
 
 ![[Pasted image 20260827161915-1.png|414]]
 
@@ -55,7 +56,7 @@
 - likely depicting warriors
 - similar figures found elsewhere => indicates existence of a trade network
 
-## 7. Jade cong
+### 7. Jade cong
 
 ![[Pasted image 20260827162449-1.png|565]]
 
@@ -65,7 +66,7 @@
 	- cannot be split like normal stones, so must be shaped slowly by abrasive sand
 - used to decorate tombs
 
-## 8. Stonehenge
+### 8. Stonehenge
 
 ![[Pasted image 20260827163230-1.png]]
 
@@ -74,7 +75,7 @@
 - purpose unclear, but buried people were probably highly honored + may have connections to solar and lunar calendars
 - could also have been center for pilgrimage for those seeking healing
 
-## 9. Ambum Stone
+### 9. Ambum Stone
 
 ![[Pasted image 20260829154038.png]]
 
@@ -90,7 +91,7 @@
 - carved using only stone tools
 - formal supernatural meaning erased, replaced by "primitive" and aesthetic appeal according to Western standards
 
-## 10. Tlatilco Figurines
+### 10. Tlatilco Figurines
 
 ![[Pasted image 20260829160241.png|276]]
 
@@ -105,7 +106,7 @@
 	- esp considering figures were < 6 in tall
 - used in burials
 
-## 11. Terracotta fragments
+### 11. Terracotta fragments
 ![[Pasted image 20260829161054.png]]
 
 - 1000 BCE, Lapita people (island dwellers)
@@ -118,3 +119,76 @@
 - sand added to clay to reduce elasticity and prevent cracking when firing
 - could have been used for commerce
 - red-slip earthenware: coated with a liquid suspension of fine red iron-rich clay before being fired
+
+## U2. Ancient Mediterranean
+
+### 12. White temple and ziggurat, Uruk (Sumerians, Iraq, 3500-3000 BCE)
+
+![[Pasted image 20260907175409.png|555]]
+
+- Uruk was the first human city, and also one of the first places to develop writing
+
+![[Pasted image 20260907175520.png|529]]
+
+*Digital reconstruction of white temple.*
+
+- built using dried mud brick due to lack of stone
+- the bottom platform with sloping sides = ziggurat
+	- vertical recessed regions would have made a pretty pattern beneath the sunlight
+- inside and outside of temple FULLY white => blinding brilliance beneath sunlight
+	- corners oriented to cardinal directions
+	- dedicated to Anu, sky god and patron god of Uruk
+	- reserved for priests and community leaders
+- uses a **bent-axis** plan: requires visitors to make at least two turns to get into the temple
+	- forces viewers to walk around and admire the temple before entering
+- using physical attributes (elevation, blinding color) to communicate value
+- bunt offerings—oil, coin, rarely animals
+## 14. Worshipping figures (Sumerians, Tell Asmar, Iraq, 3000 BCE)
+
+![[Pasted image 20260907185435.png|642]]
+
+- range from 9 to 28 inches
+- may have been meant as stand-ins for devotees who wished to continue worshipping even after death
+	- the perpetually open eyes symbolize constant attentiveness
+- made from gypsum, inlaid with shell and black limestone
+	- signifies trade to get the materials
+- **hieratic scale:** more important figures are larger than smaller ones
+
+## 16. Standard of Ur (Iraq, 2600 BCE)
+
+![[Pasted image 20260907191959.png]]
+
+- split into two sides: war and peace
+	- war side contains chariots, soldiers, and felled enemies
+	- peace side contains festivities, drinks, agriculture, labor
+		- also separated into three tiers, representing societal stratification
+		- also illustrates tribute system
+	- on both sides, the king is placed in the top layer, and his head breaks through the top border
+- diversity of materials (shell, lapis lazuli, red limestone) indicates the extensive trade network of the culture that produced this artwork
+
+### 19. Code of Hammurabi (Babylon, Iraq, 2000 BCE)
+
+![[Pasted image 20260908084147.png|466]]
+
+- at the top, Hammurabi faces the god of justice Shamash
+	- god hands him scepter + ring (symbols of authority + power)
+	- divine right to rule
+	- god wears special horned crown + emits light from his shoulders
+- inscribed cuneiform below
+- made from basalt
+- uses composite view
+- laws capture must of what was important to its culture, i.e. agriculture and fairness
+	- also lots of laws about slave conduct
+
+## 15. Lamassu sculptures (from Assyrians, Iraq, 700 BCE)
+
+![[Pasted image 20260908085104.png]]
+
+- winged bulls with human heads
+- monolithic reliefs—no cuts (alabaster/limestone)
+- placed at gateways
+- intricately designed crown, beard, and wings
+- also contains inscriptions in cuneiform
+- 5 legs—intended to be seen as a guardian from the front and a companion from the side
+- can see veins and muscles in legs
+- divine horns

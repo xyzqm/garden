@@ -1,7 +1,12 @@
 ---
-draft: true
+draft: false
+description: How do models strike a balance between real-world complexity and mathematical elegance?
+tags:
+  - maths
 ---
-Much of math and CS revolves around modeling real-world problems. These models must capture sufficient complexity from the underlying problem, but still simplify enough to permit clean analysis. The art of mathematical modeling, then, is to find that perfect balance between complexity and elegance—and when done well, it fascinates me endlessly.
+Part of [[A love letter to math|my love letter to math]].
+
+Much of math revolves around modeling real-world problems. These models must capture sufficient complexity from the underlying problem, but still simplify enough to permit clean analysis. The art of mathematical modeling, then, is to find that perfect balance between complexity and elegance—and when done well, it fascinates me endlessly.
 ## Flow
 
 ### The model
@@ -12,7 +17,7 @@ How much water flow can you push through a pipe system? To answer this question 
 - How are the pipes and junctions connected? (network structure)
 ...but the physical world is way too complicated, and we're mathematicians! So to form a good model, we must decide which of these constraints are the most important, and which we should discard.
 
-Although this selection process is certainly subjective and heavily depends on the intended use case for the model, I think it's reasonable to select *network structure* as the most important factor. After all, we can overcome the other two constraints—pipe material and water velocity—simply by constructing stronger pipes; but network structure contributes the bulk of the problem's complexity, as bad structure can create subtle bottlenecks that can't be solved by just simple pipe reinforcement.
+Although this selection process is certainly subjective and depends heavily on the intended use case, I think it's reasonable to select *network structure* as the most important factor. After all, we can overcome the other two constraints—pipe material and water velocity—simply by constructing stronger pipes; but network structure contributes the bulk of the problem's complexity, as bad structure can create subtle bottlenecks that can't be solved by just simple pipe reinforcement.
 
 ![[Pasted image 20260907002406-1.png|459]]
 
@@ -53,3 +58,5 @@ You might suspect a relationship between the maximum flow and the smallest “bo
 > ![[Pasted image 20260906001847-1.png|499]]
 
 ## Metric social choice
+
+Under construction, see [[Voting]] for now.
