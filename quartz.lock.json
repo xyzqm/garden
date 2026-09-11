@@ -86,10 +86,10 @@
       "installedAt": "2026-06-03T13:32:35.505Z"
     },
     "crawl-links": {
-      "source": "github:quartz-community/crawl-links",
-      "resolved": "https://github.com/quartz-community/crawl-links.git",
-      "commit": "43edc6d5182e79bf1b63fed7eb3ba0c7624a1526",
-      "installedAt": "2026-06-03T13:32:35.242Z"
+      "source": "./plugins/crawl-links",
+      "resolved": "./plugins/crawl-links",
+      "commit": "local",
+      "installedAt": "2026-09-11T00:00:00.000Z"
     },
     "created-modified-date": {
       "source": "github:quartz-community/created-modified-date",

@@ -10,3 +10,6 @@
 [submodule "plugins/explorer"]
 	path = plugins/explorer
 	url = https://github.com/xyzqm/explorer.git
+[submodule "plugins/crawl-links"]
+	path = plugins/crawl-links
+	url = https://github.com/xyzqm/crawl-links.git

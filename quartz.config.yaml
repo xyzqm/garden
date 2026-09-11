@@ -86,7 +86,7 @@ plugins:
   - source: ./plugins/comment-span
     enabled: true
     order: 55
-  - source: github:quartz-community/crawl-links
+  - source: ./plugins/crawl-links # local submodule fork (github:xyzqm/crawl-links) so patches persist; rewrites <object data> paths so SVG embeds resolve
     enabled: true
     options:
       markdownLinkResolution: shortest
