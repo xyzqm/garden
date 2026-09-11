@@ -2,6 +2,7 @@
 tags:
   - book
 image: https://i5.walmartimages.com/seo/Penguin-Classics-The-Three-Theban-Plays-Antigone-Oedipus-the-King-Oedipus-at-Colonus-Paperback-9780140444254_5fb6eeed-5712-4ad4-81f8-ca8a66a5d2d3.ff4943891f5aacd4b8216b83e78956d8.jpeg
+rating: 8
 ---
 ## Lines 1-842
 

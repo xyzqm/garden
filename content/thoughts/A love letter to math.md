@@ -50,6 +50,7 @@ I think the non-obvious fact that $EE[X + Y] = EE[X] + EE[Y]$, even when $X$ and
 #### Other examples
 - [Reservoir sampling](https://en.wikipedia.org/wiki/Reservoir_sampling)
 - [Euler characteristic](https://en.wikipedia.org/wiki/Euler_characteristic)
+- [Four color theorem](https://en.wikipedia.org/wiki/Four_color_theorem)
 ### Exactness
 
 Many math problems can be tackled from two directions: *lower bounds* that prove certain restrictions on solutions, and *upper bounds* that try to find optimal solutions. For instance, in the study of [[Voting|metric social choice]], $3$ was a well-known lower bound on the distortion[^1] of any voting system. However, the more difficult half of the problem stemmed from constructing a system that *exactly* achieved this lower bound. [Gkatzelis et. al](https://arxiv.org/abs/2004.07447) eventually solved the problem in 2020, and since their mechanism exactly matches the lower bound, it's essentially "exactly optimal."
