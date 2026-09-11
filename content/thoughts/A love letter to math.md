@@ -72,6 +72,10 @@ As it turns out, yes! Thus, just like matching lower and upper bounds, proving t
 - [[strong orientations|Robbin's theorem]]
 - [Kuratowski's theorem](https://en.wikipedia.org/wiki/Kuratowski%27s_theorem)
 
+### Transcendence
+
+Mathematical objects also sometimes transcend their original purpose. My favorite example of this pattern is the imaginary number $i$: while originally created to fill the hole left by the polynomial $x^2 + 1$, it has since made its way into unexpected new domains such as 2D Euclidean geometry and quantum mechanics.
+
 ### Other aspects
 
 There's a few other facets of math I really like but can't explain as succinctly, so I've broken them into separate pages.

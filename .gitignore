@@ -21,3 +21,4 @@ diary/
 replit.nix
 .quartz/
 quartz/cli/tui/dist/
+__pycache__

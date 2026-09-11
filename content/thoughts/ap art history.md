@@ -143,7 +143,23 @@
 	- forces viewers to walk around and admire the temple before entering
 - using physical attributes (elevation, blinding color) to communicate value
 - bunt offerings—oil, coin, rarely animals
-## 14. Worshipping figures (Sumerians, Tell Asmar, Iraq, 3000 BCE)
+
+### 13. Palette of King Narmer (Egyptians, 3000 BCE)
+
+![[Pasted image 20260909130851.png|627]]
+
+- made from smooth greyish-green siltstone
+- palettes were typically used for grinding/mixing cosmetic materials, but this one has a ceremonial purpose
+- buried within a temple
+- contains many characteristics that persist through the next 3000 years of Egyptian art
+	- split into registers
+- king appears on both sides, followed by his sandal-bearer
+	- bull at the bottom of backside may also symbolize the king—razing a city
+	- bulls also symbolize fertility
+- wears "White Crown" of Upper Egypt on front side and "Red Crown" of Lower Egypt on lower side, which could commemorate the unification of Egypt?
+- intertwined serpopards further symbolize unity of Lower and Upper Egypt
+- on side 2, register 2, soldiers going into battle with standards
+### 14. Worshipping figures (Sumerians, Tell Asmar, Iraq, 3000 BCE)
 
 ![[Pasted image 20260907185435.png|642]]
 
@@ -154,7 +170,21 @@
 	- signifies trade to get the materials
 - **hieratic scale:** more important figures are larger than smaller ones
 
-## 16. Standard of Ur (Iraq, 2600 BCE)
+### 15. Seated scribe (Egypt, 2500 BCE)
+
+![[Pasted image 20260909175729.png|573]]
+
+- mostly painted limestone
+	- surprising amount of surviving pigment
+	- nipples are wooden
+	- eyes => crystal + organic materials to add blue coloration
+- found in **necropolis** (large cemetery)
+- not idealized like typical pharaohs
+	- rolls of fat
+	- holding a scroll => suggests rare Egyptian focus on momentary rather than eternal
+- careful details, esp. in fingers and fingernails
+
+### 16. Standard of Ur (Iraq, 2600 BCE)
 
 ![[Pasted image 20260907191959.png]]
 
@@ -166,6 +196,40 @@
 	- on both sides, the king is placed in the top layer, and his head breaks through the top border
 - diversity of materials (shell, lapis lazuli, red limestone) indicates the extensive trade network of the culture that produced this artwork
 
+### 17. Great Pyramids (Egypt, 2500 BCE)
+
+![[Pasted image 20260909181014.png]]
+
+- made from limestone
+- pyramid may represent solidified form of solar rays, serving as ramps for the pharaoh to ascend to heaven
+- town for workers to the south => partially explains how they carried out such an intensive task
+- body embalmed in valley temple, carried to funerary temple, then place body in tomb
+- suffering from urban development + encroachment
+	- ![[Pasted image 20260909182527.png|393]]
+	- UNESCO had to combat efforts to build a highway/tunnel through the site
+- KHUFU
+	- nothing taller built until 1200 CE
+	- over 2 million blocks
+	- contains boat pits for transport into the afterlife
+- KHAFRE + SPHINX
+	- casing stones survive at the top of the pyramid
+	- sphinx = lion with human head; lion was royal symbol and also connected w/ sun as symbol of the horizon
+- MENKAURE
+	- smallest of the three
+
+### 18. Menkaure & queen (Egypt, 2400 BCE)
+
+![[Pasted image 20260909205130.png|591]]
+- found in valley temple, which were temples placed some distance away from pyramids, intended for cult worship
+	- ...for which they supplied many images of the pharaoh in question
+- paint worn away—some suggest this may have been an intentional choice: to reveal the immortal, black-fleshed "Osiris" Menkaure over time
+- carved from sandstone
+- both are shown stepping forward with their left foot
+	- could be stepping into the afterlife
+- columnar style, little sense of dynamic movement
+	- again, emphasis on order
+- the fact that the two are depicted on equal standing makes it more plausible that the queen is his mother, NOT his wife
+	- Menkaure could be a boy-king, just depicted as stronger and older
 ### 19. Code of Hammurabi (Babylon, Iraq, 2000 BCE)
 
 ![[Pasted image 20260908084147.png|466]]
@@ -180,7 +244,7 @@
 - laws capture must of what was important to its culture, i.e. agriculture and fairness
 	- also lots of laws about slave conduct
 
-## 15. Lamassu sculptures (from Assyrians, Iraq, 700 BCE)
+### 25. Lamassu sculptures (from Assyrians, Iraq, 700 BCE)
 
 ![[Pasted image 20260908085104.png]]
 
