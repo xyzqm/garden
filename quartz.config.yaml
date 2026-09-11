@@ -59,6 +59,7 @@ plugins:
       ignoreCommits:
         - eb844136587fe8061e95c1c0ca42334799ee9073
         - 747844152365f2831ff7b7252360f1c496f41792
+        - 9b0de41e790a7a1f241df0fb3aab297129602e69
     order: 15
   - source: github:quartz-community/syntax-highlighting
     enabled: true
