@@ -235,7 +235,7 @@ plugins:
       priority: 35
       group: toolbar
   - source: github:quartz-community/breadcrumbs
-    enabled: true
+    enabled: false # breadcrumb trail removed: every page reads like index, with just the title
     layout:
       position: beforeBody
       priority: 5
