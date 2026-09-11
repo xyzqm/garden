@@ -277,7 +277,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true # hide the Properties table; plugin stays enabled so frontmatter is still parsed and stripped
       delimiters: ---
       language: yaml
     order: 5
