@@ -98,6 +98,11 @@ plugins:
   - source: github:quartz-community/description
     enabled: true
     order: 70
+  - source: ./plugins/typst-preamble # local plugin: shared Typst preamble (#let macros) injected into every equation
+    enabled: true
+    order: 79
+    options:
+      preambleFile: .typst/preamble.typ
   - source: github:quartz-community/latex
     enabled: true
     options:

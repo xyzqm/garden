@@ -289,6 +289,12 @@
       "commit": "local",
       "installedAt": "2026-08-27T00:00:00.000Z"
     },
+    "typst-preamble": {
+      "source": "./plugins/typst-preamble",
+      "resolved": "./plugins/typst-preamble",
+      "commit": "local",
+      "installedAt": "2026-09-15T00:00:00.000Z"
+    },
     "unlisted-pages": {
       "source": "github:quartz-community/unlisted-pages",
       "resolved": "https://github.com/quartz-community/unlisted-pages.git",

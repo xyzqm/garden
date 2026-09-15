@@ -1,0 +1,39 @@
+{
+  "name": "@local/typst-preamble",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "unist-util-visit": "*"
+  },
+  "quartz": {
+    "name": "typst-preamble",
+    "displayName": "Typst Preamble",
+    "description": "Inject a shared Typst preamble into every math block before rendering",
+    "category": "transformer",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "requiresInstall": false,
+    "defaultOrder": 79,
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "preambleFile": ".typst/preamble.typ",
+      "preamble": ""
+    },
+    "optionSchema": {
+      "preambleFile": {
+        "type": "string"
+      },
+      "preamble": {
+        "type": "string"
+      }
+    }
+  }
+}
