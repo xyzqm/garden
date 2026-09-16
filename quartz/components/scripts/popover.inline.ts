@@ -15,9 +15,13 @@ async function mouseEnterHandler(
   }
 
   async function setPosition(popoverElement: HTMLElement) {
+    const inTimeline = link.closest(".timeline") !== null
     const { x, y } = await computePosition(link, popoverElement, {
       strategy: "fixed",
-      middleware: [inline({ x: clientX, y: clientY }), shift(), flip()],
+      ...(inTimeline ? { placement: "right" as const } : {}),
+      middleware: inTimeline
+        ? [shift(), flip()]
+        : [inline({ x: clientX, y: clientY }), shift(), flip()],
     })
     Object.assign(popoverElement.style, {
       transform: `translate(${x.toFixed()}px, ${y.toFixed()}px)`,

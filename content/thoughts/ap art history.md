@@ -244,6 +244,35 @@
 - laws capture must of what was important to its culture, i.e. agriculture and fairness
 	- also lots of laws about slave conduct
 
+### Temple of Amun-Re (Karnak, Egypt, 1000 BCE)
+
+![[Pasted image 20260914084436-1.png]]
+
+![[Pasted image 20260914084441-1.png]]
+
+- aligned to cardinal directions
+- **pylons:** interesting mix between wall and gate
+- hypostyle (supported by pillars) hall: 134 massive pillars, center ones 69 feet tall
+	- center taller than both sides—allows for **clerestory lighting** (section of wall that letes light into an otherwise dark room)
+- connects thematically to *zep tepi*, i.e. creation: floor rises as you progress through the temple, mirroring the mound that rose from the Nile
+
+### 21. Mortuary temple + Kneeling statue of Hatshepsut (1400 BCE, Egypt)
+
+![[Pasted image 20260914091127-1.png]]
+- made for mortuary temple (along with other figures like Sphinx of Hatshepsut)
+- depicted in rather masculine way (breasts deemphasized)
+	- but you can still see the narrower waste
+- difficult position (hard on knees/toes), but held eternally
+
+![[Pasted image 20260914091533-1.png|575]]
+
+-  very dramatic location w/ the surrounding cliff face
+	- gives the temple of sense of permanence/eternality
+- Hatshepsut recognized art (commissioning temples/sculptures) as a way to assert power
+- after her death, co-ruler + stepson Thuthmose orders for her images to be destroyed
+	- but there's too many, and
+	- **granite** is also a really hard material
+
 ### 25. Lamassu sculptures (from Assyrians, Iraq, 700 BCE)
 
 ![[Pasted image 20260908085104.png]]
@@ -256,3 +285,32 @@
 - 5 legs—intended to be seen as a guardian from the front and a companion from the side
 - can see veins and muscles in legs
 - divine horns
+
+### 27. Anavysos Kouros (Greece, 530 BCE)
+
+![[Pasted image 20260915155716.png|411]]
+
+- plural *koiroi*
+- meant to represent idealized male figure
+- greeks may have been inspired by egyptian sculpture, but several features distinguish the two styles:
+	- egyptians typically sculpted clothed figures vs. greek nude figures
+	- egyptian statues often had to be supported by stone, while greek statues can stand freely
+- very naturalistic: volumetric muscles, more accurate face, attention to transitions between body parts
+- meant to commemorate a warrior named Koiros
+- marble sculpture
+
+### Peplos Kore (Ancient Greece, 530 BCE)
+
+![[Pasted image 20260915160444.png]]
+
+- plural *korai*
+- slight smile (**Archaic smile**) signifies liveliness rather than happiness
+- symmetric hair...but not *perfectly* symmetric
+	- left shoulder slightly higher
+	- cape slanted at her belt
+![[Pasted image 20260915160856.png|476]]
+
+- reconstruction w/ colors and crowns
+- panels of real and mythical animals suggest that the woman maybe be **Artemis**, goddess of the hunt
+- could be holding bow and arrow
+- spokes in the head that may have borne a crown

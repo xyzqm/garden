@@ -70,6 +70,22 @@ E[T^n] = (n!)/(lambda ^n)
 $$
 As a direct consequence, $EE[T^2] = 2/lambda^2$ and $"Var"(T) = 1/(lambda^2)$. 
 
+Another way to derive $EE[T^n] = n!/(lambda^n)$: first, rewrite it as $EE[T^n/n!] = EE[T]^n$. Note that the left hand side is equivalent to the expected volume of $n$-tuples $(t_1, t_2, ..., t_n)$ such that $t_1 < t_2 < ... < t_n < T$ , so we can rewrite it as
+$$
+EE[T^n/(n!)] &= integral_(t_1 < t_2 < ... < t_n) P(t_n < T) dif V \
+&= integral_(t_1 < t_2 < ... < t_n) P(t_1 < T) dot P(t_2 - t_1 < T) dot ... dot P(t_n - t_(n - 1) < T) dif V 
+$$
+
+But look! Now $t_1$, $t_2 - t_1$, ...., $t_n - t_(n - 1)$ are all independent, so if we let $d_i = t_i - t_(i - 1)$, we can rewrite the above as
+$$
+EE[T^n/(n!)] &= integral_(t_1 < t_2 < ... < t_n) P(t_1 < T) dot P(t_2 - t_1 < T) dot ... dot P(t_n - t_(n - 1) < T) dif V \
+&= integral_(d_1, d_2,...,d_n) P(d_1 < T) dot P(d_2 < T) ... dot P(d_n < T) dif V \
+&= product_i integral_(d_i) P(d_i < T) dif d_i \
+&= product_i EE[T] \
+&= EE[T]^n
+$$
+
+
 ### Poisson random variable
 
 Now, let $N$ be the number of success in a $tau$-second interval. Then, we can show that $E[N] = "Var"(N) = lambda tau$.  The fact that $E[N] = "Var"(N)$ is actually very special, since typically mean and variance have different dimensions and thus this equality is highly unlikely. However, $N$ is a "counting" variable, which means it's dimensionless, and thus the above expression makes perfect sense.

@@ -49,6 +49,7 @@ You may also be interested in my [[anime]]-specific page.
 
 ## To Watch
 - Erased
+- Watchmen
 - Parasyte
 - Your Lie in April
 - When I Fly Towards You
